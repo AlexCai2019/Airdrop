@@ -1,0 +1,2 @@
+tellraw @a ["§b<空投事件> ",{"selector":"@s","bold":true}," §7召喚了 ",{"text":"藥水空投","color":"#CD5CAB","bold":true}]
+advancement grant @s[advancements={airdrop:airdrop/potion=false}] only airdrop:airdrop/potion

@@ -1,0 +1,38 @@
+{
+	"type": "minecraft:command",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_pickaxe",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_pickaxe",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_pickaxe",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_pickaxe",
+					"weight": 1
+				}
+			],
+			"functions":
+			[
+				{
+					"function": "minecraft:enchant_randomly"
+				}
+			]
+		}
+	]
+}

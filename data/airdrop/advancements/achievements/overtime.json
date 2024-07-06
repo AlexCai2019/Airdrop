@@ -1,0 +1,23 @@
+{
+	"parent": "airdrop:achievements/first_time",
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:clock"
+		},
+		"title": "我還在加班",
+		"description": "賀！加班超過1000小",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"overtime":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

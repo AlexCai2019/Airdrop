@@ -1,0 +1,2 @@
+tellraw @a ["§b<空投事件> ",{"selector":"@s","bold":true}," §7召喚了 ",{"text":"神秘商人","color":"#435F91","bold":true}]
+advancement grant @s[advancements={airdrop:airdrop/trader=false}] only airdrop:airdrop/trader

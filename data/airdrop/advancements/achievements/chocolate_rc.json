@@ -1,0 +1,39 @@
+{
+	"parent": "airdrop:achievements/no_recognize",
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:cocoa_beans"
+		},
+		"title": "RC房號27476019",
+		"description": "現在是DC了",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"chocolate_rc":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items":
+						[
+							"minecraft:cocoa_beans",
+							"minecraft:cookie",
+							"minecraft:brick",
+							"minecraft:nether_brick",
+							"minecraft:dark_oak_trapdoor"
+						]
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"parent": "airdrop:achievements/dark_oak_planks",
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:creeper_head"
+		},
+		"title": "蠢死的方法",
+		"description": "好多蠢死的方法",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"dumb_ways_to_die":
+		{
+			"trigger": "minecraft:entity_killed_player",
+			"conditions":
+			{
+				"entity":
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate":
+						{
+							"type": "minecraft:creeper"
+						}
+					}
+				]
+			}
+		}
+	}
+}

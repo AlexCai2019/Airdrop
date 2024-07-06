@@ -1,0 +1,45 @@
+{
+	"type": "minecraft:command",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sculk",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							[
+								{
+									"translate": "entity.minecraft.warden"
+								},
+								" (",
+								{
+									"score":
+									{
+										"name": "@s",
+										"objective": "air_warden_health"
+									}
+								},
+								" 血量)"
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments":
+							{
+								"vanishing_curse": 1
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"function": "minecraft:set_damage",
+		"damage":
+		{
+			"type": "minecraft:score",
+			"target": "this",
+			"score": "air_damage",
+			"scale": 0.01
+		}
+	}
+]

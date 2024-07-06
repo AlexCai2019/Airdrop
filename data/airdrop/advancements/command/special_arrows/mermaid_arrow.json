@@ -1,0 +1,23 @@
+{
+	"criteria":
+	{
+		"mermaid_arrow":
+		{
+			"trigger": "minecraft:effects_changed",
+			"conditions":
+			{
+				"effects":
+				{
+					"minecraft:unluck":
+					{
+						"amplifier": 1
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "airdrop:game/special_arrows/mermaid_arrow"
+	}
+}

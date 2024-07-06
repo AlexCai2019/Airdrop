@@ -1,0 +1,2 @@
+tellraw @a ["§b<空投事件> §7注意 ",{"selector":"@s","bold":true}," §7召喚了 ",{"text":"爆裂魔法","color":"#DC3C35","bold":true}," §7即將落地"]
+advancement grant @s[advancements={airdrop:airdrop/tnt_minecart=false}] only airdrop:airdrop/tnt_minecart

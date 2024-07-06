@@ -1,0 +1,40 @@
+{
+	"parent": "airdrop:achievements/on_packed_ice",
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:blue_ice"
+		},
+		"title": "不要拍我這種東西，事後一概不認帳",
+		"description": "這是霸凌！",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"no_recognize":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items":
+						[
+							"minecraft:snow",
+							"minecraft:snow_block",
+							"minecraft:powder_snow_bucket",
+							"minecraft:ice",
+							"minecraft:packed_ice",
+							"minecraft:blue_ice"
+						]
+					}
+				]
+			}
+		}
+	}
+}

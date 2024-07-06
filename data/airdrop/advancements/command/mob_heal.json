@@ -1,0 +1,41 @@
+{
+	"criteria":
+	{
+		"monster":
+		{
+			"trigger": "minecraft:player_killed_entity",
+			"conditions":
+			{
+				"entity":
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate":
+						{
+							"type": "#airdrop:monster"
+						}
+					},
+					{
+						"condition": "minecraft:value_check",
+						"value":
+						{
+							"type": "minecraft:score",
+							"target":
+							{
+								"type": "minecraft:fixed",
+								"name": "mob_heal"
+							},
+							"score": "air_effect"
+						},
+						"range": 1
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "airdrop:event/mob_heal/healing"
+	}
+}

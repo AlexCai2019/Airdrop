@@ -1,0 +1,23 @@
+{
+	"parent": "airdrop:airdrop/sculk",
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:emerald"
+		},
+		"title": "奸商",
+		"description": "召喚神秘商人",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+	},
+	"criteria":
+	{
+		"trader":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

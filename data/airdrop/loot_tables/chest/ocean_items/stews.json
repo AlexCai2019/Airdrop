@@ -1,0 +1,227 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects":
+							[
+								{
+									"type": "minecraft:speed",
+									"duration":
+									{
+										"type": "minecraft:uniform",
+										"min": 8,
+										"max": 20
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects":
+							[
+								{
+									"type": "minecraft:haste",
+									"duration":
+									{
+										"type": "minecraft:uniform",
+										"min": 8,
+										"max": 20
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects":
+							[
+								{
+									"type": "minecraft:strength",
+									"duration":
+									{
+										"type": "minecraft:uniform",
+										"min": 8,
+										"max": 20
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects":
+							[
+								{
+									"type": "minecraft:instant_health",
+									"duration": 10
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects":
+							[
+								{
+									"type": "minecraft:regeneration",
+									"duration":
+									{
+										"type": "minecraft:uniform",
+										"min": 6,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects":
+							[
+								{
+									"type": "minecraft:resistance",
+									"duration":
+									{
+										"type": "minecraft:uniform",
+										"min": 8,
+										"max": 20
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects":
+							[
+								{
+									"type": "minecraft:night_vision",
+									"duration":
+									{
+										"type": "minecraft:uniform",
+										"min": 30,
+										"max": 60
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects":
+							[
+								{
+									"type": "minecraft:absorption",
+									"duration":
+									{
+										"type": "minecraft:uniform",
+										"min": 8,
+										"max": 20
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects":
+							[
+								{
+									"type": "minecraft:conduit_power",
+									"duration":
+									{
+										"type": "minecraft:uniform",
+										"min": 8,
+										"max": 18
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects":
+							[
+								{
+									"type": "minecraft:dolphins_grace",
+									"duration":
+									{
+										"type": "minecraft:uniform",
+										"min": 6,
+										"max": 12
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

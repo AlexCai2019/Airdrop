@@ -1,0 +1,24 @@
+{
+    "parent": "airdrop:achievements/overtime",
+    "display":
+	{
+        "icon":
+		{
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;1100196432,-111981152,-1094934767,-1253768731],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY4MzU3MzE3MTMwMSwKICAicHJvZmlsZUlkIiA6ICI0MTkzYWE1MGY5NTM0ZGEwYmViYzlmMTFiNTQ1MDFlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIaV9DaG9jb2xhdGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ2ZTRjMDYzODRhZDIwOWIwNGQzNzA3OGU5MTFlYmQ2OTk4ODc4MGU4NzkzMzJjZjRhM2JmY2I5OGJlMTIyIgogICAgfQogIH0KfQ==\"}]}}}"
+        },
+        "title": "巧克力大軍",
+        "description": "巧克力們上啊",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria":
+	{
+        "chocolate_army":
+		{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+	"type": "minecraft:command",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:acacia_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bamboo_block"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:birch_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cherry_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crimson_stem"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_oak_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:jungle_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mangrove_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spruce_log"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:warped_stem"
+				}
+			],
+			"functions":
+			[
+				{
+					"function": "minecraft:set_count",
+					"count": 10
+				}
+			]
+		}
+	]
+}

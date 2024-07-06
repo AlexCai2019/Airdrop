@@ -1,0 +1,23 @@
+{
+	"parent": "airdrop:achievements/why",
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:packed_ice"
+		},
+		"title": "為什麼，為什麼我要變成這樣",
+		"description": "(摀臉)",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"on_packed_ice":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

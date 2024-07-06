@@ -1,0 +1,23 @@
+{
+    "parent": "airdrop:airdrop/farmer",
+    "display":
+	{
+        "icon":
+		{
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title": "隧道工人的夢想",
+        "description": "召喚礦工空投",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria":
+	{
+        "miner":
+		{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

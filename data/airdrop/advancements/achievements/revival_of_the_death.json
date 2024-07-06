@@ -1,0 +1,23 @@
+{
+    "parent": "airdrop:achievements/spider_man",
+    "display":
+    {
+        "icon":
+        {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": "死者蘇生",
+        "description": "發動魔法卡",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria":
+    {
+        "revival_of_the_death":
+        {
+            "trigger": "minecraft:used_totem"
+        }
+    }
+}

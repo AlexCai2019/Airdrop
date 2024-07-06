@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:command",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ice",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"selector": "@s"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

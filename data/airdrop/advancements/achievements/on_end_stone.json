@@ -1,0 +1,23 @@
+{
+	"parent": "airdrop:achievements/64_buttons",
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:end_stone"
+		},
+		"title": "哈囉各位學弟妹大家好",
+		"description": "大家好",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"on_end_stone":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

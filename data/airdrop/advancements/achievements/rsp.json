@@ -1,0 +1,39 @@
+{
+	"parent": "airdrop:achievements/melon_bikini",
+	"display":
+	{
+		"icon":
+		{
+			"item": "minecraft:redstone_torch"
+		},
+		"title": "RC房號8008",
+		"description": "不是狼盒子",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"rsp":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items":
+						[
+							"minecraft:redstone",
+							"minecraft:redstone_torch",
+							"minecraft:redstone_block",
+							"minecraft:repeater",
+							"minecraft:comparator"
+						]
+					}
+				]
+			}
+		}
+	}
+}

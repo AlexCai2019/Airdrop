@@ -1,0 +1,2 @@
+tellraw @a ["§b<空投事件> ",{"selector":"@s","bold":true}," §7召喚了 ",{"text":"箭矢空投","color":"#D8D8D8","bold":true}]
+advancement grant @s[advancements={airdrop:airdrop/arrows=false}] only airdrop:airdrop/arrows

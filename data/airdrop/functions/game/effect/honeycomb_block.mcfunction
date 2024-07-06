@@ -1,0 +1,1 @@
+execute unless score @s air_wand matches 3 run scoreboard players set @s air_wand 3

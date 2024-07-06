@@ -1,0 +1,23 @@
+{
+    "parent": "airdrop:airdrop/melon",
+    "display":
+	{
+        "icon":
+		{
+            "item": "minecraft:packed_ice"
+        },
+        "title": "多麼美麗的風景，多麼好的環境",
+        "description": "召喚冰磚空投",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria":
+	{
+        "packed_ice":
+		{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
