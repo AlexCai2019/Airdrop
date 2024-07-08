@@ -23,3 +23,19 @@ scoreboard players set @s[team=dark_green] air_team_code 9
 scoreboard players set @s[team=dark_aqua] air_team_code 12
 scoreboard players set @s[team=light_purple] air_team_code 13
 scoreboard players set @s[team=dark_gray] air_team_code 14
+
+#笨雞的資料包
+scoreboard players set @s[team=1] air_team_code 1
+scoreboard players set @s[team=2] air_team_code 2
+scoreboard players set @s[team=3] air_team_code 3
+scoreboard players set @s[team=4] air_team_code 4
+scoreboard players set @s[team=6] air_team_code 5
+scoreboard players set @s[team=7] air_team_code 6
+scoreboard players set @s[team=14] air_team_code 7
+scoreboard players set @s[team=13] air_team_code 8
+scoreboard players set @s[team=10] air_team_code 9
+scoreboard players set @s[team=5] air_team_code 10
+scoreboard players set @s[team=11] air_team_code 11
+scoreboard players set @s[team=12] air_team_code 12
+scoreboard players set @s[team=8] air_team_code 13
+scoreboard players set @s[team=9] air_team_code 14
