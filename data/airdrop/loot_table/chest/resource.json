@@ -1,0 +1,522 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls": 25,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:oak_planks",
+					"weight": 40
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_beef",
+					"weight": 35
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:beef",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:birch_planks",
+					"weight": 25
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cobblestone",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:apple",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 15,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"weight": 10,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tnt",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_rocket",
+					"weight": 10,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"fireworks":
+								{
+									"flight_duration": 1
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:packed_ice",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle",
+					"weight": 10,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 10
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:armor_stand",
+					"weight": 5,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							[
+								{
+									"text": "隱形",
+									"color": "#808080",
+									"bold": true,
+									"italic": false
+								},
+								{
+									"text": "追蹤者",
+									"color": "gold"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								[
+									{
+										"text": "當附近",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "15",
+										"color": "gold"
+									},
+									{
+										"text": "格內有隱形玩家時"
+									}
+								],
+								{
+									"text": "盔甲座會自動轉向隱形的玩家(包括己方)",
+									"color": "white",
+									"italic": false
+								},
+								{
+									"text": "被摧毀後就會變回普通的盔甲座",
+									"color": "white",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:entity_data":
+								{
+									"id": "minecraft:armor_stand",
+									"NoBasePlate": true,
+									"ShowArms": true,
+									"ArmorItems":
+									[
+										{}, {}, {}, {"id":"skeleton_skull"}
+									],
+									"DisabledSlots": 4144959,
+									"Tags": ["air_detect_invisible"]
+								} 
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:melon_slice",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_eye",
+					"weight": 5,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"name":
+							[
+								{
+									"text": "呼叫空投",
+									"color": "#FFFF00",
+									"italic": false
+								},
+								{
+									"text": "(",
+									"color": "#BFBFBF"
+								},
+								{
+									"keybind": "key.use",
+									"color": "#BFBFBF"
+								},
+								{
+									"text": ")",
+									"color": "#BFBFBF"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:feather",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:string",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sponge",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tnt_minecart",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rail",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 5,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"weight": 5,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:water"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:obsidian",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crying_obsidian",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lapis_lazuli",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_pearl",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ancient_debris",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_ore",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"weight": 3,
+					"functions":
+					[
+						{
+							"function": "minecraft:enchant_randomly"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"weight": 3,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:written_book_content":
+								{
+									"author": "Alex Cai",
+									"title": "附魔提取書",
+									"pages":
+									[
+										"[\"主手拿著此書，副手拿著要提取附魔的物品\n就可以將附魔轉移到此書上。\n\n\n       \",{\"text\":\"[發動附魔提取]\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger air_special_book set 2\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"點擊直接發動\"}}]"
+									]
+								},
+								"minecraft:max_stack_size": 1
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{extract_enchantments: true}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:written_book",
+					"weight": 2,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments":
+							{
+								"minecraft:vanishing_curse": 1
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:written_book_content":
+								{
+									"pages":
+									[
+										"[\"以犧牲自己為代價，隨機復活一名死去的隊友。\n若沒有死亡的隊友則發動失敗。\n發動成功後，此書消失。\n\n\n       \",{\"text\":\"[發動轉生之術]\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger air_special_book set 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"點擊直接發動\"}}]"
+									],
+									"title": "轉生之術",
+									"author": "Alex Cai"
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{resurrection: true}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_upgrade_smithing_template",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:totem_of_undying",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:elytra",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enchanted_golden_apple",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/resource_type/weapon"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/resource_type/tools"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_boots"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:turtle_helmet"
+				}
+			]
+		}
+	]
+}

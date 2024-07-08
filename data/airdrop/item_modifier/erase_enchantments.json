@@ -1,0 +1,13 @@
+[
+	{
+		"function": "minecraft:set_components",
+		"components":
+		{
+			"enchantments":
+			{
+				"levels": {}
+			},
+			"repair_cost": 0
+		}
+	}
+]

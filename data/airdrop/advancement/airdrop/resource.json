@@ -1,0 +1,23 @@
+{
+    "parent": "airdrop:root",
+    "display":
+	{
+        "icon":
+		{
+            "id": "minecraft:oak_log"
+        },
+        "title": "物資小隊",
+        "description": "召喚物資空投",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria":
+	{
+        "resource":
+		{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

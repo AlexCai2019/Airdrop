@@ -1,2 +1,0 @@
-execute if score weather air_event matches ..4 run function airdrop:event/weather/from_clear_to_rain
-execute if score weather air_event matches 5.. run function airdrop:event/weather/from_clear_to_thunder

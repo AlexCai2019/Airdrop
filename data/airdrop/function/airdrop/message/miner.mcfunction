@@ -1,0 +1,2 @@
+tellraw @a [{"text": "<空投事件> ", "color": "aqua"}, {"selector": "@s", "bold": true}, {"text": " 召喚了 ", "color": "gray"}, {"text": "礦工空投", "color": "#FFFF84", "bold": true}]
+advancement grant @s[advancements={airdrop:airdrop/miner=false}] only airdrop:airdrop/miner

@@ -1,0 +1,34 @@
+{
+	"criteria":
+	{
+		"obtain_showhand":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions": 
+			{
+				"items":
+				[
+					{
+						"items":
+						[
+							"minecraft:oak_sign"
+						],
+						"predicates":
+						{
+							"enchantments":
+							[
+								{
+									"enchantments": "minecraft:sharpness"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "airdrop:game/showhand/detect"
+	}
+}

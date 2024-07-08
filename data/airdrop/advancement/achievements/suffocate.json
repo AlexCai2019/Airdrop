@@ -1,0 +1,77 @@
+{
+	"parent": "airdrop:achievements/chocolate_rc",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:oak_boat"
+		},
+		"title": "我不要再當雷王了！",
+		"description": "我不要再當第三次了！",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"stuck_at_crafting_table":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"player":
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate":
+						{
+							"vehicle":
+							{
+								"type": "minecraft:boat"
+							}
+						}
+					}
+				],
+				"damage":
+				{
+					"type":
+					{
+						"tags":
+						[
+							{
+								"id": "minecraft:bypasses_armor",
+								"expected": true
+							},
+							{
+								"id": "minecraft:bypasses_wolf_armor",
+								"expected": true
+							},
+							{
+								"id": "minecraft:no_knockback",
+								"expected": true
+							},
+							{
+								"id": "minecraft:bypasses_invulnerability",
+								"expected": false
+							},
+							{
+								"id": "minecraft:bypasses_effects",
+								"expected": false
+							},
+							{
+								"id": "minecraft:is_fire",
+								"expected": false
+							},
+							{
+								"id": "minecraft:is_freezing",
+								"expected": false
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

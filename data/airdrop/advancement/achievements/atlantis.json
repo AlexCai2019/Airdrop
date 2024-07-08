@@ -1,0 +1,39 @@
+{
+	"parent": "airdrop:achievements/no_pants",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:water_bucket"
+		},
+		"title": "亞特蘭提斯 留住最後一口氣",
+		"description": "再留住一口氣生存",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"atlantis":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"type":
+					{
+						"tags":
+						[
+							{
+								"id": "minecraft:is_drowning",
+								"expected": true
+							}
+						]
+					}
+				}
+			}
+		}
+	}
+}

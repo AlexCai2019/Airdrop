@@ -1,0 +1,56 @@
+{
+	"parent": "airdrop:achievements/atlantis",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:diamond_boots",
+			"components":
+			{
+				"minecraft:enchantments":
+				{
+					"minecraft:frost_walker": 100
+				}
+			}
+		},
+		"title": "哇、哇、魔法少女來啦",
+		"description": "不要那個西瓜了！快點跟著魔法走",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"follow_magic":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items":
+						[
+							"minecraft:leather_boots",
+							"minecraft:chainmail_boots",
+							"minecraft:iron_boots",
+							"minecraft:golden_boots",
+							"minecraft:diamond_boots",
+							"minecraft:netherite_boots"
+						],
+						"predicates":
+						{
+							"minecraft:enchantments":
+							[
+								{
+									"enchantments": "minecraft:frost_walker"
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

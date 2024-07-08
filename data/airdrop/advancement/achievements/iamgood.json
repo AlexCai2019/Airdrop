@@ -1,0 +1,44 @@
+{
+	"parent": "airdrop:achievements/follow_magic",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:potion",
+			"components":
+			{
+				"minecraft:potion_contents":
+				{
+					"custom_color": 16777215
+				},
+				"minecraft:enchantment_glint_override": true
+			}
+		},
+		"title": "我是好人可是我不能說",
+		"description": "我不能說我的職業可是我真的是好人",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"iamgood":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items": "minecraft:potion",
+						"components":
+						{
+							"minecraft:custom_data": "{ghost: true}"
+						}
+					}
+				]
+			}
+		}
+	}
+}

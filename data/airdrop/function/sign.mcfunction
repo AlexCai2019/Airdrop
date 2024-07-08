@@ -1,0 +1,20 @@
+give @s oak_sign[block_entity_data={id:"sign", front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"/function airdrop:how_to_play"}}','"遊玩教學"','""','""']}}, custom_name='"遊玩教學"']
+give @s oak_sign[block_entity_data={id:"sign", front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"/function airdrop:update"}}','"作者的話"','""','""']}}, custom_name='"作者的話"']
+give @s oak_sign[block_entity_data={id:"sign", front_text:{messages:['{"text":"","clickEvent":{"action":"run_command","value":"/function airdrop:book"}}','"獲取書本"','""','""']}}, custom_name='"獲取書本"']
+give @s player_head[profile="Alex_Cai"]
+give @s oak_sign[block_entity_data={id:"sign", front_text:{messages:['""','"AC"','"Alex_Cai"','""']}}]
+give @s player_head[profile="Qige020902"]
+give @s oak_sign[block_entity_data={id:"sign", front_text:{messages:['""','"棋哥"','"Qige020902"','""']}}]
+give @s melon
+give @s oak_sign[block_entity_data={id:"sign", front_text:{messages:['{"text":"西瓜","color":"#34791E","bold":true}','"踩在上面: 回血"','"特殊魔法: 半徑5格內"','"不分敵我獲得吸收效果"']}}, custom_name='"西瓜"']
+give @s player_head[profile="Hageeshow"]
+give @s packed_ice
+give @s oak_sign[block_entity_data={id:"sign", front_text:{messages:['{"text":"冰磚","color":"#7CA5F4","bold":true}','"踩在上面: 加速2"','"特殊魔法: 釋放消暑的"','"魔法"']}}, custom_name='"冰磚"']
+give @s player_head[profile="Hi_Chocolate"]
+give @s end_stone
+give @s oak_sign[block_entity_data={id:"sign", front_text:{messages:['{"text":"終界石","color":"#EEF6B4","bold":true}','"踩在上面: 失重效果"','"特殊魔法: 半徑5格內"','"隨機一名玩家受到缺氧傷害"']}}, custom_name='"終界石"']
+give @s player_head[profile="Dmoon1903"]
+give @s oak_sign[block_entity_data={id:"sign", front_text:{messages:['{"text":"西瓜刀","color":"#00FF00","bold":true}','"可以挖西瓜"','""','""']}}, custom_name='"西瓜刀"']
+give @s iron_sword[custom_name='{"text":"西瓜刀","color":"#00FF00","bold":true,"italic":false}', custom_data={melon_knife: true}]
+give @s oak_sign[block_entity_data={id:"sign", front_text:{messages:['["",{"text":"消防斧","color":"#FF0000","bold":true},"或絲綢之觸"]','"可以挖冰磚"','""','""']}}, custom_name='"消防斧"']
+give @s iron_axe[custom_name='{"text":"消防斧","color":"#FF0000","bold":true,"italic":false}', custom_model_data=1205, custom_data={red_axe: true}]

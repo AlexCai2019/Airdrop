@@ -1,0 +1,84 @@
+{
+	"parent": "airdrop:achievements/drill",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:leather_leggings",
+            "components":
+            {
+                "minecraft:dyed_color": 16776960
+            }
+		},
+		"title": "不穿褲子的才是真勇者",
+		"description": "為了當勇者才不穿褲子，雖然到頭來都會被警察抓去，不過我還是不會穿褲子的",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"no_pants":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate":
+                        {
+                            "equipment":
+                            {
+                                "head":
+                                {
+                                    "items":
+                                    [
+                                        "minecraft:leather_helmet",
+                                        "minecraft:chainmail_helmet",
+                                        "minecraft:golden_helmet",
+                                        "minecraft:iron_helmet",
+                                        "minecraft:diamond_helmet",
+                                        "minecraft:netherite_helmet",
+                                        "minecraft:turtle_helmet",
+                                        "minecraft:carved_pumpkin",
+                                        "minecraft:creeper_head",
+                                        "minecraft:dragon_head",
+                                        "minecraft:player_head",
+                                        "minecraft:skeleton_skull",
+                                        "minecraft:wither_skeleton_skull",
+                                        "minecraft:zombie_head"
+                                    ]
+                                },
+                                "chest":
+                                {
+                                    "items":
+                                    [
+                                        "minecraft:leather_chestplate",
+                                        "minecraft:chainmail_chestplate",
+                                        "minecraft:golden_chestplate",
+                                        "minecraft:iron_chestplate",
+                                        "minecraft:diamond_chestplate",
+                                        "minecraft:netherite_chestplate",
+                                        "minecraft:elytra"
+                                    ]
+                                },
+                                "legs":
+                                {
+                                    "items": "minecraft:air"
+                                },
+                                "feet":
+                                {
+                                    "items": "#minecraft:foot_armor"
+                                }
+                            }
+                        }
+                    }
+                ]
+			}
+		}
+	}
+}

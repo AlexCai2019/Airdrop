@@ -1,0 +1,3 @@
+execute unless data entity @s Inventory[{Slot: -106b}].components."minecraft:enchantments" run return run tellraw @s "<附魔提取> 附魔提取失敗...副手沒有拿著附魔裝備。"
+data modify storage airdrop:data root.extract_enchantments.enchantment set from entity @s Inventory[{Slot: -106b}].components."minecraft:enchantments"
+function airdrop:game/special_books/extract_enchantments/extract with storage airdrop:data root.extract_enchantments

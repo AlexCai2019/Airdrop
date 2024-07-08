@@ -1,0 +1,125 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls":
+			{
+				"type": "minecraft:uniform",
+				"min": 15,
+				"max": 27
+			},
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arrow",
+					"weight": 15
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spectral_arrow",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:slowness"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:harming"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:poison"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:weakness"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "人魚之箭",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								{
+									"text": "被射中的人會強制唱歌",
+									"color": "#FF00FF",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:potion_contents":
+								{
+									"custom_effects":
+									[
+										{
+											"id": "minecraft:unluck",
+											"amplifier": 1,
+											"duration": 20,
+											"show_icon": false,
+											"show_particles": false
+										}
+									]
+								},
+								"minecraft:hide_additional_tooltip": {}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

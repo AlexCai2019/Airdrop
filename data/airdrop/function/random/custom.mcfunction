@@ -1,0 +1,4 @@
+execute if score @s air_chance matches 19 unless data storage airdrop:data root.custom.items_1 run return run function airdrop:random/chicken
+execute if score @s air_chance matches 20 unless data storage airdrop:data root.custom.items_2 run return run function airdrop:random/chicken
+execute if score @s air_chance matches 21 unless data storage airdrop:data root.custom.items_3 run return run function airdrop:random/chicken
+execute if score @s air_chance matches 22 unless data storage airdrop:data root.custom.items_4 run return run function airdrop:random/chicken

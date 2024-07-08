@@ -1,0 +1,23 @@
+{
+	"parent": "airdrop:achievements/suffocate",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:melon"
+		},
+		"title": "人家西瓜是長在田裡，不會出來開實況",
+		"description": "不會出來玩創世神，也不會像現在這樣跟你們講話",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"on_melon":
+		{
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

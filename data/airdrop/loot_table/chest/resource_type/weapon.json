@@ -1,0 +1,436 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wooden_sword",
+					"weight": 2,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments":
+							{
+								"minecraft:knockback": 1
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "狼人殺暴民劍",
+								"color": "gold",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"unbreakable": {}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{Unbreakable:1b,vote:1b,morning:1b,unique:1b}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_sword",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"weight": 4,
+					"functions":
+					[
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels":
+							{
+								"type": "minecraft:uniform",
+								"min": 15,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bow",
+					"weight": 3,
+					"functions":
+					[
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels":
+							{
+								"type": "minecraft:uniform",
+								"min": 15,
+								"max": 20
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow",
+					"weight": 3,
+					"functions":
+					[
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels":
+							{
+								"type": "minecraft:uniform",
+								"min": 15,
+								"max": 20
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels":
+							{
+								"type": "minecraft:uniform",
+								"min": 15,
+								"max": 30
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/resource_type/wand",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick",
+					"weight": 2,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments":
+							{
+								"minecraft:knockback": 3
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "擊退棒",
+								"italic": false
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "西瓜刀",
+								"color": "#00FF00",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{melon_knife: true}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lingering_potion",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "燃燒瓶",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								[
+									{
+										"keybind": "key.use",
+										"color": "#00FF00",
+										"italic": false
+									},
+									{
+										"text": " 將燃燒瓶丟出",
+										"color": "#FF0000"
+									}
+								]
+							]
+						},
+						{
+							"function": "set_components",
+							"components":
+							{
+								"minecraft:potion_contents":
+								{
+									"custom_color": 4144959
+								},
+                                "minecraft:hide_additional_tooltip": {}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{molotov_cocktail: true}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dirt",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers":
+							[
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"amount": 4,
+									"id": "minecraft:generic.attack_damage",
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"amount": -2.5,
+									"id": "minecraft:generic.attack_speed",
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							[
+								{
+									"text":"+5 ",
+									"color": "aqua",
+									"italic": false
+								},
+								{
+									"translate": "block.minecraft.dirt"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								{
+									"text": "用了就不怕要寫心得了",
+									"color": "green",
+									"italic": false
+								},
+								{
+									"text": "但要小心不要放到地上",
+									"color": "red",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									{
+										"text": " 5 ",
+										"color": "dark_green",
+										"italic": false
+									},
+									{
+										"translate": "attribute.name.generic.attack_damage"
+									}
+								],
+								[
+									{
+										"text": " 1.5 ",
+										"color": "dark_green",
+										"italic": false
+									},
+									{
+										"translate": "attribute.name.generic.attack_speed"
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_enchantments",
+							"enchantments":
+							{
+								"minecraft:unbreaking": 10
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:hide_additional_tooltip": {}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_sword",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers":
+							[
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"amount": 1024,
+									"id": "minecraft:generic.attack_speed",
+									"operation": "add_value",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"amount": 1,
+									"id": "minecraft:generic.attack_damage",
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "1.8 連砍劍",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									{
+										"text": " 2 ",
+										"color": "dark_green",
+										"italic": false
+									},
+									{
+										"translate": "attribute.name.generic.attack_damage"
+									}
+								],
+								[
+									{
+										"text": " ∞ ",
+										"color": "dark_green",
+										"italic": false
+									},
+									{
+										"translate": "attribute.name.generic.attack_speed"
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:enchant_randomly",
+							"options":
+							[
+								"minecraft:unbreaking"
+							]
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:hide_additional_tooltip": {}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_boots",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:enchant_randomly",
+							"options":
+							[
+								"frost_walker"
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "專武"
+						}
+					]
+				}
+			]
+		}
+	]
+}

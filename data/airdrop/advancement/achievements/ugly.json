@@ -1,0 +1,23 @@
+{
+    "parent": "airdrop:achievements/3zombies",
+    "display":
+	{
+        "icon":
+		{
+            "id": "minecraft:stone"
+        },
+        "title": "醜八怪戰隊",
+        "description": "我們當中出了間諜",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria":
+	{
+        "ugly":
+		{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

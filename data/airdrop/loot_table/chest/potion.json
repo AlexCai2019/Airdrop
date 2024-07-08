@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls":
+			{
+				"type": "minecraft:uniform",
+				"min":
+				{
+					"type": "minecraft:uniform",
+					"min": 8,
+					"max": 17
+				},
+				"max":
+				{
+					"type": "minecraft:uniform",
+					"min": 18,
+					"max": 26
+				}
+			},
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:glass",
+					"weight": 18
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/potion_content/all_potions",
+					"weight": 13
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/potion_content/miscellaneous",
+					"weight": 12
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/potion_content/all_potions"
+				}
+			]
+		}
+	]
+}

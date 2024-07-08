@@ -1,0 +1,46 @@
+{
+	"parent": "airdrop:achievements/rsp",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:oak_button"
+		},
+		"title": "有人需要按鈕嗎？(燦)",
+		"description": "你做了一堆按鈕是不是",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"64_buttons":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items":
+						[
+							"minecraft:oak_button",
+							"minecraft:spruce_button",
+							"minecraft:birch_button",
+							"minecraft:jungle_button",
+							"minecraft:acacia_button",
+							"minecraft:dark_oak_button",
+							"minecraft:mangrove_button",
+							"minecraft:crimson_button",
+							"minecraft:warped_button",
+							"minecraft:stone_button",
+							"minecraft:polished_blackstone_button"
+						],
+						"count": 64
+					}
+				]
+			}
+		}
+	}
+}

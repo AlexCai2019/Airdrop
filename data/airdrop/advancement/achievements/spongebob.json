@@ -1,0 +1,36 @@
+{
+	"parent": "airdrop:achievements/revival_of_the_death",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:sponge"
+		},
+		"title": "是誰住在深海的大鳳梨裡？",
+		"description": "方方黃黃，伸縮自如",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"spongebob":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{
+						"items":
+						[
+							"minecraft:sponge",
+							"minecraft:wet_sponge"
+						]
+					}
+				]
+			}
+		}
+	}
+}

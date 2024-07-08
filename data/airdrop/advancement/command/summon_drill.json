@@ -1,0 +1,35 @@
+{
+	"criteria":
+	{
+		"summon_drill":
+		{
+			"trigger": "minecraft:item_used_on_block",
+			"conditions":
+			{
+				"location":
+				[
+					{
+						"condition": "minecraft:match_tool",
+						"predicate":
+						{
+							"items": "minecraft:blaze_spawn_egg",
+							"predicates":
+							{
+								"enchantments":
+								[
+									{
+										"enchantments": "minecraft:efficiency"
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "airdrop:game/drill/summon_drill"
+	}
+}

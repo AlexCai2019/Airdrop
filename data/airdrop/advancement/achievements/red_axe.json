@@ -1,0 +1,40 @@
+{
+	"parent": "airdrop:achievements/dumb_ways_to_die",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:iron_axe",
+			"components":
+			{
+				"minecraft:custom_model_data": 1205
+			}
+		},
+		"title": "那是他的聖誕帽帽！聖誕帽！聖誕帽！",
+		"description": "不是紅色的斧頭嗎？",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"red_axe":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+                "items":
+                [
+                    {
+                        "items": "minecraft:iron_axe",
+                        "components":
+						{
+							"minecraft:custom_data": "{red_axe: true}"
+						}
+                    }
+                ]
+			}
+		}
+	}
+}

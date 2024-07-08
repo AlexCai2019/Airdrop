@@ -1,0 +1,27 @@
+{
+	"parent": "airdrop:achievements/fall",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:powder_snow_bucket"
+		},
+		"title": "Let it go~ Let it go~",
+		"description": "Let it go 的意思是讓它去",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"why":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:powder_snow"
+			}
+		}
+	}
+}

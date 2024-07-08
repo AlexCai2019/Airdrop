@@ -1,0 +1,2 @@
+execute store success score @s air_has_book run clear @s written_book[custom_data~{extract_enchantments: true}] 0
+execute if score @s air_has_book matches 1 run function airdrop:game/special_books/extract_enchantments/has_book

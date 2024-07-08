@@ -1,1 +1,0 @@
-effect give @a[gamemode=!spectator,predicate=airdrop:flags/sneaking] slowness 10 5 true

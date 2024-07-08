@@ -1,0 +1,2 @@
+execute if entity @s[tag=!air_warn_mode] if entity @p[distance=..15, predicate=airdrop:invisible] run function airdrop:game/detect_invisible/start_warn
+execute if entity @s[tag=air_warn_mode] run function airdrop:game/detect_invisible/warn_mode

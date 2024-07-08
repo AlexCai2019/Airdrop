@@ -1,0 +1,107 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:flint_and_steel",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_charge",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_axe",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "消防斧",
+								"color": "#FF0000",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"value": 1205 
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{red_axe: true}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_pickaxe",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_pickaxe",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_pickaxe",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"can_break":
+								{
+									"blocks": "minecraft:bedrock"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_pickaxe",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:water_bucket",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lava_bucket",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:powder_snow_bucket",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bundle",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

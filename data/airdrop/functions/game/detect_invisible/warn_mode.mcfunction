@@ -1,2 +1,0 @@
-execute facing entity @p[distance=..15,predicate=airdrop:invisible] eyes run tp @s ~ ~ ~ ~ ~
-execute unless entity @p[distance=..15,predicate=airdrop:invisible] run function airdrop:game/detect_invisible/release

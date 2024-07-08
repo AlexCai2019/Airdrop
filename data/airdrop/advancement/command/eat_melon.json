@@ -1,0 +1,20 @@
+{
+	"criteria":
+	{
+		"eat_melon":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:melon_slice"
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "airdrop:game/effect/eat_melon"
+	}
+}

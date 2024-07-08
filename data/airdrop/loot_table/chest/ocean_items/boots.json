@@ -1,0 +1,43 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_boots",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_boots",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_boots",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_boots",
+					"weight": 1
+				}
+			],
+			"functions":
+			[
+				{
+					"function": "minecraft:enchant_randomly",
+					"options":
+					[
+						"minecraft:frost_walker",
+						"minecraft:depth_strider"
+					]
+				}
+			]
+		}
+	]
+}

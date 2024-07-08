@@ -1,0 +1,23 @@
+{
+    "parent": "airdrop:airdrop/packed_ice",
+    "display":
+	{
+        "icon":
+		{
+            "id": "minecraft:written_book"
+        },
+        "title": "只要我喜歡，有什麼不可以",
+        "description": "召喚自訂空投",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria":
+	{
+        "custom":
+		{
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

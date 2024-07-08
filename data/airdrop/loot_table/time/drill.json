@@ -1,0 +1,56 @@
+{
+    "type": "minecraft:command",
+    "pools":
+    [
+        {
+            "rolls": 1,
+            "entries":
+            [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_leggings",
+                    "functions":
+                    [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name":
+                            [
+								{
+									"score":
+									{
+										"name": "@s",
+										"objective": "air_sec_int"
+									}
+								},
+								".",
+								{
+									"score":
+									{
+										"name": "@s",
+										"objective": "air_sec_point"
+									}
+								},
+								{
+									"score":
+									{
+										"name": "@s",
+										"objective": "air_tick_as_5"
+									}
+								}
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments":
+                            {
+                                "minecraft:thorns": 2,
+                                "minecraft:vanishing_curse": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

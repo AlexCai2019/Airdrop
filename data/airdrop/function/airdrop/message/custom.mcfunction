@@ -1,0 +1,2 @@
+tellraw @a [{"text": "<空投事件> ", "color": "aqua"}, {"selector": "@s", "bold": true}, {"text": " 召喚了 ", "color": "gray"}, {"text": "自訂空投", "color": "#A76E1F", "bold": true}]
+advancement grant @s[advancements={airdrop:airdrop/custom=false}] only airdrop:airdrop/custom

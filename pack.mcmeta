@@ -1,12 +1,17 @@
 {
 	"pack":
 	{
-		"pack_format": 26,
-		"supported_formats":
-		{
-			"min_inclusive": 15,
-			"max_inclusive": 26
-		},
+		"pack_format": 48,
 		"description": "Airdrop by RU and AC"
+	},
+	"filter":
+	{
+		"block":
+		[
+			{
+				"namespace": "minecraft",
+				"path": "advancement/"
+			}
+		]
 	}
 }
