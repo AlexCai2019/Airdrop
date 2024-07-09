@@ -25,7 +25,6 @@ scoreboard objectives remove air_warden_health
 scoreboard objectives remove air_fall
 scoreboard objectives remove air_special_arrow
 scoreboard objectives remove air_inventory
-scoreboard objectives remove air_damage
 scoreboard objectives remove air_uuid
 scoreboard objectives remove air_team_code
 scoreboard objectives remove air_start_team

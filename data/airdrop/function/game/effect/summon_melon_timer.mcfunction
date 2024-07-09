@@ -1,2 +1,0 @@
-summon text_display ~ ~ ~ {Tags: ["air_melon_timer"], text: '"30"', billboard: "center"}
-execute as @e[type=text_display, tag=air_melon_timer] unless score @s air_sec_int = @s air_sec_int run scoreboard players set @s air_sec_int 30

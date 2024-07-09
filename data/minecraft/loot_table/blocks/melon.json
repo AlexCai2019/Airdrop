@@ -20,7 +20,10 @@
 									"condition": "minecraft:match_tool",
 									"predicate":
 									{
-										"nbt": "{melon_knife:true}"
+										"components":
+										{
+											"custom_data": "{melon_knife: true}"
+										} 
 									}
 								}
 							]

@@ -1,6 +1,6 @@
 from math import sqrt
 
-with open("packed_ice.mcfunction", 'w') as mcfunction:
+with open("magic.mcfunction", 'w') as mcfunction:
     for x in range(-30, 30, 1):
         for y in range(-30, 30, 1):
             for z in range(0, 30, 1):

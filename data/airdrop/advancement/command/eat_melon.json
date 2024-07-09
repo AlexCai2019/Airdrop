@@ -15,6 +15,6 @@
 	},
 	"rewards":
 	{
-		"function": "airdrop:game/effect/eat_melon"
+		"function": "airdrop:game/effects/melon/eat"
 	}
 }

@@ -22,23 +22,26 @@
 							"condition": "minecraft:match_tool",
 							"predicate":
 							{
-								"enchantments":
-								[
+								"components":
+								{
+									"enchantments":
 									{
-										"enchantment": "minecraft:silk_touch",
 										"levels":
 										{
-											"min": 1
+											"silk_touch": 1
 										}
 									}
-								]
+								}
 							}
 						},
 						{
 							"condition": "minecraft:match_tool",
 							"predicate":
 							{
-								"nbt": "{red_axe:true}"
+								"components":
+								{
+									"custom_data": "{red_axe: true}"
+								}
 							}
 						}
 					]

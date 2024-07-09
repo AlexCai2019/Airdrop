@@ -1,5 +1,5 @@
 execute store result score @s air_chance run random value 0..13
-title @a times 5 20 5
+title @a times 5 10 5
 execute if score @s air_chance matches 0 run function airdrop:event/lava
 execute if score @s air_chance matches 1 run function airdrop:event/apple
 execute if score @s air_chance matches 2 run function airdrop:event/one_more
