@@ -1,7 +1,6 @@
 kill @e[type=marker,tag=air_set]
 kill @e[type=marker,tag=air_event]
 kill @e[type=marker,tag=air_zero]
-kill @e[type=armor_stand,tag=air_show_time]
 kill @e[type=armor_stand,tag=air_singer]
 forceload remove 0 0
 scoreboard objectives remove timesmallu
@@ -9,6 +8,7 @@ scoreboard objectives remove air_start
 scoreboard objectives remove air_drop
 scoreboard objectives remove air_event
 scoreboard objectives remove air_set
+scoreboard objectives remove air_tick
 scoreboard objectives remove air_time
 scoreboard objectives remove air_tick_as_5
 scoreboard objectives remove air_sec_point

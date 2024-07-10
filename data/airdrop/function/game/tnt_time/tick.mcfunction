@@ -1,6 +1,6 @@
-scoreboard players add @s air_tick_as_5 5
-execute if score @s air_tick_as_5 matches 10 run function airdrop:game/tnt_time/point
-loot replace entity @e[type=armor_stand, tag=air_show_time, limit=1] armor.head 1 loot airdrop:time/tnt
-data modify entity @s CustomName set from entity @e[type=armor_stand, tag=air_show_time, limit=1] ArmorItems[3].components."minecraft:custom_name"
-item replace entity @e[type=armor_stand, tag=air_show_time, limit=1] armor.head with air
-kill @s[predicate=!airdrop:vehicle]
+#用execute store而不用data modify 這樣才能做乘除
+execute store result score @s air_time run data get entity @s TNTFuse 0.05
+#TNT礦車的Air是可以亂調的 不會恢復或減少
+#為了不要讓最後停留在0秒 因此+1
+execute store result entity @s Air short 1 run scoreboard players add @s air_time 1
+function airdrop:game/tnt_time/rename with entity @s

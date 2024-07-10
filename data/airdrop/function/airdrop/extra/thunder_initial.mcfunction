@@ -1,4 +1,3 @@
-data merge entity @s {billboard: "center", text: '{"text": "⚡(5.00)", "color": "#FFFF00"}', Tags: ["air_thunder"]}
-scoreboard players set @s air_sec_int 5
-scoreboard players set @s air_sec_point 0
-scoreboard players set @s air_tick_as_5 5
+data merge entity @s {billboard: "center", text: '{"text": "⚡(5)", "color": "#FFFF00"}', transformation: {scale: [2.0F, 2.0F, 1.0F]}, Tags: ["air_thunder"]}
+scoreboard players set @s air_tick 0
+scoreboard players set @s air_time 5

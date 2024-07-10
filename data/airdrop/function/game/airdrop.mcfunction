@@ -1,8 +1,10 @@
+#定時給予空投
 scoreboard players add airdrop_count air_time 1
 execute if score airdrop_count air_time matches 1200 run function airdrop:game/add
 execute if score airdrop_match air_time = timeair timesmallu run function airdrop:game/get
+
 execute as @e[type=chicken, tag=ch, nbt={OnGround: true}] at @s run function airdrop:game/drop
-execute as @e[type=area_effect_cloud, tag=air_tnt_time] run function airdrop:game/tnt_time/tick
+execute as @e[type=tnt_minecart, tag=air_explosion] run function airdrop:game/tnt_time/tick
 execute as @e[type=wandering_trader, tag=air_trader] run function airdrop:game/trader_time/tick
 execute as @e[type=blaze, tag=air_drill] run function airdrop:game/drill/core
 
