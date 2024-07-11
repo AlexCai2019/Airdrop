@@ -1,23 +1,23 @@
 {
-    "parent": "airdrop:achievements/disc",
-    "display":
+	"parent": "airdrop:achievements/disc",
+	"display":
 	{
-        "icon":
+		"icon":
 		{
-            "id": "minecraft:brick"
-        },
-        "title": "喔不我要摔死了白痴噢",
-        "description": "你要告訴我這是一個陷阱啊",
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria":
+			"id": "minecraft:brick"
+		},
+		"title": "喔不我要摔死了白痴噢",
+		"description": "你要告訴我這是一個陷阱啊",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
 	{
-        "fall":
+		"fall":
 		{
-            "trigger": "minecraft:impossible"
-        }
-    }
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

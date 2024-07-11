@@ -1,39 +1,39 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "category": "building",
-    "group": "melon",
-    "ingredients":
-    [
-        {
-            "item": "minecraft:cactus"
-        },
-        {
-            "item": "minecraft:cactus"
-        },
-        {
-            "item": "minecraft:cactus"
-        },
-        {
-            "item": "minecraft:cactus"
-        },
-        {
-            "item": "minecraft:cactus"
-        },
-        {
-            "item": "minecraft:cactus"
-        },
-        {
-            "item": "minecraft:cactus"
-        },
-        {
-            "item": "minecraft:cactus"
-        },
-        {
-            "item": "minecraft:cactus"
-        }
-    ],
-    "result":
-    {
-        "id": "minecraft:melon"
-    }
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "melon",
+	"ingredients":
+	[
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		},
+		{
+			"item": "minecraft:cactus"
+		}
+	],
+	"result":
+	{
+		"id": "minecraft:melon"
+	}
 }

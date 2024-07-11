@@ -8,10 +8,10 @@
 		},
 		"title": "奸商",
 		"description": "召喚神秘商人",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
 	},
 	"criteria":
 	{

@@ -6,10 +6,12 @@ execute if score airdrop_match air_time = timeair timesmallu run function airdro
 execute as @e[type=chicken, tag=ch, nbt={OnGround: true}] at @s run function airdrop:game/drop
 execute as @e[type=tnt_minecart, tag=air_explosion] run function airdrop:game/tnt_time/tick
 execute as @e[type=wandering_trader, tag=air_trader] run function airdrop:game/trader_time/tick
-execute as @e[type=blaze, tag=air_drill] run function airdrop:game/drill/core
 
 #雷電空投
 execute as @e[type=text_display, tag=air_thunder] run function airdrop:game/thunder_time/tick
+
+#鑽地機
+execute as @e[type=blaze, tag=air_drill] run function airdrop:game/drill/core
 
 #丟東西
 function airdrop:game/throw/core

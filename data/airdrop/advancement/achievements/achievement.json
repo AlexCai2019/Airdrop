@@ -1,23 +1,23 @@
 {
-    "parent": "airdrop:achievements/spongebob",
-    "display":
+	"parent": "airdrop:achievements/spongebob",
+	"display":
 	{
-        "icon":
+		"icon":
 		{
-            "id": "minecraft:nether_star"
-        },
-        "title": "遊戲相關成就",
-        "description": "UHC歡樂賽 正式開打",
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false
-    },
-    "criteria":
+			"id": "minecraft:nether_star"
+		},
+		"title": "遊戲相關成就",
+		"description": "UHC歡樂賽 正式開打",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria":
 	{
-        "achievement":
+		"achievement":
 		{
-            "trigger": "minecraft:tick"
-        }
-    }
+			"trigger": "minecraft:tick"
+		}
+	}
 }

@@ -1,23 +1,23 @@
 {
-    "parent": "airdrop:airdrop/tnt_minecart",
-    "display":
+	"parent": "airdrop:airdrop/tnt_minecart",
+	"display":
 	{
-        "icon":
+		"icon":
 		{
-            "id": "minecraft:string"
-        },
-        "title": "啾啾",
-        "description": "召喚蜘蛛空投",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria":
+			"id": "minecraft:string"
+		},
+		"title": "啾啾",
+		"description": "召喚蜘蛛空投",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
 	{
-        "spider":
+		"spider":
 		{
-            "trigger": "minecraft:impossible"
-        }
-    }
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

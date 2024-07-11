@@ -29,10 +29,7 @@
 							"items": "minecraft:blaze_spawn_egg",
 							"components":
 							{
-								"minecraft:enchantments":
-								{
-									"minecraft:efficiency": 1
-								}
+								"minecraft:custom_data": "{air_drill_egg: true}"
 							}
 						}
 					}

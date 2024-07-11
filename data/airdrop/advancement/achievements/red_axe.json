@@ -24,16 +24,16 @@
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
 			{
-                "items":
-                [
-                    {
-                        "items": "minecraft:iron_axe",
-                        "components":
+				"items":
+				[
+					{
+						"items": "minecraft:iron_axe",
+						"components":
 						{
 							"minecraft:custom_data": "{red_axe: true}"
 						}
-                    }
-                ]
+					}
+				]
 			}
 		}
 	}

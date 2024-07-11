@@ -10,10 +10,7 @@
 			{
 				"chest":
 				{
-					"items":
-					[
-						"minecraft:air"
-					]
+					"items": "minecraft:air"
 				}
 			}
 		}

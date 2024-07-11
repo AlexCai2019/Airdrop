@@ -18,36 +18,36 @@
 		"melon_kung_fu":
 		{
 			"trigger": "minecraft:thrown_item_picked_up_by_entity",
-            "conditions":
-            {
-                "item":
-                {
-                    "items":
-                    [
-                        "minecraft:melon_slice",
-                        "minecraft:melon_seeds",
-                        "minecraft:melon",
-                        "minecraft:glistering_melon_slice"
-                    ]
-                },
-                "entity":
-                [
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate":
-                        {
-                            "distance":
-                            {
-                                "absolute":
-                                {
-                                    "min": 0.01
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
+			"conditions":
+			{
+				"item":
+				{
+					"items":
+					[
+						"minecraft:melon_slice",
+						"minecraft:melon_seeds",
+						"minecraft:melon",
+						"minecraft:glistering_melon_slice"
+					]
+				},
+				"entity":
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate":
+						{
+							"distance":
+							{
+								"absolute":
+								{
+									"min": 0.01
+								}
+							}
+						}
+					}
+				]
+			}
 		}
 	}
 }

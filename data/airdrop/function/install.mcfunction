@@ -10,11 +10,7 @@ execute unless entity @e[type=marker, tag=air_zero] run forceload add 0 0
 execute unless entity @e[type=marker, tag=air_zero] run summon marker .0 .0 .0 {Tags:["air_zero"]}
 
 team add chicken "雞"
-team add air_drill "鑽地機"
 team modify chicken color white
-team modify air_drill color yellow
-team modify air_drill collisionRule never
-team modify air_drill prefix "[鑽地機] "
 
 scoreboard objectives add timesmallu dummy
 scoreboard objectives add air_start dummy
@@ -23,9 +19,6 @@ scoreboard objectives add air_event dummy
 scoreboard objectives add air_set dummy
 scoreboard objectives add air_tick dummy
 scoreboard objectives add air_time dummy
-scoreboard objectives add air_tick_as_5 dummy
-scoreboard objectives add air_sec_point dummy
-scoreboard objectives add air_sec_int dummy
 scoreboard objectives add air_chance dummy
 scoreboard objectives add air_number dummy
 scoreboard objectives add air_effect dummy

@@ -1,23 +1,23 @@
 {
-    "parent": "airdrop:airdrop/end",
-    "display":
+	"parent": "airdrop:airdrop/end",
+	"display":
 	{
-        "icon":
+		"icon":
 		{
-            "id": "minecraft:water_bucket"
-        },
-        "title": "自由之海",
-        "description": "召喚海洋空投",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria":
+			"id": "minecraft:water_bucket"
+		},
+		"title": "自由之海",
+		"description": "召喚海洋空投",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
 	{
-        "ocean":
+		"ocean":
 		{
-            "trigger": "minecraft:impossible"
-        }
-    }
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

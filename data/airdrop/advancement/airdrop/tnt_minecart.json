@@ -1,23 +1,23 @@
 {
-    "parent": "airdrop:airdrop/alliance",
-    "display":
+	"parent": "airdrop:airdrop/alliance",
+	"display":
 	{
-        "icon":
+		"icon":
 		{
-            "id": "minecraft:tnt_minecart"
-        },
-        "title": "一發炸三人的究極攻擊魔法",
-        "description": "召喚爆裂空投",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria":
+			"id": "minecraft:tnt_minecart"
+		},
+		"title": "一發炸三人的究極攻擊魔法",
+		"description": "召喚爆裂空投",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
 	{
-        "tnt_minecart":
+		"tnt_minecart":
 		{
-            "trigger": "minecraft:impossible"
-        }
-    }
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

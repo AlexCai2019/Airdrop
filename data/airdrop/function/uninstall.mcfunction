@@ -10,9 +10,6 @@ scoreboard objectives remove air_event
 scoreboard objectives remove air_set
 scoreboard objectives remove air_tick
 scoreboard objectives remove air_time
-scoreboard objectives remove air_tick_as_5
-scoreboard objectives remove air_sec_point
-scoreboard objectives remove air_sec_int
 scoreboard objectives remove air_chance
 scoreboard objectives remove air_number
 scoreboard objectives remove air_effect

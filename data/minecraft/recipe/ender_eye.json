@@ -1,15 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "minecraft:bedrock"
-    },
-    {
-      "item": "minecraft:barrier"
-    }
-  ],
-  "result": {
-    "id": "minecraft:ender_eye"
-  }
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients":
+	[
+		{
+			"item": "minecraft:bedrock"
+		},
+		{
+			"item": "minecraft:barrier"
+		}
+	],
+	"result":
+	{
+		"id": "minecraft:ender_eye"
+	}
 }

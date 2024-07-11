@@ -1,7 +1,7 @@
 {
 	"criteria":
 	{
-		"monster":
+		"mob_heal":
 		{
 			"trigger": "minecraft:player_killed_entity",
 			"conditions":

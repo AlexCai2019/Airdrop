@@ -1,0 +1,1 @@
+$data modify entity @s CustomName set value '"鑽地機 ($(second))"'

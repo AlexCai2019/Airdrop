@@ -29,7 +29,7 @@
 	重新進入遊戲，或是輸入 `/reload` 指令。<br>
 	![輸入/reload指令](images/installation/7.png)<br>
 5. 完成安裝<br>
-	輸入 `/function airdrop:install` 指令安裝空投系統。
+	輸入 `/function airdrop:install` 指令安裝空投系統：<br>
 	![輸入/function airdrop:install指令](images/installation/8.png)
 
 ## <span id="introduction">內容</span>

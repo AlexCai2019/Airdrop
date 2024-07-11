@@ -10,10 +10,7 @@
 			{
 				"offhand":
 				{
-					"items":
-					[
-						"minecraft:air"
-					]
+					"items": "minecraft:air"
 				}
 			}
 		}

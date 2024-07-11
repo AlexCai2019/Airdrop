@@ -1,23 +1,23 @@
 {
-    "parent": "airdrop:airdrop/ocean",
-    "display":
+	"parent": "airdrop:airdrop/ocean",
+	"display":
 	{
-        "icon":
+		"icon":
 		{
-            "id": "minecraft:poisonous_potato"
-        },
-        "title": "爛透了！",
-        "description": "召喚空包彈",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria":
+			"id": "minecraft:poisonous_potato"
+		},
+		"title": "爛透了！",
+		"description": "召喚空包彈",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
 	{
-        "empty":
+		"empty":
 		{
-            "trigger": "minecraft:impossible"
-        }
-    }
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

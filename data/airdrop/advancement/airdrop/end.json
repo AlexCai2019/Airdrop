@@ -1,23 +1,23 @@
 {
-    "parent": "airdrop:airdrop/thunder",
-    "display":
+	"parent": "airdrop:airdrop/thunder",
+	"display":
 	{
-        "icon":
+		"icon":
 		{
-            "id": "minecraft:end_stone"
-        },
-        "title": "爆率60%的終界之眼",
-        "description": "召喚終界空投",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria":
+			"id": "minecraft:end_stone"
+		},
+		"title": "爆率60%的終界之眼",
+		"description": "召喚終界空投",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
 	{
-        "end":
+		"end":
 		{
-            "trigger": "minecraft:impossible"
-        }
-    }
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

@@ -1,23 +1,23 @@
 {
-    "parent": "airdrop:airdrop/spider",
-    "display":
+	"parent": "airdrop:airdrop/spider",
+	"display":
 	{
-        "icon":
+		"icon":
 		{
-            "id": "minecraft:diamond_hoe"
-        },
-        "title": "農場標題",
-        "description": "召喚務農空投",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria":
+			"id": "minecraft:diamond_hoe"
+		},
+		"title": "農場標題",
+		"description": "召喚務農空投",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
 	{
-        "farmer":
+		"farmer":
 		{
-            "trigger": "minecraft:impossible"
-        }
-    }
+			"trigger": "minecraft:impossible"
+		}
+	}
 }

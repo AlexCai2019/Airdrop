@@ -10,10 +10,7 @@
 			{
 				"head":
 				{
-					"items":
-					[
-						"minecraft:air"
-					]
+					"items": "minecraft:air"
 				}
 			}
 		}

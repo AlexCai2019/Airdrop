@@ -13,14 +13,9 @@
 						"predicate":
 						{
 							"items": "minecraft:blaze_spawn_egg",
-							"predicates":
+							"components":
 							{
-								"enchantments":
-								[
-									{
-										"enchantments": "minecraft:efficiency"
-									}
-								]
+								"minecraft:custom_data": "{air_drill_egg: true}"
 							}
 						}
 					}

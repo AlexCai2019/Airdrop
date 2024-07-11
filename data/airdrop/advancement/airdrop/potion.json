@@ -1,27 +1,27 @@
 {
-    "parent": "airdrop:airdrop/empty",
-    "display":
+	"parent": "airdrop:airdrop/empty",
+	"display":
 	{
-        "icon":
+		"icon":
 		{
-            "id": "minecraft:potion",
-            "components": 
-            {
-                "minecraft:potion_contents": "minecraft:healing"
-            }
-        },
-        "title": "要．使．用．哪．一．個．呢？",
-        "description": "召喚藥水空投",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "criteria":
+			"id": "minecraft:potion",
+			"components": 
+			{
+				"minecraft:potion_contents": "minecraft:healing"
+			}
+		},
+		"title": "要．使．用．哪．一．個．呢？",
+		"description": "召喚藥水空投",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
 	{
-        "potion":
+		"potion":
 		{
-            "trigger": "minecraft:impossible"
-        }
-    }
+			"trigger": "minecraft:impossible"
+		}
+	}
 }
