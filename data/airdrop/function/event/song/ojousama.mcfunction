@@ -9,5 +9,5 @@ execute if score song air_event matches 276 run tellraw @a ["<[金曲歌王] ", 
 execute if score song air_event matches 349 run tellraw @a ["<[金曲歌王] ", {"selector": "@e[type=armor_stand, tag=air_singer, limit=1]"}, "> やれやれ"]
 execute if score song air_event matches 369 run tellraw @a ["<[金曲歌王] ", {"selector": "@e[type=armor_stand, tag=air_singer, limit=1]"}, "> 못 말리는 아가씨"]
 scoreboard players add song air_event 1
-execute if score song air_event matches ..368 run schedule function airdrop:event/song/ojousama 1
-execute if score song air_event matches 369 run function airdrop:event/song/end_sing
+execute if score song air_event matches ..369 run schedule function airdrop:event/song/ojousama 1
+execute if score song air_event matches 370 run function airdrop:event/song/end_sing

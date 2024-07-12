@@ -21,6 +21,6 @@
 	},
 	"rewards":
 	{
-		"function": "airdrop:game/play_warden_emerge"
+		"function": "airdrop:game/warden/play_warden_emerge"
 	}
 }

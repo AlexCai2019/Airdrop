@@ -23,7 +23,6 @@ execute as @e[type=text_display, tag=air_melon_timer] at @s unless block ~ ~-1 ~
 #魔杖
 execute as @a[scores={air_use_wand=1..}] run function airdrop:game/effects/wand/use
 
-execute as @e[type=warden] run function airdrop:game/warden
 execute as @e[type=armor_stand, tag=air_detect_invisible] at @s anchored eyes run function airdrop:game/detect_invisible/detect
 
 #書

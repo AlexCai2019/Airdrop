@@ -9,6 +9,8 @@ execute unless entity @e[type=armor_stand,tag=air_singer,limit=1] align xz run s
 execute unless entity @e[type=marker, tag=air_zero] run forceload add 0 0
 execute unless entity @e[type=marker, tag=air_zero] run summon marker .0 .0 .0 {Tags:["air_zero"]}
 
+team add air_drill
+team modify air_drill collisionRule never
 team add chicken "雞"
 team modify chicken color white
 
@@ -27,7 +29,6 @@ scoreboard objectives add air_use_wand used:warped_fungus_on_a_stick
 scoreboard objectives add air_regeneration dummy
 scoreboard objectives add air_hunger dummy
 scoreboard objectives add air_death deathCount
-scoreboard objectives add air_warden_health dummy
 scoreboard objectives add air_fall custom:fall_one_cm
 scoreboard objectives add air_special_arrow dummy
 scoreboard objectives add air_inventory dummy
