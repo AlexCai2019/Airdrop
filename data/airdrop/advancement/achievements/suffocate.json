@@ -41,32 +41,8 @@
 						"tags":
 						[
 							{
-								"id": "minecraft:bypasses_armor",
+								"id": "airdrop:suffocate",
 								"expected": true
-							},
-							{
-								"id": "minecraft:bypasses_wolf_armor",
-								"expected": true
-							},
-							{
-								"id": "minecraft:no_knockback",
-								"expected": true
-							},
-							{
-								"id": "minecraft:bypasses_invulnerability",
-								"expected": false
-							},
-							{
-								"id": "minecraft:bypasses_effects",
-								"expected": false
-							},
-							{
-								"id": "minecraft:is_fire",
-								"expected": false
-							},
-							{
-								"id": "minecraft:is_freezing",
-								"expected": false
 							}
 						]
 					}
