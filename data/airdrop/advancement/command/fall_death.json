@@ -1,0 +1,40 @@
+{
+	"criteria":
+	{
+		"death":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"type":
+					{
+						"tags":
+						[
+							{
+								"id": "minecraft:is_fall",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player":
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate":
+						{
+							"nbt": "{Health: 0.0f}"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "airdrop:fall_death"
+	}
+}

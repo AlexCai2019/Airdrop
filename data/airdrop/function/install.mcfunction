@@ -28,8 +28,6 @@ scoreboard objectives add air_wand dummy
 scoreboard objectives add air_use_wand used:warped_fungus_on_a_stick
 scoreboard objectives add air_regeneration dummy
 scoreboard objectives add air_hunger dummy
-scoreboard objectives add air_death deathCount
-scoreboard objectives add air_fall custom:fall_one_cm
 scoreboard objectives add air_special_arrow dummy
 scoreboard objectives add air_inventory dummy
 scoreboard objectives add air_uuid dummy
