@@ -208,7 +208,7 @@
 									"ShowArms": true,
 									"ArmorItems":
 									[
-										{}, {}, {}, {"id":"skeleton_skull"}
+										{}, {}, {}, {"id": "minecraft:skeleton_skull"}
 									],
 									"DisabledSlots": 4144959,
 									"Tags": ["air_detect_invisible"]
@@ -239,15 +239,14 @@
 								},
 								{
 									"text": "(",
-									"color": "#BFBFBF"
-								},
-								{
-									"keybind": "key.use",
-									"color": "#BFBFBF"
-								},
-								{
-									"text": ")",
-									"color": "#BFBFBF"
+									"color": "#BFBFBF",
+									"extra":
+									[
+										{
+											"keybind": "key.use"
+										},
+										")"
+									]
 								}
 							]
 						}

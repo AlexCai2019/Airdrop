@@ -19,7 +19,7 @@
 								{
 									"components":
 									{
-										"custom_data": "{special_arrow: \"mermaid\"}"
+										"custom_data": "{special_arrow: \"item_damage\"}"
 									}
 								}
 							}
@@ -31,6 +31,6 @@
 	},
 	"rewards":
 	{
-		"function": "airdrop:game/special_arrows/mermaid_arrow"
+		"function": "airdrop:game/special_arrows/item_damage_arrow"
 	}
 }

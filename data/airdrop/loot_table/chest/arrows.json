@@ -98,21 +98,66 @@
 							]
 						},
 						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{special_arrow: \"mermaid\"}"
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
 								"minecraft:potion_contents":
 								{
-									"custom_effects":
-									[
-										{
-											"id": "minecraft:unluck",
-											"amplifier": 1,
-											"duration": 20,
-											"show_icon": false,
-											"show_particles": false
-										}
-									]
+									"custom_color": 8782028
+								},
+								"minecraft:hide_additional_tooltip": {}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tipped_arrow",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "損壞之箭",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								{
+									"text": "被射中的人，盔甲、主手、副手",
+									"color": "#625B57",
+									"italic": false
+								},
+								{
+									"text": "隨機一項耐久度減少20%",
+									"color": "#625B57",
+									"italic": false
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{special_arrow: \"item_damage\"}"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:potion_contents":
+								{
+									"custom_color": 8421504
 								},
 								"minecraft:hide_additional_tooltip": {}
 							}
