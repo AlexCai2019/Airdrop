@@ -9,5 +9,5 @@ execute if score @s air_set matches 6 if score timeair timesmallu matches 21.. r
 
 execute if score @s air_set matches 5..6 run tellraw @a ["§8<書本調整-§b空投§8> §7§l冷卻時間已調整為",{"score":{"name":"timeair","objective":"timesmallu"},"color":"red","bold":true},"§c§l分鐘"]
 
-scoreboard players set airdrop_count air_time 0
-scoreboard players reset airdrop_match air_time
+scoreboard players set #airdrop air_tick 0
+scoreboard players set #airdrop air_time 0

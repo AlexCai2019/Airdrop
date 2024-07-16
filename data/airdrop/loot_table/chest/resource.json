@@ -127,6 +127,23 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:wind_charge",
+					"weight": 8,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:armor_stand",
 					"weight": 5,
 					"functions":

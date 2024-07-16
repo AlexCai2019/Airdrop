@@ -1,7 +1,6 @@
 #定時給予空投
-scoreboard players add airdrop_count air_time 1
-execute if score airdrop_count air_time matches 1200 run function airdrop:game/add
-execute if score airdrop_match air_time = timeair timesmallu run function airdrop:game/get
+scoreboard players add #airdrop air_tick 1
+execute if score #airdrop air_tick matches 1200 run function airdrop:game/drop/add
 
 #空投雞落地
 execute as @e[type=chicken, tag=ch, nbt={OnGround: true}] at @s run function airdrop:game/drop/root

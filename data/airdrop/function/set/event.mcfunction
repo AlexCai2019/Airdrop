@@ -9,5 +9,5 @@ execute if score @s air_set matches 3 if score timeis timesmallu matches 11.. ru
 
 execute if score @s air_set matches 2..3 run tellraw @a ["§8<書本調整-§c事件§8> §7§l冷卻時間已調整為",{"score":{"name":"timeis","objective":"timesmallu"},"color":"red","bold":true},"§c§l分鐘"]
 
-scoreboard players set event_count air_time 0
-scoreboard players reset event_match air_time
+scoreboard players set #event air_tick 0
+scoreboard players set #event air_time 0
