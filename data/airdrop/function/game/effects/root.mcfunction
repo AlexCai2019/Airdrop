@@ -3,4 +3,5 @@ execute if block ~ ~-1 ~ packed_ice run return run function airdrop:game/effects
 execute if block ~ ~-1 ~ end_stone run return run function airdrop:game/effects/end_stone/on
 
 #如果腳下不是特殊方塊
-execute unless score @s air_wand matches 0 run scoreboard players set @s air_wand 0
+scoreboard players set @s[scores={air_wand=1..}] air_wand 0
+scoreboard players set @s[scores={air_regeneration=..58}] air_regeneration 59

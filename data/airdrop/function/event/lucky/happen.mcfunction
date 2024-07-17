@@ -1,0 +1,1 @@
+execute as @r run function airdrop:event/lucky/lava

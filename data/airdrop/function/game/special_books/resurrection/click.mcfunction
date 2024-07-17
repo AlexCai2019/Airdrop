@@ -13,6 +13,7 @@ tellraw @a ["<", {"text": "轉生之術", "color": "aqua"}, "> ", {"selector": "
 execute at @s as @r[tag=air_resurrection_candidate] run function airdrop:game/special_books/resurrection/target
 execute as @a at @s run playsound entity.wither.spawn master @s ~ ~ ~
 tag @a[tag=air_resurrection_candidate] remove air_resurrection_candidate
+
 #所有書清除
 clear @s written_book[custom_data~{resurrection: true}]
 gamerule showDeathMessages false
