@@ -1,4 +1,4 @@
-advancement revoke @s only airdrop:command/special_arrows/mermaid_arrow
+advancement revoke @s only airdrop:command/special_arrows/mermaid
 
 execute store result score #mermaid air_chance run random value 0..8
 execute if score #mermaid air_chance matches 0 run return run tellraw @a ["[人魚之箭] <", {"selector": "@s"}, "> Let it go\n[人魚之箭] <", {"selector": "@s"}, "> Let it go\n[人魚之箭] <", {"selector": "@s"}, "> Can't hold it back anymore"]

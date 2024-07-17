@@ -24,7 +24,7 @@
 							{
 								"components":
 								{
-									"enchantments":
+									"minwcraft:enchantments":
 									{
 										"levels":
 										{
@@ -40,7 +40,7 @@
 							{
 								"components":
 								{
-									"custom_data": "{red_axe: true}"
+									"minecraft:custom_data": "{red_axe: true}"
 								}
 							}
 						}

@@ -1,2 +1,0 @@
-$data modify storage airdrop:data root.item_damage_arrow.slot set from storage airdrop:data root.item_damage_arrow.slots[$(index)]
-$data modify storage airdrop:data root.item_damage_arrow.equipment set from storage airdrop:data root.item_damage_arrow.equipments[$(index)]

@@ -1,7 +1,7 @@
 {
 	"criteria":
 	{
-		"mermaid_arrow":
+		"mermaid":
 		{
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions":
@@ -19,7 +19,7 @@
 								{
 									"components":
 									{
-										"custom_data": "{special_arrow: \"item_damage\"}"
+										"custom_data": "{special_arrow: \"mermaid\"}"
 									}
 								}
 							}
@@ -31,6 +31,6 @@
 	},
 	"rewards":
 	{
-		"function": "airdrop:game/special_arrows/item_damage_arrow"
+		"function": "airdrop:game/special_arrows/mermaid"
 	}
 }
