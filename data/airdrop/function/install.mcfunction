@@ -2,8 +2,8 @@ gamerule commandBlockOutput false
 gamerule logAdminCommands false
 gamerule sendCommandFeedback false
 
-execute unless entity @e[type=marker, tag=no] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["no", "air_set"], CustomName: '"§c§l關閉"'}
-execute unless entity @e[type=marker, tag=yes] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["yes", "air_set"], CustomName: '"§a§l開啟"'}
+execute unless entity @e[type=marker, tag=no] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["no", "air_set"], CustomName: '{"text": "關閉", "color": "red", "bold": true}'}
+execute unless entity @e[type=marker, tag=yes] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["yes", "air_set"], CustomName: '{"text": "開啟", "color": "green", "bold": true}'}
 execute unless entity @e[type=armor_stand,tag=air_singer,limit=1] align xz run summon armor_stand ~.5 -64.0 ~-.5 {Invisible:true,Invulnerable:true,Marker:true,NoBasePlate:true,NoGravity:true,Silent:true,DisabledSlots:4144959,Tags:["air_singer"]}
 execute unless entity @e[type=marker, tag=air_zero] run forceload add 0 0
 execute unless entity @e[type=marker, tag=air_zero] run summon marker .0 .0 .0 {Tags:["air_zero"]}
@@ -51,6 +51,6 @@ bossbar set airdrop:event max 1200
 bossbar set airdrop:event color yellow
 bossbar set airdrop:event players @a
 bossbar set airdrop:event visible false
-tellraw @a ["點擊 ",{"text":"§e此處","clickEvent":{"action":"run_command","value":"/function airdrop:book"}}," §r獲得一本空投控制書"]
+tellraw @a ["點擊 ", {"text": "此處", "color": "yellow", "clickEvent": {"action": "run_command", "value": "/function airdrop:book"}}, " 獲得一本空投控制書"]
 tellraw @a "或是使用指令/function airdrop:book"
 forceload add ~ ~

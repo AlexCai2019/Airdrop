@@ -1,4 +1,4 @@
-title @a title "§6§l火熱的東西"
-title @a subtitle "§f§l隨機一名幸運玩家§6§l3秒後頭上出現岩漿"
-tellraw @a "§c<隨機事件> §6§l火熱的東西 §f§l隨機一名幸運玩家§6§l3秒後頭上出現岩漿"
+title @a title ""
+title @a subtitle {"text": "火熱的東西", "color": "gold", "bold": true}
+tellraw @a ["<", {"text": "隨機事件", "color": "red"}, "> ", {"text": "火熱的東西", "color": "gold", "bold": true}, " 隨機一名幸運玩家", {"text": "頭上出現", "color": "gold", "bold": true}, {"text": "岩漿", "color": "#CD4208", "bold": true}]
 schedule function airdrop:event/lucky/happen 3s
