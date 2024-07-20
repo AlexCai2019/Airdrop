@@ -1,2 +1,2 @@
 scoreboard players reset mob_heal air_effect
-tellraw @a "§c<隨機事件> §f§l打怪不再會回血了"
+tellraw @a ["<", {"text": "隨機事件", "color": "red"}, "> ", {"text": "打怪不再會回血了", "bold": true}]
