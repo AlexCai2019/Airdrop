@@ -218,7 +218,6 @@
 									"id": "minecraft:warden",
 									"attributes": [{"id": "generic.max_health", "base": 20.0}],
 									"Health": 20.0,
-									"CustomNameVisible": true,
 									"Tags": ["air_play"]
 								}
 							}

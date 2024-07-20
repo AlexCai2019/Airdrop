@@ -1,2 +1,0 @@
-tellraw @a ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"selector": "@s", "bold": true}, {"text": " 召喚了 ", "color": "gray"}, {"text": "務農空投", "color": "#CBB630", "bold": true}]
-advancement grant @s[advancements={airdrop:airdrop/farmer=false}] only airdrop:airdrop/farmer

@@ -1,2 +1,0 @@
-tellraw @a ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"selector": "@s", "bold": true}, {"text": " 召喚了 ", "color": "gray"}, {"text": "箭矢空投", "color": "#D8D8D8", "bold": true}]
-advancement grant @s[advancements={airdrop:airdrop/arrows=false}] only airdrop:airdrop/arrows

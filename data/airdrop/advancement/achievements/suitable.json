@@ -1,0 +1,38 @@
+{
+	"parent": "airdrop:achievements/tnt_minecart",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:player_head",
+			"components": 
+			{
+				"minecraft:profile":
+				{
+					"name": "MHF_Villager",
+					"id": [-1119344839, 1987855836, -1577532612, 1079183698],
+					"properties":
+					[
+						{
+							"name": "textures",
+							"value": "ewogICJ0aW1lc3RhbXAiIDogMTcyMTUwMDk0MjMzMiwKICAicHJvZmlsZUlkIiA6ICJiZDQ4MjczOTc2N2M0NWRjYTFmOGMzM2M0MDUzMDk1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfVmlsbGFnZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRiZDgzMjgxM2FjMzhlNjg2NDg5MzhkN2EzMmY2YmEyOTgwMWFhZjMxNzQwNDM2N2YyMTRiNzhiNGQ0NzU0YyIKICAgIH0KICB9Cn0="
+						}
+					]
+				}
+			}
+		},
+		"title": "這件商品很適合您",
+		"description": "這這這件商品很適合您",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"suitable":
+		{
+			"trigger": "minecraft:villager_trade"
+		}
+	}
+}

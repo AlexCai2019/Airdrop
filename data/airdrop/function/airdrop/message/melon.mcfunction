@@ -1,3 +1,2 @@
-tellraw @a ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"selector": "@s", "bold": true}, {"text": " 召喚了 ", "color": "gray"}, {"text": "西瓜空投", "color": "#34791E", "bold": true}]
-advancement grant @s[advancements={airdrop:airdrop/melon=false}] only airdrop:airdrop/melon
-execute at @s if biome ~ ~ ~ #is_beach run advancement grant @s[advancements={airdrop:achievements/melon_bikini=false}] only airdrop:achievements/melon_bikini
+tellraw @s ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"text": "召喚了 ", "color": "gray"}, {"text": "西瓜空投", "color": "#34791E", "bold": true}]
+execute at @s[advancements={airdrop:achievements/melon_bikini=false}] if biome ~ ~ ~ #is_beach run advancement grant @s only airdrop:achievements/melon_bikini

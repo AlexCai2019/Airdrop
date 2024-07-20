@@ -1,13 +1,13 @@
 {
-	"parent": "airdrop:airdrop/melon",
+	"parent": "airdrop:root",
 	"display":
 	{
 		"icon":
 		{
-			"id": "minecraft:packed_ice"
+			"id": "minecraft:tnt_minecart"
 		},
-		"title": "多麼美麗的風景，多麼好的環境",
-		"description": "召喚冰磚空投",
+		"title": "一發炸三人的究極攻擊魔法",
+		"description": "管家，把對面炸了",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -15,7 +15,7 @@
 	},
 	"criteria":
 	{
-		"packed_ice":
+		"tnt_minecart":
 		{
 			"trigger": "minecraft:impossible"
 		}
