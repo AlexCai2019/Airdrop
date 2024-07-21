@@ -31,7 +31,6 @@ scoreboard objectives add air_special_arrow dummy
 scoreboard objectives add air_inventory dummy
 scoreboard objectives add air_uuid dummy
 scoreboard objectives add air_team_code dummy
-scoreboard objectives add air_start_team dummy
 scoreboard objectives add air_special_book trigger
 scoreboard players set @e[type=marker, tag=yes] air_start 0
 scoreboard players set @e[type=marker, tag=no] air_start 1

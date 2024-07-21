@@ -1,5 +1,5 @@
 {
-	"parent": "airdrop:achievements/no_recognize",
+	"parent": "airdrop:achievements/fall",
 	"display":
 	{
 		"icon":
@@ -8,7 +8,7 @@
 		},
 		"title": "RC房號27476019",
 		"description": "現在是DC了",
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

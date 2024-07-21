@@ -1,5 +1,5 @@
 {
-	"parent": "airdrop:achievements/drill",
+	"parent": "airdrop:achievements/suitable",
 	"display":
 	{
 		"icon":
@@ -12,7 +12,7 @@
 		},
 		"title": "不穿褲子的才是真勇者",
 		"description": "為了當勇者才不穿褲子，雖然到頭來都會被警察抓去，不過我還是不會穿褲子的",
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

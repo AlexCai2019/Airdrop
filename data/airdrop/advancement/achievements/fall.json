@@ -8,7 +8,7 @@
 		},
 		"title": "喔不我要摔死了白痴噢",
 		"description": "你要告訴我這是一個陷阱啊",
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

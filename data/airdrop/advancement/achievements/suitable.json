@@ -1,5 +1,5 @@
 {
-	"parent": "airdrop:achievements/tnt_minecart",
+	"parent": "airdrop:achievements/drill",
 	"display":
 	{
 		"icon":
@@ -21,8 +21,8 @@
 				}
 			}
 		},
-		"title": "這件商品很適合您",
-		"description": "這這這件商品很適合您",
+		"title": "這這這這件商品很適合您",
+		"description": "我一定會被星期天告",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

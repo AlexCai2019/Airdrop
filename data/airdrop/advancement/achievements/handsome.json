@@ -1,21 +1,21 @@
 {
-	"parent": "airdrop:achievements/on_melon",
+	"parent": "airdrop:achievements/64_buttons",
 	"display":
 	{
 		"icon":
 		{
-			"id": "minecraft:melon_slice"
+			"id": "minecraft:melon"
 		},
-		"title": "我有長得像西瓜嗎？",
-		"description": "你才西瓜你全家都西瓜！",
-		"frame": "goal",
+		"title": "你有看過長得這麼帥的西瓜嗎？",
+		"description": "你有看過西瓜戴眼鏡嗎？西瓜還會長痘痘欸",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria":
 	{
-		"melon":
+		"handsome":
 		{
 			"trigger": "minecraft:inventory_changed",
 			"conditions":

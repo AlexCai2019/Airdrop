@@ -8,7 +8,7 @@
 		},
 		"title": "蠢死的方法",
 		"description": "好多蠢死的方法",
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

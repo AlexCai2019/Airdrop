@@ -16,7 +16,7 @@
 		},
 		"title": "我是好人可是我不能說",
 		"description": "我不能說我的職業可是我真的是好人",
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

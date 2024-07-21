@@ -1,13 +1,13 @@
 {
-	"parent": "airdrop:achievements/beautiful",
+	"parent": "airdrop:achievements/handsome",
 	"display":
 	{
 		"icon":
 		{
-			"id": "minecraft:blue_ice"
+			"id": "minecraft:melon_slice"
 		},
-		"title": "為什麼，為什麼我要變成這樣",
-		"description": "(摀臉)",
+		"title": "人家西瓜是長在田裡，不會出來開實況",
+		"description": "不會出來玩創世神，也不會像現在這樣跟你們講話",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -15,7 +15,7 @@
 	},
 	"criteria":
 	{
-		"no_recognize":
+		"melon_stream":
 		{
 			"trigger": "minecraft:placed_block",
 			"conditions":
@@ -30,12 +30,8 @@
 							{
 								"blocks":
 								[
-									"minecraft:snow",
-									"minecraft:snow_block",
-									"minecraft:powder_snow",
-									"minecraft:ice",
-									"minecraft:packed_ice",
-									"minecraft:blue_ice"
+									"minecraft:melon",
+									"minecraft:melon_stem"
 								]
 							}
 						}

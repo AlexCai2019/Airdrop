@@ -179,13 +179,6 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:set_enchantments",
-							"enchantments":
-							{
-								"power": 5
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"mode": "append",
@@ -203,7 +196,7 @@
 									}
 								],
 								{
-									"text": "只有10❤(20血量)",
+									"text": "只有20❤(40血量)",
 									"color": "gray",
 									"italic": false
 								}
@@ -216,10 +209,17 @@
 								"minecraft:entity_data":
 								{
 									"id": "minecraft:warden",
-									"attributes": [{"id": "generic.max_health", "base": 20.0}],
-									"Health": 20.0,
+									"attributes":
+									[
+										{
+											"id": "generic.max_health",
+											"base": 40.0
+										}
+									],
+									"Health": 40.0,
 									"Tags": ["air_play"]
-								}
+								},
+								"minecraft:enchantment_glint_override": true
 							}
 						}
 					]

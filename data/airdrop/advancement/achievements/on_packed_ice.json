@@ -6,9 +6,9 @@
 		{
 			"id": "minecraft:packed_ice"
 		},
-		"title": "為什麼，為什麼我要變成這樣",
-		"description": "(摀臉)",
-		"frame": "goal",
+		"title": "不要拍我這種東西，事後一概不認帳",
+		"description": "這是霸凌！",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

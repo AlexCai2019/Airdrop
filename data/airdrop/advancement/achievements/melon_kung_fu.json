@@ -1,14 +1,14 @@
 {
-	"parent": "airdrop:achievements/melon",
+	"parent": "airdrop:achievements/on_melon",
 	"display":
 	{
 		"icon":
 		{
 			"id": "minecraft:glistering_melon_slice"
 		},
-		"title": "西瓜蓋世神功",
-		"description": "天下武功出西瓜",
-		"frame": "goal",
+		"title": "天下武功出西瓜",
+		"description": "西瓜蓋世神功",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

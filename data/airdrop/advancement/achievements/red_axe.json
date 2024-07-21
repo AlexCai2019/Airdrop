@@ -12,7 +12,7 @@
 		},
 		"title": "那是他的聖誕帽帽！聖誕帽！聖誕帽！",
 		"description": "不是紅色的斧頭嗎？",
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

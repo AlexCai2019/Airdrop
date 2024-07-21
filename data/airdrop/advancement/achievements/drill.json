@@ -8,7 +8,7 @@
 		},
 		"title": "滑鼠狂點研究會",
 		"description": "破壞神的鑽頭",
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

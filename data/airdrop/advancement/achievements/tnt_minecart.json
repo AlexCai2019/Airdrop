@@ -1,5 +1,5 @@
 {
-	"parent": "airdrop:root",
+	"parent": "airdrop:achievements/root",
 	"display":
 	{
 		"icon":

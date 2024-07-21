@@ -1,5 +1,5 @@
 {
-	"parent": "airdrop:achievements/chocolate_rc",
+	"parent": "airdrop:achievements/on_packed_ice",
 	"display":
 	{
 		"icon":
@@ -8,14 +8,14 @@
 		},
 		"title": "我不要再當雷王了！",
 		"description": "我不要再當第三次了！",
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria":
 	{
-		"stuck_at_crafting_table":
+		"suffocate":
 		{
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions":

@@ -8,7 +8,7 @@
 		},
 		"title": "有人需要按鈕嗎？(燦)",
 		"description": "你做了一堆按鈕是不是",
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

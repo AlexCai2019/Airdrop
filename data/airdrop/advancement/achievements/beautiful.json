@@ -1,21 +1,21 @@
 {
-	"parent": "airdrop:achievements/on_packed_ice",
+	"parent": "airdrop:achievements/let_it_go",
 	"display":
 	{
 		"icon":
 		{
-			"id": "minecraft:blue_ice"
+			"id": "minecraft:ice"
 		},
-		"title": "不要拍我這種東西，事後一概不認帳",
-		"description": "這是霸凌！",
-		"frame": "goal",
+		"title": "多麼美麗的風景，多麼好的環境",
+		"description": "(拍窗)",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria":
 	{
-		"no_recognize":
+		"beautiful":
 		{
 			"trigger": "minecraft:inventory_changed",
 			"conditions":
