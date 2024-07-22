@@ -17,7 +17,6 @@ scoreboard objectives add timesmallu dummy
 scoreboard objectives add air_start dummy
 scoreboard objectives add air_drop dummy
 scoreboard objectives add air_event dummy
-scoreboard objectives add air_set dummy
 scoreboard objectives add air_tick dummy
 scoreboard objectives add air_time dummy
 scoreboard objectives add air_chance dummy
@@ -27,7 +26,6 @@ scoreboard objectives add air_wand dummy
 scoreboard objectives add air_use_wand used:warped_fungus_on_a_stick
 scoreboard objectives add air_regeneration dummy
 scoreboard objectives add air_hunger dummy
-scoreboard objectives add air_special_arrow dummy
 scoreboard objectives add air_inventory dummy
 scoreboard objectives add air_uuid dummy
 scoreboard objectives add air_team_code dummy
@@ -42,9 +40,9 @@ scoreboard players set 10 air_number 10
 scoreboard players set 20 air_number 20
 scoreboard players set bossbar_time air_effect -1
 
-scoreboard players set custom air_drop 1
-scoreboard players set timeair timesmallu 3
-scoreboard players set timeis timesmallu 3
+scoreboard players set #custom air_drop 1
+scoreboard players set timeair timesmallu 2
+scoreboard players set timeis timesmallu 2
 bossbar add airdrop:event ""
 bossbar set airdrop:event max 1200
 bossbar set airdrop:event color yellow

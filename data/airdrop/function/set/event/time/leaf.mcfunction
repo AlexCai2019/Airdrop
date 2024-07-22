@@ -1,0 +1,2 @@
+tellraw @a ["<", {"text": "書本調整-", "color": "dark_gray"}, {"text": "事件", "color": "red"}, "> ", {"text": "冷卻時間已調整為", "color": "gray"}, {"score": {"name": "timeis", "objective": "timesmallu"}, "color": "red", "bold": true, "extra": ["分鐘"]}]
+function airdrop:set/event/leaf

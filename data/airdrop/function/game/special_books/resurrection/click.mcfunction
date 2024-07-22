@@ -1,5 +1,5 @@
 #檢查身上有這本書
-execute unless items entity @s contents written_book[custom_data~{resurrection: true}] run return run tellraw @s ["<", {"text": "轉生之術", "color": "aqua"}, "> 轉生之術失敗…身上沒有書本。"]
+execute unless items entity @s container.* written_book[custom_data~{resurrection: true}] run return run tellraw @s ["<", {"text": "轉生之術", "color": "aqua"}, "> 轉生之術失敗…身上沒有書本。"]
 
 execute as @a run function airdrop:game/team_code
 scoreboard players operation #sacrifice air_team_code = @s air_team_code

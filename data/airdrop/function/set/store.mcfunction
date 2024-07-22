@@ -1,8 +1,0 @@
-execute if score custom air_drop matches 1 run data modify storage airdrop:data root.custom.items_1 set from block ~ ~ ~ Items
-execute if score custom air_drop matches 1 run tellraw @a ["<", {"text": "書本調整-", "color": "dark_gray"}, {"text": "空投", "color": "aqua"}, "> ", {"text": "已儲存自訂空投", "color": "gray"}, {"text": "1號", "color": "red", "bold": true}]
-execute if score custom air_drop matches 2 run data modify storage airdrop:data root.custom.items_2 set from block ~ ~ ~ Items
-execute if score custom air_drop matches 2 run tellraw @a ["<", {"text": "書本調整-", "color": "dark_gray"}, {"text": "空投", "color": "aqua"}, "> ", {"text": "已儲存自訂空投", "color": "gray"}, {"text": "2號", "color": "red", "bold": true}]
-execute if score custom air_drop matches 3 run data modify storage airdrop:data root.custom.items_3 set from block ~ ~ ~ Items
-execute if score custom air_drop matches 3 run tellraw @a ["<", {"text": "書本調整-", "color": "dark_gray"}, {"text": "空投", "color": "aqua"}, "> ", {"text": "已儲存自訂空投", "color": "gray"}, {"text": "3號", "color": "red", "bold": true}]
-execute if score custom air_drop matches 4 run data modify storage airdrop:data root.custom.items_4 set from block ~ ~ ~ Items
-execute if score custom air_drop matches 4 run tellraw @a ["<", {"text": "書本調整-", "color": "dark_gray"}, {"text": "空投", "color": "aqua"}, "> ", {"text": "已儲存自訂空投", "color": "gray"}, {"text": "4號", "color": "red", "bold": true}]
