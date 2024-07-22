@@ -1,1 +1,1 @@
-effect give @a[gamemode=!spectator] jump_boost 2 7 true
+effect give @a[gamemode=!spectator] jump_boost 1 7 true

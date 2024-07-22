@@ -168,6 +168,38 @@
 							}
 						},
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								[
+									{
+										"text": "此刀可以將",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"translate": "block.minecraft.melon",
+										"color": "#34791E"
+									},
+									"完整的挖下來"
+								],
+								[
+									{
+										"text": "代價是",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "30%",
+										"color": "gold"
+									},
+									"的耐久度"
+								]
+							]
+						},
+						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{melon_knife: true}"
 						}
@@ -201,20 +233,30 @@
 										"italic": false
 									},
 									{
-										"text": " 將燃燒瓶丟出",
+										"text": " 丟出燃燒瓶",
 										"color": "#FF0000"
 									}
 								]
 							]
 						},
 						{
-							"function": "set_components",
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"type": "minecraft:uniform",
+								"max": 2,
+								"min": 1
+							}
+						},
+						{
+							"function": "minecraft:set_components",
 							"components":
 							{
 								"minecraft:potion_contents":
 								{
 									"custom_color": 4144959
 								},
+								"minecraft:max_stack_size": 64,
 								"minecraft:hide_additional_tooltip": {}
 							}
 						},

@@ -14,6 +14,25 @@
 						{
 							"type": "minecraft:item",
 							"name": "minecraft:melon",
+							"functions":
+							[
+								{
+									"function": "minecraft:copy_custom_data",
+									"ops":
+									[
+										{
+											"op": "replace",
+											"source": "UUID",
+											"target": "owner_uuid"
+										}
+									],
+									"source": "this"
+								},
+								{
+									"function": "minecraft:set_custom_data",
+									"tag": "{from_melon_knife: true}"
+								}
+							],
 							"conditions":
 							[
 								{
