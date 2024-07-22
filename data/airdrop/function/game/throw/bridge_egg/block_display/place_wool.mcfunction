@@ -1,0 +1,2 @@
+$setblock ~ ~ ~ $(Name) keep
+kill

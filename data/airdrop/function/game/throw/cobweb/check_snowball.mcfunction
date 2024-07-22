@@ -1,4 +1,4 @@
-#不是蜘蛛網就算了
+#不是發射蜘蛛網就算了
 #不能用execute if items
 execute unless data entity @s Item.components."minecraft:custom_data".throw_cobweb run return fail
 
