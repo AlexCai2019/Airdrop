@@ -209,6 +209,22 @@
 								"minecraft:entity_data":
 								{
 									"id": "minecraft:warden",
+									"Brain":
+									{
+										"memories":
+										{
+											"is_emerging":
+											{
+												"value": {},
+												"ttl": 134
+											},
+											"dig_cooldown":
+											{
+												"value": {},
+												"ttl": 1200
+											}
+										}
+									},
 									"attributes":
 									[
 										{
@@ -217,7 +233,7 @@
 										}
 									],
 									"Health": 40.0,
-									"Tags": ["air_play"]
+									"Tags": ["air_play", "air_warden"]
 								},
 								"minecraft:enchantment_glint_override": true
 							}

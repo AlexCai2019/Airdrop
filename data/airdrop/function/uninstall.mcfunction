@@ -19,6 +19,7 @@ scoreboard objectives remove air_inventory
 scoreboard objectives remove air_uuid
 scoreboard objectives remove air_team_code
 scoreboard objectives remove air_special_book
+scoreboard objectives remove air_show_number
 team remove air_drill
 team remove chicken
 advancement revoke @a from airdrop:achievements/root

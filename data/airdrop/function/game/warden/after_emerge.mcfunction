@@ -1,3 +1,5 @@
-execute at @s run playsound entity.warden.emerge hostile @a ~ ~ ~
-kill @s[type=marker]
-tag @s[type=warden] remove air_play
+execute if entity @s[type=marker] run return run function airdrop:game/warden/marker
+
+#是warden
+execute summon text_display run function airdrop:game/warden/new_text
+tag @s remove air_play

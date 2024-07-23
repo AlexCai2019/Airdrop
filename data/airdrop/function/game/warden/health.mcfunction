@@ -1,0 +1,2 @@
+execute store result score #warden_health air_show_number run data get entity @s Health
+execute on passengers run data modify entity @s text set value '[{"score": {"name": "#warden_health", "objective": "air_show_number"}}, " 血量"]'
