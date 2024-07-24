@@ -6,6 +6,8 @@ execute if score #airdrop air_tick matches 1200 run function airdrop:game/drop/a
 execute as @e[type=chicken, tag=ch, nbt={OnGround: true}] at @s run function airdrop:game/drop/root
 
 execute as @e[type=tnt_minecart, tag=air_explosion] run function airdrop:game/tnt_time/tick
+
+#神秘商人
 execute as @e[type=wandering_trader, tag=air_trader] run function airdrop:game/trader_time/tick
 
 #雷電空投
