@@ -4,7 +4,6 @@ gamerule sendCommandFeedback false
 
 execute unless entity @e[type=marker, tag=no] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["no", "air_set"], CustomName: '{"text": "關閉", "color": "red", "bold": true}'}
 execute unless entity @e[type=marker, tag=yes] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["yes", "air_set"], CustomName: '{"text": "開啟", "color": "green", "bold": true}'}
-execute unless entity @e[type=armor_stand,tag=air_singer,limit=1] align xz run summon armor_stand ~.5 -64.0 ~-.5 {Invisible:true,Invulnerable:true,Marker:true,NoBasePlate:true,NoGravity:true,Silent:true,DisabledSlots:4144959,Tags:["air_singer"]}
 execute unless entity @e[type=marker, tag=air_zero] run forceload add 0 0
 execute unless entity @e[type=marker, tag=air_zero] run summon marker .0 .0 .0 {Tags:["air_zero"]}
 

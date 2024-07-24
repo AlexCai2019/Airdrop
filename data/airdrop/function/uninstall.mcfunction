@@ -1,6 +1,5 @@
 kill @e[type=marker,tag=air_set]
 kill @e[type=marker,tag=air_zero]
-kill @e[type=armor_stand,tag=air_singer]
 forceload remove 0 0
 scoreboard objectives remove timesmallu
 scoreboard objectives remove air_start
