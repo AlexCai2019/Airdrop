@@ -8,5 +8,5 @@ tag @s add air_bridge_egg
 
 #丟出者的隊伍
 execute on owner run function airdrop:game/throw/bridge_egg/owner
-execute if score #special_egg air_team_code matches 1..8 run return run function airdrop:game/throw/bridge_egg/projectile_color/upper_half
+execute if score #special_egg air_team_code_match matches 1..8 run return run function airdrop:game/throw/bridge_egg/projectile_color/upper_half
 function airdrop:game/throw/bridge_egg/projectile_color/lower_half

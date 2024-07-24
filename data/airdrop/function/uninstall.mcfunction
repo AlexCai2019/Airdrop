@@ -17,7 +17,9 @@ scoreboard objectives remove air_regeneration
 scoreboard objectives remove air_hunger
 scoreboard objectives remove air_inventory
 scoreboard objectives remove air_uuid
+scoreboard objectives remove air_uuid_match
 scoreboard objectives remove air_team_code
+scoreboard objectives remove air_team_code_match
 scoreboard objectives remove air_special_book
 scoreboard objectives remove air_show_number
 team remove air_drill

@@ -1,2 +1,2 @@
 setblock ~ ~ ~ barrel[facing=up]{LootTable: "airdrop:chest/resource"} destroy
-execute as @a if score @s air_uuid = uuid air_uuid run tellraw @s ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"text": "召喚了 ", "color": "gray"}, {"text": "物資空投", "color": "#A76E1F", "bold": true}]
+execute as @a if score @s air_uuid = #chicken air_uuid_match run tellraw @s ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"text": "召喚了 ", "color": "gray"}, {"text": "物資空投", "color": "#A76E1F", "bold": true}]
