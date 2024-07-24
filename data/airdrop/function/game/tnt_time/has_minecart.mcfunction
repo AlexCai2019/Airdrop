@@ -1,0 +1,2 @@
+execute as @e[type=tnt_minecart, tag=air_explosion] if score @s air_uuid = #tnt_text air_uuid_match store result score #minecart_distance air_show_number run return run data get entity @s Pos[1]
+return fail

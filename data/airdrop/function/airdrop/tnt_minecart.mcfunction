@@ -1,6 +1,6 @@
 #召喚TNT礦車
-summon tnt_minecart ~ ~150 ~ {TNTFuse: 400, CustomName: '{"text": "20.00", "color": "#FF0000"}', CustomNameVisible: true, Tags: ["air_explosion"]}
+execute positioned ~ ~150 ~ summon tnt_minecart run function airdrop:airdrop/extra/tnt_minecart/minecart
 #在地面召喚提示
-summon area_effect_cloud ~ ~1.5 ~ {Duration: 400, Particle: {type: "block", block_state: {Name: "air"}}, CustomName: '{"text": "爆裂魔法", "color": "#FF0000"}', CustomNameVisible: true}
+execute positioned ~ ~1.5 ~ summon text_display run function airdrop:airdrop/extra/tnt_minecart/warning
 execute as @a if score @s air_uuid = #chicken air_uuid_match run function airdrop:airdrop/message/tnt_minecart
 tellraw @a "<めぐみん> エクスプロージョン!!!"
