@@ -30,6 +30,7 @@ function airdrop:game/throw/core
 #特殊方塊
 execute as @a[gamemode=!spectator] at @s run function airdrop:game/effects/root
 execute as @e[type=text_display, tag=air_melon_timer] at @s unless block ~ ~-1 ~ melon run kill
+execute as @e[type=marker, tag=air_end_stone_bullet] at @s run function airdrop:game/effects/end_stone/bullet/tick
 
 #魔杖
 execute as @a[scores={air_use_wand=1..}] run function airdrop:game/effects/wand/use

@@ -33,7 +33,20 @@
 										"italic": false
 									},
 									{
-										"text": " 範圍5格內 我方玩家獲得吸收效果",
+										"text": " 範圍5格內 我方玩家獲得",
+										"color": "gray"
+									},
+									{
+										"text": "60秒",
+										"color": "gold"
+									},
+									{
+										"translate": "effect.minecraft.health_boost",
+										"color": "#F87D23",
+										"extra": ["I"]
+									},
+									{
+										"text": "效果",
 										"color": "gray"
 									}
 								],
