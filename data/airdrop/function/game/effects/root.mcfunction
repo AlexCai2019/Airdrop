@@ -5,3 +5,6 @@ execute if block ~ ~-1 ~ end_stone run return run function airdrop:game/effects/
 #如果腳下不是特殊方塊
 scoreboard players set @s[scores={air_wand=1..}] air_wand 0
 scoreboard players set @s[scores={air_regeneration=..58}] air_regeneration 59
+
+#挖西瓜
+execute if score @s air_mine_melon matches 1.. run function airdrop:game/effects/melon/mine/check

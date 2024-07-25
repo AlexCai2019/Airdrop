@@ -23,6 +23,7 @@ scoreboard objectives add air_number dummy
 scoreboard objectives add air_effect dummy
 scoreboard objectives add air_wand dummy
 scoreboard objectives add air_use_wand used:warped_fungus_on_a_stick
+scoreboard objectives add air_mine_melon mined:melon
 scoreboard objectives add air_regeneration dummy
 scoreboard objectives add air_hunger dummy
 scoreboard objectives add air_inventory dummy

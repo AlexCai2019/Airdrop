@@ -1,6 +1,6 @@
 scoreboard players operation #tnt_text air_uuid_match = @s air_uuid_match
-
-execute unless function airdrop:game/tnt_time/has_minecart run kill
+scoreboard players set #minecart_distance air_show_number -10000
+execute as @e[type=tnt_minecart, tag=air_explosion] if score @s air_uuid = #tnt_text air_uuid_match store result score #minecart_distance air_show_number run data get entity @s Pos[1]
 execute store result score @s air_show_number run data get entity @s Pos[1]
 scoreboard players operation #minecart_distance air_show_number -= @s air_show_number
 execute if score #minecart_distance air_show_number matches ..0 run return run kill

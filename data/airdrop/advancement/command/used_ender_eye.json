@@ -8,6 +8,6 @@
 	},
 	"rewards":
 	{
-		"function": "airdrop:game/eye"
+		"function": "airdrop:game/drop/eye"
 	}
 }
