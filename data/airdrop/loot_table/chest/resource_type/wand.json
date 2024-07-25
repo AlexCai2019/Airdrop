@@ -17,6 +17,7 @@
 							"name":
 							{
 								"text": "特殊方塊魔杖",
+								"bold": true,
 								"italic": false
 							}
 						},
@@ -28,7 +29,7 @@
 							[
 								[
 									{
-										"text": "西瓜",
+										"translate": "block.minecraft.melon",
 										"color": "#34791E",
 										"italic": false
 									},
@@ -52,7 +53,7 @@
 								],
 								[
 									{
-										"text": "冰磚",
+										"translate": "block.minecraft.packed_ice",
 										"color": "#7CA5F4",
 										"italic": false
 									},
@@ -63,23 +64,23 @@
 								],
 								[
 									{
-										"text": "終界石",
+										"translate": "block.minecraft.end_stone",
 										"color": "#EEF6B4",
 										"italic": false
 									},
 									{
-										"text": " 半徑5格內 隨機一名玩家受到缺氧傷害",
-										"color": "gray"
+										"text": " 發射缺氧攻擊 (可以穿透",
+										"color": "gray",
+										"extra":
+										[
+											{
+												"translate": "item.minecraft.shield"
+											},
+											")"
+										]
 									}
 								]
 							]
-						},
-						{
-							"function": "minecraft:set_enchantments",
-							"enchantments":
-							{
-								"minecraft:channeling": 10
-							}
 						},
 						{
 							"function": "minecraft:set_damage",
@@ -92,7 +93,15 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{special_block_wand:true}"
+							"tag": "{special_block_wand: true}"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:enchantment_glint_override": true,
+								"minecraft:rarity": "rare"
+							}
 						}
 					]
 				}

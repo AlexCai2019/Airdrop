@@ -1,0 +1,37 @@
+{
+	"criteria":
+	{
+		"hypoxia":
+		{
+			"trigger": "minecraft:entity_killed_player",
+			"conditions":
+			{
+				"entity":
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate":
+						{
+							"type": "minecraft:player"
+						}
+					}
+				],
+				"killing_blow":
+				{
+					"tags":
+					[
+						{
+							"id": "airdrop:suffocate",
+							"expected": true
+						}
+					]
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "airdrop:game/effects/end_stone/hypoxia/victim"
+	}
+}
