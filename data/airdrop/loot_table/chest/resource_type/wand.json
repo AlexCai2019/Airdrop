@@ -57,7 +57,7 @@
 										"italic": false
 									},
 									{
-										"text": " 範圍5格內 我方玩家獲得",
+										"text": " 範圍5格內，我方玩家獲得",
 										"color": "gray"
 									},
 									{
@@ -101,6 +101,17 @@
 											},
 											")"
 										]
+									}
+								],
+								[
+									{
+										"translate": "block.minecraft.magenta_glazed_terracotta",
+										"color": "#DD68DA",
+										"italic": false
+									},
+									{
+										"text": " 白狼王自爆，帶走自己和5格內最近的人",
+										"color": "gray"
 									}
 								]
 							]

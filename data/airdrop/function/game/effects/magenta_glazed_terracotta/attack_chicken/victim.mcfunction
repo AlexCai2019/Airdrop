@@ -10,4 +10,4 @@ execute as @a if score @s air_uuid = #victim_chicken air_uuid_match run tellraw 
 
 #死亡
 effect clear @s resistance
-damage @s 2002.0630 player_attack by @a[advancements={airdrop:command/attack_chicken=true}, limit=1]
+damage @s 1027 player_attack by @a[advancements={airdrop:command/attack_chicken=true}, limit=1]

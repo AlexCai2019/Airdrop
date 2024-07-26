@@ -35,6 +35,7 @@ execute as @e[type=marker, tag=air_end_stone_bullet] at @s run function airdrop:
 #魔杖
 execute as @a[scores={air_use_wand=1..}] run function airdrop:game/effects/wand/use
 
+#隱形追蹤者
 execute as @e[type=armor_stand, tag=air_detect_invisible] at @s anchored eyes run function airdrop:game/detect_invisible/detect
 
 #書

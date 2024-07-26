@@ -20,4 +20,7 @@ execute if score @s air_chance matches 8 run return run function airdrop:airdrop
 execute if score @s air_chance matches 9 run return run function airdrop:airdrop/miner
 
 #雷電
-function airdrop:airdrop/thunder
+execute if score @s air_chance matches 10 run return run function airdrop:airdrop/thunder
+
+#終界
+function airdrop:airdrop/end
