@@ -1,2 +1,2 @@
-effect give @s regeneration 3 1 true
+effect give @s regeneration 1 2 true
 scoreboard players set @s air_regeneration 0

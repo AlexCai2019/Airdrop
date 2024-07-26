@@ -27,6 +27,29 @@
 							"mode": "append",
 							"lore":
 							[
+								{
+									"text": "只能在主手使用",
+									"color": "red",
+									"bold": true
+								},
+								[
+									{
+										"text": "腳下踩著，或是副手拿著",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "特殊方塊",
+										"color": "aqua"
+									},
+									"時，",
+									{
+										"keybind": "key.use",
+										"color": "green"
+									},
+									"可以釋放魔法"
+								],
+								"",
 								[
 									{
 										"translate": "block.minecraft.melon",

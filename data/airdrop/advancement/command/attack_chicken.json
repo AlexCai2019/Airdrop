@@ -1,0 +1,45 @@
+{
+	"criteria":
+	{
+		"attack_chicken":
+		{
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions":
+			{
+				"entity":
+				[
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate":
+						{
+							"type": "minecraft:chicken",
+							"team": "air_chicken"
+						}
+					}
+				],
+				"player":
+				[
+					{
+						"condition":  "minecraft:entity_properties",
+						"entity": "this",
+						"predicate":
+						{
+							"stepping_on":
+							{
+								"block":
+								{
+									"blocks": "minecraft:magenta_glazed_terracotta"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "airdrop:game/effects/magenta_glazed_terracotta/attack_chicken/attack"
+	}
+}

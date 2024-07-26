@@ -9,8 +9,8 @@ execute unless entity @e[type=marker, tag=air_zero] run summon marker .0 .0 .0 {
 
 team add air_drill
 team modify air_drill collisionRule never
-team add chicken "雞"
-team modify chicken color white
+team add air_chicken "空投雞"
+team modify air_chicken color white
 
 scoreboard objectives add timesmallu dummy
 scoreboard objectives add air_start dummy

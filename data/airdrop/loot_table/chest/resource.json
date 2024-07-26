@@ -110,6 +110,11 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:magenta_glazed_terracotta",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:experience_bottle",
 					"weight": 10,
 					"functions":
@@ -181,9 +186,7 @@
 										"text": "15",
 										"color": "gold"
 									},
-									{
-										"text": "格內有隱形玩家時"
-									}
+									"格內有隱形玩家時"
 								],
 								{
 									"text": "盔甲座會自動轉向隱形的玩家(包括己方)",

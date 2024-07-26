@@ -22,6 +22,9 @@ execute if score @s air_chance matches 17 run return run function airdrop:airdro
 #冰磚
 execute if score @s air_chance matches 18 run return run function airdrop:airdrop/packed_ice
 
+#洋紅色釉陶
+execute if score @s air_chance matches 19 run return run function airdrop:airdrop/magenta_glazed_terracotta
+
 #自訂
 execute if score @s air_chance matches 19 run return run function airdrop:airdrop/custom_1
 execute if score @s air_chance matches 20 run return run function airdrop:airdrop/custom_2

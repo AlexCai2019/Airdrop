@@ -3,7 +3,7 @@ scoreboard players add #airdrop air_tick 1
 execute if score #airdrop air_tick matches 1200 run function airdrop:game/drop/add
 
 #空投雞落地
-execute as @e[type=chicken, tag=ch, nbt={OnGround: true}] at @s run function airdrop:game/drop/root
+execute as @e[type=chicken, tag=air_chicken, nbt={OnGround: true}] at @s run function airdrop:game/drop/root
 
 #爆裂魔法
 execute as @e[type=tnt_minecart, tag=air_explosion] run function airdrop:game/tnt_time/tick
