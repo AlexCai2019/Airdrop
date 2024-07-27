@@ -1,5 +1,5 @@
 {
-	"parent": "airdrop:achievements/tnt_minecart",
+	"parent": "airdrop:achievements/root",
 	"display":
 	{
 		"icon":

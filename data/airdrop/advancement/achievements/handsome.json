@@ -1,10 +1,10 @@
 {
-	"parent": "airdrop:achievements/64_buttons",
+	"parent": "airdrop:achievements/melon_kung_fu",
 	"display":
 	{
 		"icon":
 		{
-			"id": "minecraft:melon"
+			"id": "minecraft:melon_seeds"
 		},
 		"title": "你有看過長得這麼帥的西瓜嗎？",
 		"description": "你有看過西瓜戴眼鏡嗎？西瓜還會長痘痘欸",

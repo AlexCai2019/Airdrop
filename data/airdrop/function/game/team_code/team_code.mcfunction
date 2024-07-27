@@ -39,3 +39,4 @@ scoreboard players set @s[team=11] air_team_code 11
 scoreboard players set @s[team=12] air_team_code 12
 scoreboard players set @s[team=8] air_team_code 13
 scoreboard players set @s[team=9] air_team_code 14
+

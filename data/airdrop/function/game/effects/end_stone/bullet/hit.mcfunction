@@ -1,5 +1,5 @@
 #不能傷害同隊的生物
-function airdrop:game/team_code
+function airdrop:game/team_code/set
 execute if score @s air_team_code = #end_stone_bullet air_team_code_match run return fail
 #不能傷害旁觀者
 execute if entity @s[gamemode=spectator] run return fail

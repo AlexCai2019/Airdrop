@@ -1,10 +1,10 @@
 {
-	"parent": "airdrop:achievements/melon_kung_fu",
+	"parent": "airdrop:achievements/64_buttons",
 	"display":
 	{
 		"icon":
 		{
-			"id": "minecraft:melon_seeds"
+			"id": "minecraft:sand"
 		},
 		"title": "西瓜比基尼打沙灘排球",
 		"description": "那我要穿比基尼去打沙灘排球",
