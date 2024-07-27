@@ -1,0 +1,66 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "西瓜刀",
+								"color": "#00FF00",
+								"bold": true,
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								[
+									{
+										"text": "可以將",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"translate": "block.minecraft.melon",
+										"color": "#34791E"
+									},
+									"完整的挖下來"
+								],
+								[
+									{
+										"text": "代價是",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "50點",
+										"color": "gold"
+									},
+									"耐久度"
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{melon_knife: true}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

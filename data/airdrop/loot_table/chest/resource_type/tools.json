@@ -22,61 +22,9 @@
 					"weight": 2
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_axe",
-					"weight": 1,
-					"functions":
-					[
-						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name":
-							{
-								"text": "消防斧",
-								"color": "#FF0000",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"mode": "append",
-							"lore":
-							[
-								[
-									{
-										"text": "可以將",
-										"color": "gray",
-										"italic": false
-									},
-									{
-										"translate": "block.minecraft.packed_ice",
-										"color": "#7CA5F4"
-									},
-									"完整的挖下來"
-								],
-								[
-									{
-										"text": "不需要",
-										"color": "gray",
-										"italic": false
-									},
-									{
-										"translate": "enchantment.minecraft.silk_touch"
-									}
-								]
-							]
-						},
-						{
-							"function": "minecraft:set_custom_model_data",
-							"value": 1205 
-						},
-						{
-							"function": "minecraft:set_custom_data",
-							"tag": "{red_axe: true}"
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/resource_type/red_axe",
+					"weight": 1
 				},
 				{
 					"type": "minecraft:item",

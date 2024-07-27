@@ -469,71 +469,123 @@
 			[
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:leather_helmet"
+					"name": "minecraft:leather_helmet",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:leather_chestplate"
+					"name": "minecraft:leather_chestplate",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:leather_leggings"
+					"name": "minecraft:leather_leggings",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:leather_boots"
+					"name": "minecraft:leather_boots",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:chainmail_helmet"
+					"name": "minecraft:chainmail_helmet",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:chainmail_chestplate"
+					"name": "minecraft:chainmail_chestplate",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:chainmail_leggings"
+					"name": "minecraft:chainmail_leggings",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:chainmail_boots"
+					"name": "minecraft:chainmail_boots",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_helmet"
+					"name": "minecraft:golden_helmet",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_chestplate"
+					"name": "minecraft:golden_chestplate",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_leggings"
+					"name": "minecraft:golden_leggings",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_boots"
+					"name": "minecraft:golden_boots",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_helmet"
+					"name": "minecraft:iron_helmet",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_chestplate"
+					"name": "minecraft:iron_chestplate",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_leggings"
+					"name": "minecraft:iron_leggings",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_boots"
+					"name": "minecraft:iron_boots",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:turtle_helmet"
+					"name": "minecraft:turtle_helmet",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_boots",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:enchant_randomly",
+							"options":
+							[
+								"frost_walker"
+							]
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "專武",
+							"conditions":
+							[
+								{
+									"condition": "minecraft:entity_scores",
+									"entity": "this",
+									"scores":
+									{
+										"air_uuid":
+										{
+											"type": "minecraft:constant",
+											"value": 1100196432
+										}
+									}
+								}
+							]
+						}
+					]
 				}
 			]
 		}
