@@ -1,0 +1,106 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls":
+			{
+				"type": "minecraft:uniform",
+				"min": 16,
+				"max": 27
+			},
+			"entries": 
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arrow",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cobweb",
+					"weight": 7
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/monster_items/egg",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/monster_items/potion",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_charge",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_pearl",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snowball",
+					"weight": 5,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "發射蜘蛛網",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": "{throw_cobweb: true}"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:enchantment_glint_override": true,
+								"minecraft:rarity": "uncommon"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:breeze_rod",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rotten_flesh",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

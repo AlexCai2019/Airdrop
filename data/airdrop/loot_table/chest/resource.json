@@ -95,7 +95,7 @@
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"fireworks":
+								"minecraft:fireworks":
 								{
 									"flight_duration": 1
 								}
@@ -183,10 +183,10 @@
 										"italic": false
 									},
 									{
-										"text": "15",
+										"text": "15格",
 										"color": "gold"
 									},
-									"格內有隱形玩家時"
+									"內有隱形玩家時"
 								],
 								{
 									"text": "盔甲座會自動轉向隱形的玩家(包括己方)",
@@ -233,6 +233,7 @@
 					[
 						{
 							"function": "minecraft:set_name",
+							"entity": "this",
 							"name":
 							[
 								{
@@ -381,7 +382,7 @@
 									"title": "附魔提取書",
 									"pages":
 									[
-										"[\"主手拿著此書，副手拿著要提取附魔的物品\n就可以將附魔轉移到此書上。\n\n\n       \",{\"text\":\"[發動附魔提取]\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger air_special_book set 2\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"點擊直接發動\"}}]"
+										"[\"主手拿著此書，副手拿著要提取附魔的物品\n就可以將附魔轉移到此書上。\n\n\n       \", {\"text\": \"[發動附魔提取]\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/trigger air_special_book set 2\"}, \"hoverEvent\": {\"action\": \"show_text\", \"value\": \"點擊直接發動\"}}]"
 									]
 								},
 								"minecraft:max_stack_size": 1
@@ -545,7 +546,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:iron_boots",
-					"weight": 3
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
@@ -568,22 +569,7 @@
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
-							"name": "專武",
-							"conditions":
-							[
-								{
-									"condition": "minecraft:entity_scores",
-									"entity": "this",
-									"scores":
-									{
-										"air_uuid":
-										{
-											"type": "minecraft:constant",
-											"value": 1100196432
-										}
-									}
-								}
-							]
+							"name": "專武"
 						}
 					]
 				}

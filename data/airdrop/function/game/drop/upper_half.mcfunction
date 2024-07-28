@@ -1,5 +1,5 @@
 #物資
-execute if score @s air_chance matches 0..3 run return run function airdrop:airdrop/resource
+execute if score @s air_chance matches ..3 run return run function airdrop:airdrop/resource
 
 #箭矢
 execute if score @s air_chance matches 4 run return run function airdrop:airdrop/arrows
@@ -11,7 +11,7 @@ execute if score @s air_chance matches 5 run return run function airdrop:airdrop
 execute if score @s air_chance matches 6 run return run function airdrop:airdrop/tnt_minecart
 
 #蜘蛛
-execute if score @s air_chance matches 7 run return run function airdrop:airdrop/spider
+execute if score @s air_chance matches 7 run return run function airdrop:airdrop/monster
 
 #務農
 execute if score @s air_chance matches 8 run return run function airdrop:airdrop/farmer

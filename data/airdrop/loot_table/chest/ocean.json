@@ -29,7 +29,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:sea_lantern",
-					"weight": 10
+					"weight": 8
 				},
 				{
 					"type": "minecraft:item",
@@ -89,6 +89,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:iron_sword",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:guardian_spawn_egg",
 					"weight": 2
 				},
 				{

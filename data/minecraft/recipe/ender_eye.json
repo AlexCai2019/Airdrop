@@ -4,14 +4,18 @@
 	"ingredients":
 	[
 		{
-			"item": "minecraft:bedrock"
+			"item": "minecraft:blaze_powder"
 		},
 		{
-			"item": "minecraft:barrier"
+			"item": "minecraft:ender_pearl"
 		}
 	],
 	"result":
 	{
-		"id": "minecraft:ender_eye"
+		"id": "minecraft:stone",
+		"components":
+		{
+			"minecraft:custom_name": "{\"text\": \"請勿合成空投！\", \"color\": \"red\", \"italic\": false}"
+		}
 	}
 }

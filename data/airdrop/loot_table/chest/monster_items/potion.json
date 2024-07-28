@@ -1,0 +1,108 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:item_name": "{\"translate\": \"item.minecraft.splash_potion.effect.poison\"}",
+								"minecraft:potion_contents":
+								{
+									"custom_effects":
+									[
+										{
+											"id": "minecraft:poison",
+											"duration": 300,
+											"amplifier": 0
+										}
+									],
+									"custom_color": 5215794
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:item_name": "\"飛濺 凋零藥水\"",
+								"minecraft:potion_contents":
+								{
+									"custom_effects":
+									[
+										{
+											"id": "minecraft:wither",
+											"duration": 200,
+											"amplifier": 0
+										}
+									],
+									"custom_color": 3484199
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:wind_charged"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:weaving"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:oozing"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:infested"
+						}
+					]
+				}
+			]
+		}
+	]
+}

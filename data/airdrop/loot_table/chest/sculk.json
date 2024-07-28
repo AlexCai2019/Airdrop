@@ -248,12 +248,7 @@
 			]
 		},
 		{
-			"rolls":
-			{
-				"type": "minecraft:uniform",
-				"max": 1,
-				"min": 0
-			},
+			"rolls": 1,
 			"entries":
 			[
 				{
@@ -285,6 +280,13 @@
 					[
 						"minecraft:swift_sneak"
 					]
+				}
+			],
+			"conditions":
+			[
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.1
 				}
 			]
 		}
