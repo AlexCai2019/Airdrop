@@ -57,7 +57,15 @@
 										"italic": false
 									},
 									{
-										"text": " 範圍5格內，我方玩家獲得",
+										"text": " 範圍",
+										"color": "gray"
+									},
+									{
+										"text": "5格",
+										"color": "gold"
+									},
+									{
+										"text": "內，我方玩家獲得",
 										"color": "gray"
 									},
 									{
@@ -110,7 +118,15 @@
 										"italic": false
 									},
 									{
-										"text": " 白狼王自爆，帶走自己和5格內最近的人",
+										"text": " 白狼王自爆，帶走自己和",
+										"color": "gray"
+									},
+									{
+										"text": "5格",
+										"color": "gold"
+									},
+									{
+										"text": "內最近的敵隊玩家",
 										"color": "gray"
 									}
 								]
