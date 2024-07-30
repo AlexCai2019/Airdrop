@@ -378,12 +378,12 @@
 							{
 								"minecraft:written_book_content":
 								{
-									"author": "Alex Cai",
-									"title": "附魔提取書",
 									"pages":
 									[
-										"[\"主手拿著此書，副手拿著要提取附魔的物品\n就可以將附魔轉移到此書上。\n\n\n       \", {\"text\": \"[發動附魔提取]\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/trigger air_special_book set 2\"}, \"hoverEvent\": {\"action\": \"show_text\", \"value\": \"點擊直接發動\"}}]"
-									]
+										"[\"主手拿著此書，副手拿著要提取附魔的物品\n就可以將附魔轉移到此書上。\n\n\n       \", {\"text\": \"[發動附魔提取]\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/trigger air_special_book set 1\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"點擊直接發動\"}}]"
+									],
+									"title": "附魔提取書",
+									"author": "Alex Cai"
 								},
 								"minecraft:max_stack_size": 1
 							}
@@ -415,7 +415,7 @@
 								{
 									"pages":
 									[
-										"[\"以犧牲自己為代價，隨機復活一名死去的隊友。\n若沒有死亡的隊友則發動失敗。\n發動成功後，此書消失。\n\n\n       \",{\"text\":\"[發動轉生之術]\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger air_special_book set 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"點擊直接發動\"}}]"
+										"[\"以犧牲自己為代價，隨機復活一名死去的隊友。\n若沒有死亡的隊友則發動失敗。\n發動成功後，此書消失。\n\n\n       \", {\"text\": \"[發動轉生之術]\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/trigger air_special_book set 2\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"點擊直接發動\"}}]"
 									],
 									"title": "轉生之術",
 									"author": "Alex Cai"

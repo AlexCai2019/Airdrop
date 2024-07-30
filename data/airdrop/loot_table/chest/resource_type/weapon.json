@@ -171,25 +171,6 @@
 							}
 						},
 						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"mode": "append",
-							"lore":
-							[
-								[
-									{
-										"keybind": "key.use",
-										"color": "#00FF00",
-										"italic": false
-									},
-									{
-										"text": " 丟出燃燒瓶",
-										"color": "#FF0000"
-									}
-								]
-							]
-						},
-						{
 							"function": "minecraft:set_count",
 							"count":
 							{

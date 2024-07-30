@@ -27,6 +27,11 @@
 					"weight": 7
 				},
 				{
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle",
+					"weight": 6
+				},
+				{
 					"type": "minecraft:loot_table",
 					"value": "airdrop:chest/monster_items/egg",
 					"weight": 5
