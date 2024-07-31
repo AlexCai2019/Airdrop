@@ -129,6 +129,21 @@
 										"text": "內最近的敵隊玩家",
 										"color": "gray"
 									}
+								],
+								[
+									{
+										"text": "(",
+										"color": "gray"
+									},
+									{
+										"text": "可以",
+										"color": "green"
+									},
+									"用",
+									{
+										"translate": "item.minecraft.totem_of_undying"
+									},
+									"續命)"
 								]
 							]
 						},

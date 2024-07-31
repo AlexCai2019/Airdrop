@@ -1,3 +1,3 @@
 setblock ~ ~ ~ magenta_glazed_terracotta destroy
 execute if predicate airdrop:chance/10 run loot spawn ~ ~1 ~ loot airdrop:chest/resource_type/wand
-execute as @a if score @s air_uuid = #chicken air_uuid_match run tellraw @s ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"text": "召喚了 ", "color": "gray"},  {"translate": "block.minecraft.magenta_glazed_terracotta", "color": "#DD68DA", "bold": true, "hoverEvent": {"action": "show_text", "contents": "踩在上面：可以打死空投雞\n特殊魔法：白狼王自爆，帶走自己和5格內最近的敵隊玩家"}}]
+execute as @a if score @s air_uuid = #chicken air_uuid_match run tellraw @s ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"text": "召喚了 ", "color": "gray"},  {"translate": "block.minecraft.magenta_glazed_terracotta", "color": "#DD68DA", "bold": true, "hoverEvent": {"action": "show_text", "contents": ["踩在上面：可以打死空投雞\n特殊魔法：白狼王自爆，帶走自己和5格內最近的敵隊玩家\n(", {"text": "可以", "color": "green"}, "用", {"translate": "item.minecraft.totem_of_undying"}, "續命)"]}}]

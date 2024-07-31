@@ -12,7 +12,7 @@ execute if score how_to_play air_time matches 9 run return run tellraw @a ["<", 
 execute if score how_to_play air_time matches 10 run return run tellraw @a ["<", {"text": "遊玩教學", "color": "aqua"}, "> ", {"translate": "block.minecraft.end_stone", "color": "#EEF6B4"}, " 踩在上面：失重效果"]
 execute if score how_to_play air_time matches 11 run return run tellraw @a ["<", {"text": "遊玩教學", "color": "aqua"}, "> 特殊魔法：發射缺氧攻擊 (可以穿透", {"translate": "item.minecraft.shield"}, ")"]
 execute if score how_to_play air_time matches 12 run return run tellraw @a ["<", {"text": "遊玩教學", "color": "aqua"}, "> ", {"translate": "block.minecraft.magenta_glazed_terracotta", "color": "#DD68DA"}, " 踩在上面：可以打死空投雞"]
-execute if score how_to_play air_time matches 13 run return run tellraw @a ["<", {"text": "遊玩教學", "color": "aqua"}, "> 特殊魔法：白狼王自爆，帶走自己和5格內最近的敵隊玩家"]
+execute if score how_to_play air_time matches 13 run return run tellraw @a ["<", {"text": "遊玩教學", "color": "aqua"}, "> 特殊魔法：白狼王自爆，帶走自己和5格內最近的敵隊玩家 (", {"text": "可以", "color": "green"}, "用", {"translate": "item.minecraft.totem_of_undying"}, "續命)"]
 execute if score how_to_play air_time matches 14 run return run tellraw @a ["<", {"text": "遊玩教學", "color": "aqua"}, "> 同時，遊戲中還會定時發生隨機事件，請小心不要被嚇到了。"]
 execute if score how_to_play air_time matches 15 run return run tellraw @a ["<", {"text": "遊玩教學", "color": "aqua"}, "> 遊戲內還有很多彩蛋以及自訂進度，按", {"keybind": "key.advancements"}, "可以檢視。"]
 tellraw @a ["<", {"text": "遊玩教學", "color": "aqua"}, "> 祝大家遊玩愉快。"]

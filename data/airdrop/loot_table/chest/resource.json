@@ -415,7 +415,7 @@
 								{
 									"pages":
 									[
-										"[\"以犧牲自己為代價，隨機復活一名死去的隊友。\n若沒有死亡的隊友則發動失敗。\n發動成功後，此書消失。\n\n\n       \", {\"text\": \"[發動轉生之術]\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/trigger air_special_book set 2\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"點擊直接發動\"}}]"
+										"[\"以犧牲自己為代價，隨機復活一名死去的隊友。\n\", {\"text\": \"不能\", \"color\": \"red\"}, \"用\", {\"translate\": \"item.mindecraft.totem_of_undying\"}, \"續命。\n若沒有死亡的隊友則發動失敗。\n發動成功後，此書消失。\n\n\n       \", {\"text\": \"[發動轉生之術]\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/trigger air_special_book set 2\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"點擊直接發動\"}}]"
 									],
 									"title": "轉生之術",
 									"author": "Alex Cai"
