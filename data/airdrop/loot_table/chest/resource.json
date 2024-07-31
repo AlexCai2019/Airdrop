@@ -373,6 +373,19 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								{
+									"text": "將副手的附魔轉移到此書上",
+									"color": "white",
+									"italic": false
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
@@ -400,6 +413,19 @@
 					"weight": 2,
 					"functions":
 					[
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								{
+									"text": "以生命為代價，復活死去的隊友",
+									"color": "white",
+									"italic": false
+								}
+							]
+						},
 						{
 							"function": "minecraft:set_enchantments",
 							"enchantments":
