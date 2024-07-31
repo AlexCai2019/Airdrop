@@ -32,6 +32,7 @@ scoreboard objectives add air_uuid_match dummy
 scoreboard objectives add air_team_code dummy
 scoreboard objectives add air_team_code_match dummy
 scoreboard objectives add air_special_book trigger
+scoreboard objectives add air_shimon dummy
 scoreboard objectives add air_show_number dummy
 scoreboard players set @e[type=marker, tag=yes] air_start 0
 scoreboard players set @e[type=marker, tag=no] air_start 1
@@ -39,7 +40,6 @@ scoreboard players set @e[type=marker, tag=yes] air_drop 1
 scoreboard players set @e[type=marker, tag=no] air_drop 0
 scoreboard players set @e[type=marker, tag=yes] air_event 1
 scoreboard players set @e[type=marker, tag=no] air_event 0
-scoreboard players set 10 air_number 10
 scoreboard players set 20 air_number 20
 scoreboard players set bossbar_time air_effect -1
 
