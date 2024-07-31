@@ -6,4 +6,4 @@ tag @s add air_check_snowball
 execute if data entity @s Item.components."minecraft:custom_data".throw_cobweb run return run function airdrop:game/throw/cobweb/snowball
 
 #是手榴彈
-execute if data entity @s Item.components."minecraft:custom_data".grenade
+execute if data entity @s Item.components."minecraft:custom_data".grenade run function airdrop:game/throw/grenade/snowball

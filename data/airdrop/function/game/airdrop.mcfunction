@@ -25,9 +25,7 @@ execute as @e[type=blaze, tag=air_drill] run function airdrop:game/drill/core
 kill @e[type=text_display, tag=air_riding_mob, predicate=!airdrop:riding]
 
 #丟東西
-function airdrop:game/throw/cobweb/core
-function airdrop:game/throw/bridge_egg/core
-function airdrop:game/throw/molotov_cocktail/core
+function airdrop:game/throw/core
 
 #特殊方塊
 execute as @a[gamemode=!spectator] at @s run function airdrop:game/effects/root

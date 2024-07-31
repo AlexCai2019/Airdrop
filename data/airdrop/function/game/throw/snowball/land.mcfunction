@@ -1,0 +1,2 @@
+execute if entity @s[tag=air_cobweb_passenger] run return run function airdrop:game/throw/cobweb/place_cobweb
+execute if entity @s[tag=air_grenade_passenger] run function airdrop:game/throw/grenade/summon
