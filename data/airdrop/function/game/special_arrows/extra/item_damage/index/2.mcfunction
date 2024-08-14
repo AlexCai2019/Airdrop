@@ -1,3 +1,4 @@
+#只有兩項 不用/random 直接predicate
 execute if predicate airdrop:chance/50 run return run function airdrop:game/special_arrows/extra/item_damage/index/1
 
 data modify storage airdrop:data root.special_arrows.item_damage.slot set from storage airdrop:data root.special_arrows.item_damage.slots[1]

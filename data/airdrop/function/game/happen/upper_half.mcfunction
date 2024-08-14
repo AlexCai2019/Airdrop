@@ -5,4 +5,4 @@ execute if score #event air_chance matches 3 run return run function airdrop:eve
 execute if score #event air_chance matches 4 run return run function airdrop:event/gold
 execute if score #event air_chance matches 5 run return run function airdrop:event/snap
 execute if score #event air_chance matches 6 run return run function airdrop:event/powered_creeper
-function airdrop:event/gravity_reverse
+function airdrop:event/weather

@@ -18,14 +18,11 @@ scoreboard objectives add air_tick dummy
 scoreboard objectives add air_time dummy
 scoreboard objectives add air_chance dummy
 scoreboard objectives add air_number dummy
-scoreboard objectives add air_effect dummy
 scoreboard objectives add air_wand dummy
 scoreboard objectives add air_use_wand used:warped_fungus_on_a_stick
 scoreboard objectives add air_mine_melon mined:melon
 scoreboard objectives add air_regeneration dummy
 scoreboard objectives add air_hunger dummy
-scoreboard objectives add air_sphere dummy
-scoreboard objectives add air_inventory dummy
 scoreboard objectives add air_uuid dummy
 scoreboard objectives add air_uuid_match dummy
 scoreboard objectives add air_team_code dummy
@@ -40,7 +37,6 @@ scoreboard players set @e[type=marker, tag=no] air_drop 0
 scoreboard players set @e[type=marker, tag=yes] air_event 1
 scoreboard players set @e[type=marker, tag=no] air_event 0
 scoreboard players set 20 air_number 20
-scoreboard players set bossbar_time air_effect -1
 
 scoreboard players set #custom air_drop 1
 scoreboard players set timeair timesmallu 2

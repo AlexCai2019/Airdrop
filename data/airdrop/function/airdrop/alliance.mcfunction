@@ -17,4 +17,4 @@ execute if score @s air_team_code_match matches 15 run summon stray ~ ~ ~ {Armor
 execute if score @s air_team_code_match matches 1..15 run function airdrop:airdrop/extra/no_team_stray/root
 execute unless score @s air_team_code_match matches 1..15 run summon stray ~ ~ ~ {ArmorItems: [{id: "leather_boots"},{id: "leather_leggings"},{id: "leather_chestplate"},{id: "leather_helmet"}], HandItems:[{id: "bow"}, {}], HandDropChances: [0.085F, 0.0F], CanPickUpLoot: true, Tags: ["air_new_alliance"]}
 
-execute as @a if score @s air_uuid = #chicken air_uuid_match run function airdrop:airdrop/message/alliance
+execute as @a[predicate=airdrop:match/chicken_to_player] run function airdrop:airdrop/message/alliance

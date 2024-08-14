@@ -15,20 +15,6 @@
 						{
 							"type": "#airdrop:monster"
 						}
-					},
-					{
-						"condition": "minecraft:value_check",
-						"value":
-						{
-							"type": "minecraft:score",
-							"target":
-							{
-								"type": "minecraft:fixed",
-								"name": "mob_heal"
-							},
-							"score": "air_effect"
-						},
-						"range": 1
 					}
 				]
 			}

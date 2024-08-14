@@ -1,2 +1,2 @@
 execute positioned ~ ~.5 ~ summon text_display run function airdrop:airdrop/extra/thunder_initial
-execute as @a if score @s air_uuid = #chicken air_uuid_match run tellraw @s ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"text": "召喚了 ", "color": "gray"}, {"text": "雷電空投", "color": "#FFFF00", "bold": true}]
+execute as @a[predicate=airdrop:match/chicken_to_player] run tellraw @s ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"text": "召喚了 ", "color": "gray"}, {"text": "雷電空投", "color": "#FFFF00", "bold": true}]

@@ -1,3 +1,3 @@
 function airdrop:event/wood_and_gold/inventory_count
-loot give @s[scores={air_inventory=..35}] loot airdrop:wood
-execute at @s[scores={air_inventory=36}] run loot spawn ~ ~ ~ loot airdrop:wood
+execute if score #inventory_count air_event matches ..35 run return run loot give @s loot airdrop:wood
+execute at @s run loot spawn ~ ~ ~ loot airdrop:wood
