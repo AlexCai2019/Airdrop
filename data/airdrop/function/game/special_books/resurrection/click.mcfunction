@@ -8,12 +8,15 @@ execute unless entity @a[gamemode=spectator, predicate=airdrop:resurrection] run
 
 #成功
 tellraw @a ["<", {"text": "轉生之術", "color": "aqua"}, "> ", {"selector": "@s", "bold": true}, " 使用了", {"text": "轉生之術", "color": "aqua", "bold": true}, "！"]
-#隨機一名隊友復活
-execute at @s as @r[gamemode=spectator, predicate=airdrop:resurrection] run function airdrop:game/special_books/resurrection/target
-execute as @a at @s run playsound entity.wither.spawn master @s ~ ~ ~
+#清除一本書
+clear @s written_book[custom_data~{resurrection: true}] 1
 
-#所有書清除
-clear @s written_book[custom_data~{resurrection: true}]
+#隨機一名隊友復活
+tag @s add air_sacrifice
+execute at @s as @r[gamemode=spectator, predicate=airdrop:resurrection] run function airdrop:game/special_books/resurrection/target
+tag @s remove air_sacrifice
+clear
+execute as @a at @s run playsound entity.wither.spawn master @s ~ ~ ~
 
 gamerule showDeathMessages false
 kill

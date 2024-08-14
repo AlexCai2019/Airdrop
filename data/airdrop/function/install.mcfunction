@@ -4,8 +4,6 @@ gamerule sendCommandFeedback false
 
 execute unless entity @e[type=marker, tag=no] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["no", "air_set"], CustomName: '{"text": "關閉", "color": "red", "bold": true}'}
 execute unless entity @e[type=marker, tag=yes] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["yes", "air_set"], CustomName: '{"text": "開啟", "color": "green", "bold": true}'}
-execute unless entity @e[type=marker, tag=air_zero] run forceload add 0 0
-execute unless entity @e[type=marker, tag=air_zero] run summon marker .0 .0 .0 {Tags:["air_zero"]}
 
 team add air_drill
 team modify air_drill collisionRule never
@@ -26,6 +24,7 @@ scoreboard objectives add air_use_wand used:warped_fungus_on_a_stick
 scoreboard objectives add air_mine_melon mined:melon
 scoreboard objectives add air_regeneration dummy
 scoreboard objectives add air_hunger dummy
+scoreboard objectives add air_sphere dummy
 scoreboard objectives add air_inventory dummy
 scoreboard objectives add air_uuid dummy
 scoreboard objectives add air_uuid_match dummy

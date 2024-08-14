@@ -1,6 +1,4 @@
-kill @e[type=marker,tag=air_set]
-kill @e[type=marker,tag=air_zero]
-forceload remove 0 0
+kill @e[type=marker, tag=air_set]
 scoreboard objectives remove timesmallu
 scoreboard objectives remove air_start
 scoreboard objectives remove air_drop
@@ -15,6 +13,7 @@ scoreboard objectives remove air_use_wand
 scoreboard objectives remove air_mine_melon
 scoreboard objectives remove air_regeneration
 scoreboard objectives remove air_hunger
+scoreboard objectives remove air_sphere
 scoreboard objectives remove air_inventory
 scoreboard objectives remove air_uuid
 scoreboard objectives remove air_uuid_match
