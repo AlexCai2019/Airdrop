@@ -1,2 +1,0 @@
-weather thunder
-tellraw @a ["<", {"text": "隨機事件", "color": "red"}, "> ", {"text": "風雲變色", "color": "gold", "bold": true}, " 天氣發生變化 從 ", {"text": "雨天", "color": "#ADBCE4", "bold": true}, " 變為 ", {"text": "雷雨", "color": "#4362BA", "bold": true}]
