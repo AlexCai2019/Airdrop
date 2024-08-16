@@ -1,2 +1,2 @@
-tellraw @s ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"text": "召喚了 ", "color": "gray"}, {"translate": "block.minecraft.melon", "color": "#34791E", "bold": true, "hoverEvent": {"action": "show_text", "contents": ["踩在上面：回血\n特殊魔法：範圍5格內，我方玩家獲得60秒", {"translate": "effect.minecraft.health_boost"}, "I效果"]}}]
+tellraw @s ["<", {"text": "空投訊息", "color": "aqua"}, "> ", {"text": "召喚了 ", "color": "gray"}, {"translate": "block.minecraft.melon", "color": "#34791E", "bold": true, "hoverEvent": {"action": "show_text", "contents": ["踩在上面：回血\n特殊魔法：5格內，我方60秒", {"translate": "effect.minecraft.health_boost"}, "I"]}}]
 execute at @s[advancements={airdrop:achievements/melon_bikini=false}] if biome ~ ~ ~ #is_beach run advancement grant @s only airdrop:achievements/melon_bikini

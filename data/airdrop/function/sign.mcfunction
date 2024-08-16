@@ -1,11 +1,11 @@
-give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: ['{"text":"", "clickEvent": {"action": "run_command", "value": "/function airdrop:how_to_play"}}', '"遊玩教學"', '""', '""']}}, custom_name='"遊玩教學"']
-give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: ['{"text":"", "clickEvent": {"action": "run_command", "value": "/function airdrop:book"}}', '"獲取書本"', '""', '""']}}, custom_name='"獲取書本"']
+give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: ['{"text": "", "clickEvent": {"action": "run_command", "value": "/function airdrop:how_to_play"}}', '"遊玩教學"', '""', '""']}}, custom_name='"遊玩教學"']
+give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: ['{"text": "", "clickEvent": {"action": "run_command", "value": "/function airdrop:book"}}', '"獲取書本"', '""', '""']}}, custom_name='"獲取書本"']
 give @s player_head[profile="Alex_Cai"]
 give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: ['""', '"AC"', '"Alex_Cai"', '""']}}, custom_name='"AC"']
 give @s player_head[profile="Qige020902"]
 give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: ['""', '"棋哥"', '"Qige020902"', '""']}}, custom_name='"棋哥"']
 give @s melon
-give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: ['{"translate": "block.minecraft.melon", "color": "#34791E", "bold": true}', '"踩在上面：回血"', '"特殊魔法：範圍5格內"', '["我方玩家", {"translate": "effect.minecraft.health_boost"}]']}}, custom_name='{"translate": "block.minecraft.melon"}']
+give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: ['{"translate": "block.minecraft.melon", "color": "#34791E", "bold": true}', '"踩在上面：回血"', '"特殊魔法：5格內"', '["我方", {"translate": "effect.minecraft.health_boost"}]']}}, custom_name='{"translate": "block.minecraft.melon"}']
 give @s player_head[profile="Hageeshow"]
 give @s packed_ice
 give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: ['{"translate": "block.minecraft.packed_ice", "color": "#7CA5F4", "bold": true}', '"踩在上面：加速II"', '"特殊魔法：釋放消暑的"', '"魔法"']}}, custom_name='{"translate": "block.minecraft.packed_ice"}']

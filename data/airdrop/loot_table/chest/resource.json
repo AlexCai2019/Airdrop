@@ -398,7 +398,8 @@
 									"title": "附魔提取書",
 									"author": "Alex Cai"
 								},
-								"minecraft:max_stack_size": 1
+								"minecraft:max_stack_size": 1,
+								"minecraft:hide_additional_tooltip": {}
 							}
 						},
 						{
@@ -438,7 +439,8 @@
 									],
 									"title": "轉生之術",
 									"author": "Alex Cai"
-								}
+								},
+								"minecraft:hide_additional_tooltip": {}
 							}
 						},
 						{

@@ -14,7 +14,7 @@
 			}
 		},
 		"title": "哇、哇、魔法少女來啦",
-		"description": "妳馬麻可能聽他的蕾D勾長大的",
+		"description": "你的腳腳我沒辦法穿",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
@@ -22,7 +22,7 @@
 	},
 	"criteria":
 	{
-		"follow_magic":
+		"mahou_shoujo":
 		{
 			"trigger": "minecraft:inventory_changed",
 			"conditions":

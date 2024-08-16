@@ -1,3 +1,4 @@
+#不用Invulnerable: true 為了讓箭頭方塊可以打
 data merge entity @s {CustomName: '"空投雞"', CustomNameVisible: true, active_effects: [{id: "resistance", duration: -1, amplifier: 10, show_particles: false}, {id: "fire_resistance", duration: -1, show_particles: false}, {id: "water_breathing", duration: -1, show_particles: false}], attributes: [{id: "generic.knockback_resistance", base: 1}, {id: "generic.explosion_knockback_resistance", base: 1}], DeathLootTable: "empty", Team: "air_chicken", Tags: ["air_chicken"]}
 scoreboard players operation @s air_uuid_match = #new_chicken air_uuid_match
 scoreboard players operation @s air_team_code_match = #new_chicken air_team_code_match
