@@ -32,6 +32,6 @@
 	},
 	"rewards":
 	{
-		"function": "airdrop:game/effects/end_stone/hypoxia/victim"
+		"function": "airdrop:game/effects/end_stone/hypoxia"
 	}
 }

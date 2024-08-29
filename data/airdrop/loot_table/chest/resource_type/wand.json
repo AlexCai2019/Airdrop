@@ -57,7 +57,7 @@
 										"italic": false
 									},
 									{
-										"text": "5格",
+										"text": " 5格",
 										"color": "gold"
 									},
 									{
@@ -92,15 +92,8 @@
 										"italic": false
 									},
 									{
-										"text": " 發射缺氧攻擊 (可以穿透",
-										"color": "gray",
-										"extra":
-										[
-											{
-												"translate": "item.minecraft.shield"
-											},
-											")"
-										]
+										"text": " 發射缺氧攻擊",
+										"color": "gray"
 									}
 								],
 								[
@@ -118,7 +111,7 @@
 										"color": "gold"
 									},
 									{
-										"text": "內最近的敵隊玩家",
+										"text": "內最近的敵隊",
 										"color": "gray"
 									}
 								],
