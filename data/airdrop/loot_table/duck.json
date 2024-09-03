@@ -1,0 +1,27 @@
+{
+	"type": "minecraft:entity",
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chicken",
+					"functions":
+					[
+						{
+							"function": "minecraft:furnace_smelt"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "鴨肉"
+						}
+					]
+				}
+			]
+		}
+	]
+}

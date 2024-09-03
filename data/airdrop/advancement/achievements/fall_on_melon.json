@@ -1,0 +1,53 @@
+{
+	"parent": "airdrop:achievements/on_magenta_glazed_terracotta",
+	"display":
+	{
+		"icon":
+		{
+			"id": "minecraft:water_bucket"
+		},
+		"title": "欸那個西…",
+		"description": "有人摔死了！活動剛開場就出事！",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria":
+	{
+		"fall_on_melon":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"type":
+					{
+						"tags":
+						[
+							{
+								"id": "minecraft:is_fall",
+								"expected": true
+							}
+						]
+					}
+				},
+				"player":
+				[
+					{
+						"condition": "minecraft:location_check",
+						"offsetY": -1,
+						"predicate":
+						{
+							"block":
+							{
+								"blocks": "minecraft:melon"
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}
