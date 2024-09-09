@@ -7,7 +7,7 @@
 			"id": "minecraft:frog_spawn_egg"
 		},
 		"title": "啊！等一下！有青蛙！",
-		"description": "青蛙",
+		"description": "我以前被帶回去的時候真的有吃過",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

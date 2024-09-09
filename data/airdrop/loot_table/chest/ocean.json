@@ -196,6 +196,24 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": 25
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								{
+									"text": "給我三叉戟，好想要那個東西",
+									"color": "#EF9696",
+									"italic": false
+								},
+								{
+									"text": "你是個成熟的主播了，你該學會自己抽獎了",
+									"color": "#947B70",
+									"italic": false
+								}
+							]
 						}
 					]
 				}
