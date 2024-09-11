@@ -29,6 +29,7 @@ execute at @s[type=armor_stand, tag=air_detect_invisible] anchored eyes run retu
 execute at @s[type=marker, tag=air_end_stone_bullet] run return run function airdrop:game/effects/end_stone/bullet/tick
 
 #以下和旁觀者無關
+execute if entity @s[type=!player] run return fail
 execute if entity @s[gamemode=spectator] run return fail
 
 #以下不用return
