@@ -29,6 +29,7 @@ scoreboard objectives add air_team_code dummy
 scoreboard objectives add air_team_code_match dummy
 scoreboard objectives add air_special_book trigger
 scoreboard objectives add air_shimon dummy
+scoreboard objectives add air_ban_melon dummy
 scoreboard objectives add air_show_number dummy
 scoreboard players set @e[type=marker, tag=yes] air_start 0
 scoreboard players set @e[type=marker, tag=no] air_start 1

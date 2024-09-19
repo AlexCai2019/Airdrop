@@ -12,13 +12,13 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_count",
 							"count":
 							{
 								"type": "minecraft:uniform",
 								"min": 1,
 								"max": 3
-							},
-							"function": "minecraft:set_count"
+							}
 						},
 						{
 							"function": "minecraft:furnace_smelt"
@@ -30,18 +30,28 @@
 							"lore":
 							[
 								{
-									"text": "- 我妹妹說想吃牛排",
+									"text": "我妹妹說想吃牛排",
 									"color": "#885808",
-									"bold": true,
 									"italic": false
 								},
 								{
-									"text": "- 吃大便",
+									"text": "吃大便",
 									"color": "#A700B4",
-									"bold": true,
+									"italic": false
+								},
+								{
+									"text": "吃完大便就可以吃牛排了",
+									"color": "#EDE511",
 									"italic": false
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:enchantment_glint_override": true
+							}
 						}
 					]
 				}

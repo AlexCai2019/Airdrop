@@ -1,0 +1,2 @@
+$execute store result bossbar airdrop:$(bossbar)_ban_melon value run scoreboard players get @s air_ban_melon
+$bossbar set airdrop:$(bossbar)_ban_melon name [{"translate": "block.minecraft.melon", "color": "#34791E"}, {"text": "封鎖", "color": "red"}, {"text": "(", "color": "white"}, {"score": {"name": "#display", "objective": "air_ban_melon"}, "color": "yellow"}, {"text": ")", "color": "white"}]

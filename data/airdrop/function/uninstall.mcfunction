@@ -18,6 +18,7 @@ scoreboard objectives remove air_team_code
 scoreboard objectives remove air_team_code_match
 scoreboard objectives remove air_special_book
 scoreboard objectives remove air_shimon
+scoreboard objectives remove air_ban_melon
 scoreboard objectives remove air_show_number
 team remove air_drill
 team remove air_chicken

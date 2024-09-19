@@ -1,5 +1,7 @@
 #檢查身上有這本書
-execute unless items entity @s container.* written_book[custom_data~{shimon: true}] run return run tellraw @s ["<", {"text": "死門", "color": "aqua"}, "> 死門發動失敗…身上沒有書本。"]
+execute store result score #has_book air_special_book if items entity @s container.* written_book[custom_data~{shimon: true}]
+execute if items entity @s weapon.offhand written_book[custom_data~{shimon: true}] run scoreboard players set #has_book air_special_book 1
+execute if score #has_book air_special_book matches 0 run return run tellraw @s ["<", {"text": "死門", "color": "aqua"}, "> 死門發動失敗…身上沒有書本。"]
 
 #已經發動了
 execute if score @s air_shimon = @s air_shimon run return run tellraw @s ["<", {"text": "死門", "color": "aqua"}, "> 死門發動失敗…已經發動了。"]
