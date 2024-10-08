@@ -1,0 +1,1 @@
+$summon snow_golem ~ ~ ~ {CustomName: '"雪寶"', Motion: [$(x)d, $(y)d, $(z)d]}

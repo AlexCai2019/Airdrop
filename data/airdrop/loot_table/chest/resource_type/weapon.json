@@ -66,8 +66,8 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:shield",
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/resource_type/shield",
 					"weight": 3
 				},
 				{
