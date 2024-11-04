@@ -352,6 +352,11 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:damaged_anvil",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:diamond_ore",
 					"weight": 3
 				},
@@ -461,16 +466,18 @@
 							"mode": "append",
 							"lore":
 							[
-								{
-									"text": "封鎖所有敵隊玩家的",
-									"color": "white",
-									"italic": false
-								},
-								{
-									"translate": "block.minecraft.melon",
-									"color": "#34791E"
-								},
-								"60秒"
+								[
+									{
+										"text": "封鎖所有敵隊玩家的",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"translate": "block.minecraft.melon",
+										"color": "#34791E"
+									},
+									"60秒"
+								]
 							]
 						},
 						{

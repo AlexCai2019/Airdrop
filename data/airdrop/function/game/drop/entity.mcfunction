@@ -1,5 +1,5 @@
 #空投雞落地
-execute at @s[type=chicken, tag=air_chicken, nbt={OnGround: true}] run return run function airdrop:game/drop/root
+execute at @s[type=chicken, tag=air_chicken, predicate=airdrop:flags/on_ground] run return run function airdrop:game/drop/root
 
 #爆裂魔法
 execute if entity @s[type=tnt_minecart, tag=air_explosion] run return run function airdrop:game/tnt_time/tick
