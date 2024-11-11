@@ -20,7 +20,7 @@ execute if entity @s[type=marker] run return run execute if entity @s[tag=air_en
 execute if entity @s[type=tnt_minecart] run return run execute if entity @s[tag=air_explosion] run function airdrop:game/tnt_time/tick
 
 #文字展示
-execute if entity @s[type=text_display] run function airdrop:game/text_display
+execute if entity @s[type=text_display] run function airdrop:game/entities/text_display
 
 #玩家
-execute if entity @s[type=player, gamemode=!spectator] run function airdrop:game/player
+execute if entity @s[type=player, gamemode=!spectator] run function airdrop:game/entities/player
