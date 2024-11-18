@@ -1,1 +1,0 @@
-tellraw @a ["<[金曲歌王] ", {"nbt": "root.event.song.singer", "storage": "airdrop:data", "interpret": true}, "> Never gonna tell a lie and hurt you"]

@@ -32,7 +32,7 @@ execute if entity @s[type=potion] run return run execute if entity @s[tag=!air_c
 execute if entity @s[type=tnt_minecart] run return run execute if entity @s[tag=air_explosion] run function airdrop:game/tnt_time/tick
 
 #文字展示
-execute if entity @s[type=text_display] run function airdrop:game/entities/text_display
+execute if entity @s[type=text_display] run return run function airdrop:game/entities/text_display
 
 #標記
 execute if entity @s[type=marker] run return run function airdrop:game/entities/marker

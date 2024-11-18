@@ -1,2 +1,0 @@
-execute if score Hi_Chocolate air_event matches 0 run return run tellraw @a ["<[金曲歌王] ", {"nbt": "root.event.song.singer", "storage": "airdrop:data", "interpret": true}, "> 從不畏懼臣服冰霜風雪"]
-tellraw @a ["<[金曲歌王] ", {"nbt": "root.event.song.singer", "storage": "airdrop:data", "interpret": true}, "> 沒錯林北就是艾莎阿巧"]

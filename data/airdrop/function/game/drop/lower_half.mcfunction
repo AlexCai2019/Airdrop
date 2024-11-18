@@ -16,8 +16,8 @@ execute if score @s air_chance matches 16 run return run function airdrop:airdro
 #西瓜
 execute if score @s air_chance matches 17 run return run function airdrop:airdrop/melon
 
-#冰磚
-execute if score @s air_chance matches 18 run return run function airdrop:airdrop/packed_ice
+#蛋糕
+execute if score @s air_chance matches 18 run return run function airdrop:airdrop/cake
 
 #洋紅色釉陶
 execute if score @s air_chance matches 19 run return run function airdrop:airdrop/magenta_glazed_terracotta
