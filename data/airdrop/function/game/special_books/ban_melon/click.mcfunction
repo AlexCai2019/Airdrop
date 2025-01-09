@@ -1,15 +1,14 @@
-#檢查身上有這本書
-execute store result score #has_book air_special_book if items entity @s container.* written_book[custom_data~{ban_melon: true}]
-execute if items entity @s weapon.offhand written_book[custom_data~{ban_melon: true}] run scoreboard players set #has_book air_special_book 1
+#檢查身上有這本書 同時清除一本書
+execute store success score #has_book air_special_book run clear @s written_book[custom_data~{ban_melon: true}] 1
 execute if score #has_book air_special_book matches 0 run return run tellraw @s ["<", {"translate": "block.minecraft.melon", "color": "#34791E"}, {"text": "封鎖", "color": "red"}, "> ", {"translate": "block.minecraft.melon"}, "封鎖發動失敗…身上沒有書本。"]
 
-#清除一本書
-clear @s written_book[custom_data~{ban_melon: true}] 1
-
-#問：單機怎麼辦？
-execute as @a run function airdrop:game/team_code/set
-scoreboard players operation #bypass air_team_code_match = @s air_team_code
-execute as @a[gamemode=!spectator] unless score @s air_team_code = #bypass air_team_code run function airdrop:game/special_books/ban_melon/not_teammate
+#封鎖一分鐘
+scoreboard players set #ban_melon air_tick 1200
+scoreboard players set #ban_melon air_time 20
+scoreboard players set #ban_melon_count_second air_tick 0
+bossbar set airdrop:ban_melon value 1200
+bossbar set airdrop:ban_melon players @a
+bossbar set airdrop:ban_melon name [{"translate": "block.minecraft.melon", "color": "#34791E"}, {"text": "封鎖", "color": "red"}, {"text": "(", "color": "white"}, {"text": "60", "color": "yellow"}, {"text": ")", "color": "white"}]
 
 tellraw @a ["<", {"translate": "block.minecraft.melon", "color": "#34791E"}, {"text": "封鎖", "color": "red"}, "> ", {"selector": "@s", "bold": true}, " 發動了", {"translate": "block.minecraft.melon", "color": "#34791E", "bold": true}, {"text": "封鎖", "color": "red", "bold": true}, "！"]
-tellraw @a ["<", {"translate": "block.minecraft.melon", "color": "#34791E"}, {"text": "封鎖", "color": "red"}, "> 所有敵隊玩家無法使用", {"translate": "block.minecraft.melon"}, "60秒！"]
+tellraw @a ["<", {"translate": "block.minecraft.melon", "color": "#34791E"}, {"text": "封鎖", "color": "red"}, "> 所有玩家無法使用", {"translate": "block.minecraft.melon"}, "60秒！"]

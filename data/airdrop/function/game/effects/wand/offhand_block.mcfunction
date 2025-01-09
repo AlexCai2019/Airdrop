@@ -1,5 +1,5 @@
 #西瓜是1
-execute if items entity @s weapon.offhand melon unless score @s air_ban_melon matches 1.. run return run scoreboard players set @s air_wand 1
+execute if items entity @s weapon.offhand melon unless score #ban_melon air_tick matches 1.. run return run scoreboard players set @s air_wand 1
 #冰磚是2
 execute if items entity @s weapon.offhand packed_ice run return run scoreboard players set @s air_wand 2
 #終界石是3

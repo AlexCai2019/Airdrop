@@ -29,7 +29,6 @@ scoreboard objectives add air_team_code dummy
 scoreboard objectives add air_team_code_match dummy
 scoreboard objectives add air_special_book trigger
 scoreboard objectives add air_shimon dummy
-scoreboard objectives add air_ban_melon dummy
 scoreboard objectives add air_show_number dummy
 scoreboard players set @e[type=marker, tag=yes] air_start 0
 scoreboard players set @e[type=marker, tag=no] air_start 1
@@ -47,6 +46,9 @@ bossbar set airdrop:event max 1200
 bossbar set airdrop:event color yellow
 bossbar set airdrop:event players @a
 bossbar set airdrop:event visible false
+bossbar add airdrop:ban_melon ""
+bossbar set airdrop:ban_melon max 1200
+bossbar set airdrop:ban_melon color red
 tellraw @a ["點擊 ", {"text": "此處", "color": "yellow", "clickEvent": {"action": "run_command", "value": "/function airdrop:book"}}, " 獲得一本空投控制書"]
 tellraw @a "或是使用指令/function airdrop:book"
 forceload add ~ ~
