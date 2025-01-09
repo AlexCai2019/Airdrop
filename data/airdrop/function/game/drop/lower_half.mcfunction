@@ -22,8 +22,11 @@ execute if score @s air_chance matches 18 run return run function airdrop:airdro
 #洋紅色釉陶
 execute if score @s air_chance matches 19 run return run function airdrop:airdrop/magenta_glazed_terracotta
 
+#紅色斧頭
+execute if score @s air_chance matches 20 run return run function airdrop:airdrop/red_axe
+
 #自訂
-execute if score @s air_chance matches 20 run return run function airdrop:airdrop/custom {id: 1}
-execute if score @s air_chance matches 21 run return run function airdrop:airdrop/custom {id: 2}
-execute if score @s air_chance matches 22 run return run function airdrop:airdrop/custom {id: 3}
+execute if score @s air_chance matches 21 run return run function airdrop:airdrop/custom {id: 1}
+execute if score @s air_chance matches 22 run return run function airdrop:airdrop/custom {id: 2}
+execute if score @s air_chance matches 23 run return run function airdrop:airdrop/custom {id: 3}
 function airdrop:airdrop/custom {id: 4}
