@@ -31,6 +31,14 @@
 			[
 				{
 					"function": "minecraft:enchant_randomly",
+					"options":
+					[
+						"minecraft:efficiency",
+						"minecraft:fortune",
+						"minecraft:silk_touch",
+						"minecraft:unbreaking",
+						"minecraft:mending"
+					],
 					"conditions":
 					[
 						{
