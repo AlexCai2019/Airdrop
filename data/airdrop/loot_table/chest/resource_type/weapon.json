@@ -118,6 +118,19 @@
 								"min": 15,
 								"max": 30
 							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								{
+									"text": "你是個成熟的主播了，你該學會自己抽獎了",
+									"color": "#947B70",
+									"italic": false
+								}
+							]
 						}
 					]
 				},

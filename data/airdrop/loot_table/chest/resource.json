@@ -489,7 +489,7 @@
 								{
 									"pages":
 									[
-										"[\"所有玩家無法使用\", {\"translate\": \"block.minecraft.melon\"}, \"，\n包括回血和特殊魔法。\n但還是可以當食物吃。\n發動成功後，此書消失。\n\n\n       \", {\"text\": \"[發動\", \"extra\": [{\"translate\": \"block.minecraft.melon\"}, \"封鎖\"], \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/trigger air_special_book set 4\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"點擊直接發動\"}}]"
+										"[\"所有玩家無法使用\", {\"translate\": \"block.minecraft.melon\"}, \"，\n包括回血和特殊魔法。\n但還是可以當食物吃。\n發動成功後，此書消失。\n\n\n      \", {\"text\": \"[發動\", \"extra\": [{\"translate\": \"block.minecraft.melon\"}, \"封鎖]\"], \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/trigger air_special_book set 4\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": \"點擊直接發動\"}}]"
 									],
 									"title": "西瓜封鎖",
 									"author": "Alex Cai"

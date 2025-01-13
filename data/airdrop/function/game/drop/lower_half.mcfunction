@@ -1,6 +1,3 @@
-#海洋
-execute if score @s air_chance matches 12 run return run function airdrop:airdrop/ocean
-
 #空包彈
 execute if score @s air_chance matches 13 run return run function airdrop:airdrop/empty
 
@@ -22,8 +19,11 @@ execute if score @s air_chance matches 18 run return run function airdrop:airdro
 #洋紅色釉陶
 execute if score @s air_chance matches 19 run return run function airdrop:airdrop/magenta_glazed_terracotta
 
+#蛋糕
+execute if score @s air_chance matches 20 run return run function airdrop:airdrop/cake
+
 #自訂
-execute if score @s air_chance matches 20 run return run function airdrop:airdrop/custom {id: 1}
-execute if score @s air_chance matches 21 run return run function airdrop:airdrop/custom {id: 2}
-execute if score @s air_chance matches 22 run return run function airdrop:airdrop/custom {id: 3}
+execute if score @s air_chance matches 21 run return run function airdrop:airdrop/custom {id: 1}
+execute if score @s air_chance matches 22 run return run function airdrop:airdrop/custom {id: 2}
+execute if score @s air_chance matches 23 run return run function airdrop:airdrop/custom {id: 3}
 function airdrop:airdrop/custom {id: 4}

@@ -1,6 +1,9 @@
 #終界石子彈
 execute if entity @s[tag=air_end_stone_bullet] run return run function airdrop:game/effects/end_stone/bullet/tick
 
+#蛋糕
+execute if entity @s[tag=air_cake] run return run function airdrop:airdrop/extra/cake/rotate
+
 #沒有在騎乘才通過
 execute if predicate airdrop:riding run return fail
 
