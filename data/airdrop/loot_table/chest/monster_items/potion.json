@@ -12,10 +12,18 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"translate": "item.minecraft.splash_potion.effect.poison",
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:item_name": "{\"translate\": \"item.minecraft.splash_potion.effect.poison\"}",
 								"minecraft:potion_contents":
 								{
 									"custom_effects":
@@ -38,10 +46,18 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "飛濺 凋零藥水",
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:item_name": "\"飛濺 凋零藥水\"",
 								"minecraft:potion_contents":
 								{
 									"custom_effects":
@@ -55,39 +71,6 @@
 									"custom_color": 3484199
 								}
 							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:splash_potion",
-					"functions":
-					[
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:wind_charged"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:splash_potion",
-					"functions":
-					[
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:weaving"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:splash_potion",
-					"functions":
-					[
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:oozing"
 						}
 					]
 				},

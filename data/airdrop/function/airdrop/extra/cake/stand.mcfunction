@@ -2,4 +2,5 @@ data merge entity @s {Invulnerable: true, Marker: true, ShowArms: true, Pose: {R
 $function airdrop:airdrop/extra/cake/$(character)
 $tag @s add $(character)
 tag @s add couple
+#要先穿上裝備再設定DisabledSlots 就連指令也是如此
 data modify entity @s DisabledSlots set value 4144959

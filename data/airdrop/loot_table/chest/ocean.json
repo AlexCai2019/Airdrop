@@ -48,11 +48,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:gold_ingot",
-					"weight": 7
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:copper_ingot",
 					"weight": 6
 				},
@@ -60,6 +55,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:turtle_scute",
 					"weight": 6
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"weight": 5
 				},
 				{
 					"type": "minecraft:item",
@@ -74,11 +74,6 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:tnt",
-					"weight": 3
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:golden_apple",
 					"weight": 3
 				},
 				{
@@ -153,6 +148,11 @@
 							"id": "minecraft:water_breathing"
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple",
+					"weight": 1
 				},
 				{
 					"type": "minecraft:item",

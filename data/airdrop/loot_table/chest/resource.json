@@ -38,11 +38,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:apple",
-					"weight": 15
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:iron_ingot",
 					"weight": 15,
 					"functions":
@@ -60,20 +55,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:gold_ingot",
-					"weight": 10,
-					"functions":
-					[
-						{
-							"function": "minecraft:set_count",
-							"count":
-							{
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 2
-							}
-						}
-					]
+					"name": "minecraft:apple",
+					"weight": 10
 				},
 				{
 					"type": "minecraft:item",
@@ -129,6 +112,11 @@
 							}
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ingot",
+					"weight": 8
 				},
 				{
 					"type": "minecraft:item",
@@ -332,11 +320,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:golden_apple",
-					"weight": 4
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:ender_pearl",
 					"weight": 4
 				},
@@ -354,6 +337,11 @@
 					"type": "minecraft:item",
 					"name": "minecraft:damaged_anvil",
 					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple",
+					"weight": 3
 				},
 				{
 					"type": "minecraft:item",

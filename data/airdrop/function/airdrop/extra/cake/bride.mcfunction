@@ -1,5 +1,7 @@
 execute if score #couple air_drop matches 0 run item replace entity @s armor.head with player_head[profile="PafuPuff"]
 execute if score #couple air_drop matches 1 run item replace entity @s armor.head with player_head[profile="ayumi_cky_yume"]
+execute if score #couple air_drop matches 2 run item replace entity @s armor.head with player_head[profile="FantungQueen"]
+execute if score #couple air_drop matches 3 run item replace entity @s armor.head with player_head[profile="MrsChesterccj"]
 item replace entity @s armor.chest with leather_chestplate[dyed_color=16777215]
 item replace entity @s armor.legs with leather_leggings[dyed_color=16777215]
 item replace entity @s armor.feet with leather_boots[dyed_color=16777215]
