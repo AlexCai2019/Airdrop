@@ -54,7 +54,11 @@
 						},
 						{
 							"function": "minecraft:set_custom_model_data",
-							"value": 1205 
+							"colors":
+							{
+								"mode": "append",
+								"values": [16711680]
+							}
 						},
 						{
 							"function": "minecraft:set_custom_data",
