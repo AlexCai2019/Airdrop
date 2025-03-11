@@ -29,7 +29,7 @@
 						{
 							"vehicle":
 							{
-								"type": "minecraft:boat"
+								"type": "#minecraft:boat"
 							}
 						}
 					}
