@@ -115,6 +115,27 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:filled_map",
+					"weight": 9,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "伊甸惡意 邪惡帝國系列鑽石卡 - 巧克力"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:map_id": 96,
+								"minecraft:enchantment_glint_override": true
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:gold_ingot",
 					"weight": 8
 				},

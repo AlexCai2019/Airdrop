@@ -1,1 +1,0 @@
-tellraw @a ["<[金曲歌王] ", {"nbt": "root.event.song.singer", "storage": "airdrop:data", "interpret": true}, "> 못 말리는 아가씨"]

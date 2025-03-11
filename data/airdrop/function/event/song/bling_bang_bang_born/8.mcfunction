@@ -1,1 +1,0 @@
-tellraw @a ["<[金曲歌王] ", {"nbt": "root.event.song.singer", "storage": "airdrop:data", "interpret": true}, "> To the next, to the 1番上"]

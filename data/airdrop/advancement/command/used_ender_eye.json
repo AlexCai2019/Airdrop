@@ -3,7 +3,25 @@
 	{
 		"used_ender_eye":
 		{
-			"trigger": "minecraft:used_ender_eye"
+			"trigger": "minecraft:using_item",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:ender_eye"
+				},
+				"player":
+				[
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores":
+						{
+							"air_eye_cooldown": 20
+						}
+					}
+				]
+			}
 		}
 	},
 	"rewards":
