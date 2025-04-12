@@ -98,8 +98,8 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": 30
+							"function": "minecraft:enchant_randomly",
+							"options":"#airdrop:vanilla"
 						}
 					]
 				},
@@ -194,8 +194,8 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": 25
+							"function": "minecraft:enchant_randomly",
+							"options":"#airdrop:vanilla"
 						},
 						{
 							"function": "minecraft:set_lore",

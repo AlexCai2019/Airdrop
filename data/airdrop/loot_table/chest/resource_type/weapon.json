@@ -55,13 +55,8 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels":
-							{
-								"type": "minecraft:uniform",
-								"min": 15,
-								"max": 30
-							}
+							"function": "minecraft:enchant_randomly",
+							"options":"#airdrop:vanilla"
 						}
 					]
 				},
@@ -77,13 +72,8 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels":
-							{
-								"type": "minecraft:uniform",
-								"min": 15,
-								"max": 20
-							}
+							"function": "minecraft:enchant_randomly",
+							"options":"#airdrop:vanilla"
 						}
 					]
 				},
@@ -94,13 +84,8 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels":
-							{
-								"type": "minecraft:uniform",
-								"min": 15,
-								"max": 20
-							}
+							"function": "minecraft:enchant_randomly",
+							"options":"#airdrop:vanilla"
 						}
 					]
 				},
@@ -111,13 +96,8 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels":
-							{
-								"type": "minecraft:uniform",
-								"min": 15,
-								"max": 30
-							}
+							"function": "minecraft:enchant_randomly",
+							"options":"#airdrop:vanilla"
 						},
 						{
 							"function": "minecraft:set_lore",
