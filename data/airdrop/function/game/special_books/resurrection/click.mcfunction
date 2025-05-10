@@ -1,6 +1,5 @@
 #檢查身上有這本書
-execute store result score #has_book air_special_book if items entity @s container.* written_book[custom_data~{resurrection: true}]
-execute if items entity @s weapon.offhand written_book[custom_data~{resurrection: true}] run scoreboard players set #has_book air_special_book 1
+execute store success score #has_book air_special_book run clear @s written_book[custom_data~{resurrection: true}] 0
 execute if score #has_book air_special_book matches 0 run return run tellraw @s ["<", {"text": "轉生之術", "color": "aqua"}, "> 轉生之術發動失敗…身上沒有書本。"]
 
 execute as @a run function airdrop:game/team_code/set
