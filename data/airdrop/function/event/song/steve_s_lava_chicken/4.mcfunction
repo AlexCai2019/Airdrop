@@ -1,0 +1,2 @@
+tellraw @a ["<[金曲歌王] ", {"nbt": "root.event.song.singer", "storage": "airdrop:data", "interpret": true}, "> Crispy and juicy, now you're havin' a snack"]
+schedule function airdrop:event/song/steve_s_lava_chicken/5 3.1s
