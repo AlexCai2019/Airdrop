@@ -1,1 +1,0 @@
-$summon falling_block ~ ~ ~ {BlockState: {Name: "powder_snow"}, Motion: [$(x)d, $(y)d, $(z)d]}

@@ -1,4 +1,54 @@
-execute store result score #px air_wand run data get entity @s Pos[0] 100
-execute store result score #py air_wand run data get entity @s Pos[1] 100
-execute store result score #pz air_wand run data get entity @s Pos[2] 100
-execute positioned ^ ^ ^1 summon marker run function airdrop:game/effects/packed_ice/marker
+setblock ^-3 ^-1 ^0 snow_block keep
+setblock ^-3 ^-1 ^1 snow_block keep
+setblock ^-3 ^0 ^0 snow_block keep
+setblock ^-3 ^0 ^1 snow_block keep
+setblock ^-3 ^1 ^0 snow_block keep
+setblock ^-3 ^1 ^1 snow_block keep
+setblock ^-2 ^-2 ^0 snow_block keep
+setblock ^-2 ^-2 ^1 snow_block keep
+setblock ^-2 ^-1 ^2 snow_block keep
+setblock ^-2 ^0 ^2 snow_block keep
+setblock ^-2 ^1 ^2 snow_block keep
+setblock ^-2 ^2 ^0 snow_block keep
+setblock ^-2 ^2 ^1 snow_block keep
+setblock ^-1 ^-3 ^0 snow_block keep
+setblock ^-1 ^-3 ^1 snow_block keep
+setblock ^-1 ^-2 ^2 snow_block keep
+setblock ^-1 ^-1 ^3 snow_block keep
+setblock ^-1 ^0 ^3 snow_block keep
+setblock ^-1 ^1 ^3 snow_block keep
+setblock ^-1 ^2 ^2 snow_block keep
+setblock ^-1 ^3 ^0 snow_block keep
+setblock ^-1 ^3 ^1 snow_block keep
+setblock ^0 ^-3 ^0 snow_block keep
+setblock ^0 ^-3 ^1 snow_block keep
+setblock ^0 ^-2 ^2 snow_block keep
+setblock ^0 ^-1 ^3 snow_block keep
+setblock ^0 ^0 ^3 snow_block keep
+setblock ^0 ^1 ^3 snow_block keep
+setblock ^0 ^2 ^2 snow_block keep
+setblock ^0 ^3 ^0 snow_block keep
+setblock ^0 ^3 ^1 snow_block keep
+setblock ^1 ^-3 ^0 snow_block keep
+setblock ^1 ^-3 ^1 snow_block keep
+setblock ^1 ^-2 ^2 snow_block keep
+setblock ^1 ^-1 ^3 snow_block keep
+setblock ^1 ^0 ^3 snow_block keep
+setblock ^1 ^1 ^3 snow_block keep
+setblock ^1 ^2 ^2 snow_block keep
+setblock ^1 ^3 ^0 snow_block keep
+setblock ^1 ^3 ^1 snow_block keep
+setblock ^2 ^-2 ^0 snow_block keep
+setblock ^2 ^-2 ^1 snow_block keep
+setblock ^2 ^-1 ^2 snow_block keep
+setblock ^2 ^0 ^2 snow_block keep
+setblock ^2 ^1 ^2 snow_block keep
+setblock ^2 ^2 ^0 snow_block keep
+setblock ^2 ^2 ^1 snow_block keep
+setblock ^3 ^-1 ^0 snow_block keep
+setblock ^3 ^-1 ^1 snow_block keep
+setblock ^3 ^0 ^0 snow_block keep
+setblock ^3 ^0 ^1 snow_block keep
+setblock ^3 ^1 ^0 snow_block keep
+setblock ^3 ^1 ^1 snow_block keep
+execute if predicate airdrop:chance/1 run summon snow_golem ~ ~8 ~ {CustomName: '"雪寶"', CustomNameVisible: true}
