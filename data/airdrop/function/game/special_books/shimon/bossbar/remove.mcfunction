@@ -1,1 +1,0 @@
-$bossbar remove airdrop:$(bossbar)_shimon

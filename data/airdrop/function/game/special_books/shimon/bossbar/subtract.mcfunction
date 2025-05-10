@@ -1,2 +1,0 @@
-$execute store result bossbar airdrop:$(bossbar)_shimon value run scoreboard players get @s air_shimon
-$bossbar set airdrop:$(bossbar)_shimon name [{"text": "死門 ", "color": "red"}, {"text": "(", "color": "white"}, {"score": {"name": "#display", "objective": "air_shimon"}, "color": "yellow"}, {"text": ")", "color": "white"}]

@@ -1,0 +1,2 @@
+data modify storage airdrop:data root.special_books.prophecy.uuid set from entity @s UUID[0]
+function airdrop:game/special_books/prophecy/tell_prophecy_player with storage airdrop:data root.special_books.prophecy
