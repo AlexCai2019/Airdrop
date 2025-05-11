@@ -197,10 +197,13 @@
 									"id": "minecraft:armor_stand",
 									"NoBasePlate": true,
 									"ShowArms": true,
-									"ArmorItems":
-									[
-										{}, {}, {}, {"id": "minecraft:skeleton_skull"}
-									],
+									"equipment":
+									{
+										"head":
+										{
+											"id": "minecraft:skeleton_skull"
+										}
+									},
 									"DisabledSlots": 4144959,
 									"Tags": ["air_detect_invisible"]
 								} 
@@ -429,6 +432,13 @@
 							]
 						},
 						{
+							"function": "minecraft:toggle_tooltips",
+							"toggles":
+							{
+								"minecraft:written_book_content": false
+							}
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
@@ -445,8 +455,7 @@
 									],
 									"title": "轉生之術",
 									"author": "Alex Cai"
-								},
-								"minecraft:hide_additional_tooltip": {}
+								}
 							}
 						},
 						{
@@ -482,6 +491,13 @@
 							]
 						},
 						{
+							"function": "minecraft:toggle_tooltips",
+							"toggles":
+							{
+								"minecraft:written_book_content": false
+							}
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
@@ -496,8 +512,7 @@
 									],
 									"title": "西瓜封鎖",
 									"author": "Alex Cai"
-								},
-								"minecraft:hide_additional_tooltip": {}
+								}
 							}
 						},
 						{
