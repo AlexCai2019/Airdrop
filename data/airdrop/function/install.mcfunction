@@ -49,6 +49,6 @@ bossbar set airdrop:event visible false
 bossbar add airdrop:ban_melon ""
 bossbar set airdrop:ban_melon max 1200
 bossbar set airdrop:ban_melon color red
-tellraw @a ["點擊 ", {text: "此處", color: "yellow", click_event: {action: run_command, command: "/function airdrop:book"}}, " 獲得一本空投控制書"]
+tellraw @a ["點擊 ", {text: "此處", color: "yellow", click_event: {action: "run_command", command: "/function airdrop:book"}}, " 獲得一本空投控制書"]
 tellraw @a "或是使用指令/function airdrop:book"
 forceload add ~ ~

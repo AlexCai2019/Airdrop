@@ -1,5 +1,5 @@
-give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: [{text: "", click_event: {action: run_command, command: "/function airdrop:how_to_play"}}, "遊玩教學", "", ""]}}, custom_name="遊玩教學"]
-give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: [{text: "", click_event: {action: run_command, command: "/function airdrop:book"}}, "獲取書本", "", ""]}}, custom_name="獲取書本"]
+give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: [{text: "", click_event: {action: "run_command", command: "/function airdrop:how_to_play"}}, "遊玩教學", "", ""]}}, custom_name="遊玩教學"]
+give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: [{text: "", click_event: {action: "run_command", command: "/function airdrop:book"}}, "獲取書本", "", ""]}}, custom_name="獲取書本"]
 give @s player_head[profile="Alex_Cai"]
 give @s oak_sign[block_entity_data={id: "sign", front_text: {messages: ["", "AC", "Alex_Cai", ""]}}, custom_name="AC"]
 give @s player_head[profile="Qige020902"]
