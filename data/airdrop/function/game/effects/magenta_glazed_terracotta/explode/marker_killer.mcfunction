@@ -1,4 +1,4 @@
-data modify entity @s CustomName set value '"白狼王自爆"'
+data modify entity @s CustomName set value "白狼王自爆"
 #可以先kill了再damage
 kill
 #和平模式下player_explosion不起作用

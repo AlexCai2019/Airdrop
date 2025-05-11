@@ -2,8 +2,8 @@ gamerule commandBlockOutput false
 gamerule logAdminCommands false
 gamerule sendCommandFeedback false
 
-execute unless entity @e[type=marker, tag=no] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["no", "air_set"], CustomName: '{"text": "關閉", "color": "red", "bold": true}'}
-execute unless entity @e[type=marker, tag=yes] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["yes", "air_set"], CustomName: '{"text": "開啟", "color": "green", "bold": true}'}
+execute unless entity @e[type=marker, tag=no] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["no", "air_set"], CustomName: {text: "關閉", color: red, bold: true}}
+execute unless entity @e[type=marker, tag=yes] align xz run summon marker ~.5 -64.0 ~.5 {Tags: ["yes", "air_set"], CustomName: {text: "開啟", color: green, bold: true}}
 
 team add air_drill
 team modify air_drill collisionRule never
@@ -49,6 +49,6 @@ bossbar set airdrop:event visible false
 bossbar add airdrop:ban_melon ""
 bossbar set airdrop:ban_melon max 1200
 bossbar set airdrop:ban_melon color red
-tellraw @a ["點擊 ", {"text": "此處", "color": "yellow", "clickEvent": {"action": "run_command", "value": "/function airdrop:book"}}, " 獲得一本空投控制書"]
+tellraw @a ["點擊 ", {text: "此處", color: yellow, click_event: {action: run_command, command: "/function airdrop:book"}}, " 獲得一本空投控制書"]
 tellraw @a "或是使用指令/function airdrop:book"
 forceload add ~ ~

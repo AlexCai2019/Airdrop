@@ -1,1 +1,1 @@
-tellraw @a ["<[金曲歌王] ", {"nbt": "root.event.song.singer", "storage": "airdrop:data", "interpret": true}, "> The cold never bothered me anyway"]
+tellraw @a ["<[金曲歌王] ", {nbt: "root.event.song.singer", storage: "airdrop:data", interpret: true}, "> The cold never bothered me anyway"]

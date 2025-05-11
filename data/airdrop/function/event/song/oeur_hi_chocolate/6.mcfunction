@@ -1,2 +1,2 @@
-tellraw @a ["<[金曲歌王] ", {"nbt": "root.event.song.singer", "storage": "airdrop:data", "interpret": true}, "> 小夏的敵人"]
+tellraw @a ["<[金曲歌王] ", {nbt: "root.event.song.singer", storage: "airdrop:data", interpret: true}, "> 小夏的敵人"]
 schedule function airdrop:event/song/oeur_hi_chocolate/7 32

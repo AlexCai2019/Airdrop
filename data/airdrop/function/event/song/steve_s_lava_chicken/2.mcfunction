@@ -1,2 +1,2 @@
-tellraw @a ["<[金曲歌王] ", {"nbt": "root.event.song.singer", "storage": "airdrop:data", "interpret": true}, "> Steve's Lava Chicken, yeah, it's tasty as hell"]
+tellraw @a ["<[金曲歌王] ", {nbt: "root.event.song.singer", storage: "airdrop:data", interpret: true}, "> Steve's Lava Chicken, yeah, it's tasty as hell"]
 schedule function airdrop:event/song/steve_s_lava_chicken/3 3s

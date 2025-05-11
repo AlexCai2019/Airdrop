@@ -5,7 +5,7 @@ execute unless score @s air_tick matches 20 run return run scoreboard players ad
 ##每秒執行
 scoreboard players remove @s air_time 1
 #展示實體的文字可以直接填score
-data modify entity @s text set value '{"score": {"name": "@s", "objective": "air_time"}}'
+data modify entity @s text set value {score: {name: "@s", objective: "air_time"}}
 #還不到0秒 所以return
 execute unless score @s air_time matches 0 run return run scoreboard players set @s air_tick 0
 
