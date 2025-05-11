@@ -1,7 +1,7 @@
 effect give @s resistance 5 5
 tp @s ~ ~ ~ ~ ~
 gamemode survival
-tellraw @a ["<", {text: "轉生之術", color: aqua}, "> 以生命為代價，復活了 ", {selector: "@s", bold: true}]
+tellraw @a ["<", {text: "轉生之術", color: "aqua"}, "> 以生命為代價，復活了 ", {selector: "@s", bold: true}]
 
 item replace entity @s weapon.offhand from entity @a[tag=air_sacrifice, limit=1] weapon.offhand
 item replace entity @s hotbar.0 from entity @a[tag=air_sacrifice, limit=1] hotbar.0

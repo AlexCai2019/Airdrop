@@ -1,4 +1,4 @@
-tellraw @a ["<", {text: "自爆", color: red}, "> ", {selector: "@s", bold: true}, " 發動了", {text: "自爆", color: red, bold: true}, "！"]
+tellraw @a ["<", {text: "自爆", color: "red"}, "> ", {selector: "@s", bold: true}, " 發動了", {text: "自爆", color: "red", bold: true}, "！"]
 playsound entity.generic.explode master @a ~ ~ ~ 1.0 1.0 1.0
 execute store result score #difficulty air_wand run difficulty
 
