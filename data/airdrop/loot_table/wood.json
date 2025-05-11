@@ -44,6 +44,10 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:pale_oak_log"
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:spruce_log"
 				},
 				{

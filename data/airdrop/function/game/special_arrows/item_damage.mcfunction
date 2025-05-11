@@ -4,6 +4,7 @@ advancement revoke @s only airdrop:command/special_arrows/item_damage
 data modify storage airdrop:data root.special_arrows.item_damage.slots set value []
 data modify storage airdrop:data root.special_arrows.item_damage.equipments set value []
 scoreboard players set #item_damage air_drop 0
+#有穿著的話就加入列表
 execute if items entity @s weapon #enchantable/durability run function airdrop:game/special_arrows/extra/item_damage/add {slot: "weapon", equipment: mainhand}
 execute if items entity @s weapon.offhand #enchantable/durability run function airdrop:game/special_arrows/extra/item_damage/add {slot: "weapon.offhand", equipment: offhand}
 execute if items entity @s armor.head #enchantable/durability run function airdrop:game/special_arrows/extra/item_damage/add {slot: "armor.head", equipment: head}
