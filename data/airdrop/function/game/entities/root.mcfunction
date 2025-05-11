@@ -26,7 +26,7 @@ execute if entity @s[type=egg] run return run function airdrop:game/entities/egg
 execute if entity @s[type=block_display] run return run execute if entity @s[tag=air_bridge_display] run function airdrop:game/throw/bridge_egg/block_display/bigger
 
 #藥水
-execute if entity @s[type=potion] run return run execute if entity @s[tag=!air_check_potion] run function airdrop:game/throw/molotov_cocktail/check_potion
+execute if entity @s[type=lingering_potion] run return run execute if entity @s[tag=!air_check_potion] run function airdrop:game/throw/molotov_cocktail/check_potion
 
 #爆裂魔法
 execute if entity @s[type=tnt_minecart] run return run execute if entity @s[tag=air_explosion] run function airdrop:game/tnt_time/tick
