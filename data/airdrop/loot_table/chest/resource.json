@@ -398,7 +398,19 @@
 									"pages":
 									[
 										"主手拿著此書，副手拿著要提取附魔的物品\n就可以將附魔轉移到此書上。\n\n\n       ",
-										{"text": "[發動附魔提取]", "click_event": {"action": "run_command", "command": "/trigger air_special_book set 1"}, "hover_event": {"action": "show_text", "value": "點擊直接發動"}}
+										{
+											"text": "[發動附魔提取]",
+											"click_event":
+											{
+												"action": "run_command",
+												"command": "/trigger air_special_book set 1"
+											},
+											"hover_event":
+											{
+												"action": "show_text",
+												"value": "點擊直接發動"
+											}
+										}
 									],
 									"title": "附魔提取書",
 									"author": "Alex Cai"
@@ -447,11 +459,28 @@
 									"pages":
 									[
 										"以犧牲自己為代價，隨機復活一名死去的隊友。\n",
-										{"text": "不能", "color": "red"},
+										{
+											"text": "不能",
+											"color": "red"
+										},
 										"用",
-										{"translate": "item.minecraft.totem_of_undying"},
+										{
+											"translate": "item.minecraft.totem_of_undying"
+										},
 										"續命。\n復活的隊友會繼承你的裝備。\n若沒有死亡的隊友則發動失敗，不會犧牲。\n發動成功後，此書消失。\n\n\n       ",
-										{"text": "[發動轉生之術]", "click_event": {"action": "run_command", "command": "/trigger air_special_book set 2"}, "hover_event": {"action": "show_text", "value": "點擊直接發動"}}
+										{
+											"text": "[發動轉生之術]",
+											"click_event":
+											{
+												"action": "run_command",
+												"command": "/trigger air_special_book set 2"
+											},
+											"hover_event":
+											{
+												"action": "show_text",
+												"value": "點擊直接發動"
+											}
+										}
 									],
 									"title": "轉生之術",
 									"author": "Alex Cai"
@@ -506,9 +535,30 @@
 									"pages":
 									[
 										"所有玩家無法使用",
-										{"translate": "block.minecraft.melon"},
+										{
+											"translate": "block.minecraft.melon"
+										},
 										"，\n包括回血和特殊魔法。\n但還是可以當食物吃。\n發動成功後，此書消失。\n\n\n      ",
-										{"text": "[發動", "extra": [{"translate": "block.minecraft.melon"}, "封鎖]"], "click_event": {"action": "run_command", "command": "/trigger air_special_book set 4"}, "hover_event": {"action": "show_text", "value": "點擊直接發動"}}
+										{
+											"text": "[發動",
+											"extra":
+											[
+												{
+													"translate": "block.minecraft.melon"
+												},
+												"封鎖]"
+											],
+											"click_event":
+											{
+												"action": "run_command",
+												"command": "/trigger air_special_book set 4"
+											},
+											"hover_event":
+											{
+												"action": "show_text",
+												"value": "點擊直接發動"
+											}
+										}
 									],
 									"title": "西瓜封鎖",
 									"author": "Alex Cai"
