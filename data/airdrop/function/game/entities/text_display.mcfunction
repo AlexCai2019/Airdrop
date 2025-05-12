@@ -2,7 +2,7 @@
 execute if entity @s[tag=air_explosion] run return run function airdrop:game/tnt_time/text
 
 #雷電空投
-execute if entity @s[tag=air_thunder] run return run function airdrop:game/thunder_time/tick
+execute if entity @s[tag=air_thunder] run return run execute if predicate airdrop:time/every_second run function airdrop:game/thunder_time/second
 
 #刪除沒有騎東西的展示實體
 execute if entity @s[tag=air_riding_mob, predicate=!airdrop:riding] run return run kill

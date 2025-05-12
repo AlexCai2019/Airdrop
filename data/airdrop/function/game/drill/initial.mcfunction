@@ -1,5 +1,4 @@
 #初始化
-scoreboard players set @s air_tick 0
 #10秒的壽命
 scoreboard players set @s air_time 10
 #對齊中心

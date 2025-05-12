@@ -1,7 +1,7 @@
 execute unless block ~ ~ ~ #air run return run kill
 
-scoreboard players remove @s air_tick 1
-execute if score @s air_tick matches 0 run return run kill
+#子彈可存活15秒
+execute if predicate airdrop:time/15_seconds run return run kill
 
 scoreboard players operation #end_stone_bullet air_uuid_match = @s air_uuid_match
 scoreboard players operation #end_stone_bullet air_team_code_match = @s air_team_code

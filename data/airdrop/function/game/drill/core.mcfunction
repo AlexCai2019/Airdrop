@@ -2,5 +2,4 @@
 execute at @s unless block ~ ~-1 ~ #airdrop:drill_immune run function airdrop:game/drill/dig
 
 #每秒
-scoreboard players add @s air_tick 1
-execute if score @s air_tick matches 20 run function airdrop:game/drill/second
+execute if predicate airdrop:time/every_second run function airdrop:game/drill/second
