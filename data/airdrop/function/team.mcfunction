@@ -41,3 +41,4 @@ team add 11
 team add 12
 team add 8
 team add 9
+scoreboard objectives add dies dummy

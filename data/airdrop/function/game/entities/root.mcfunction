@@ -37,5 +37,8 @@ execute if entity @s[type=text_display] run return run function airdrop:game/ent
 #標記
 execute if entity @s[type=marker] run return run function airdrop:game/entities/marker
 
+#可馴服
+execute if entity @s[type=#airdrop:can_be_tamed] run return run execute if entity @s[tag=!air_avoid_snap] if data entity @s Owner run tag @s add air_avoid_snap
+
 #玩家
 execute if entity @s[type=player, gamemode=!spectator] run function airdrop:game/entities/player

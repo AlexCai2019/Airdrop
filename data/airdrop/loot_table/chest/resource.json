@@ -397,7 +397,10 @@
 								{
 									"pages":
 									[
-										"主手拿著此書，副手拿著要提取附魔的物品\n就可以將附魔轉移到此書上。\n\n\n       ",
+										{
+											"text": "主手拿著此書，副手拿著要提取附魔的物品\n就可以將附魔轉移到此書上。\n\n       ",
+											"font": "minecraft:uniform"
+										},
 										{
 											"text": "[發動附魔提取]",
 											"click_event":
@@ -458,7 +461,10 @@
 								{
 									"pages":
 									[
-										"以犧牲自己為代價，隨機復活一名死去的隊友。\n",
+										{
+											"text": "以犧牲自己為代價，隨機復活一名死去的隊友。\n",
+											"font": "minecraft:uniform"
+										},
 										{
 											"text": "不能",
 											"color": "red"
@@ -467,7 +473,7 @@
 										{
 											"translate": "item.minecraft.totem_of_undying"
 										},
-										"續命。\n復活的隊友會繼承你的裝備。\n若沒有死亡的隊友則發動失敗，不會犧牲。\n發動成功後，此書消失。\n\n\n       ",
+										"續命。\n復活的隊友會繼承你的裝備。\n若沒有死亡的隊友則發動失敗，不會犧牲。\n發動成功後，此書消失。\n\n       ",
 										{
 											"text": "[發動轉生之術]",
 											"click_event":
@@ -534,11 +540,14 @@
 								{
 									"pages":
 									[
-										"所有玩家無法使用",
+										{
+											"text": "所有玩家無法使用",
+											"font": "minecraft:uniform"
+										},
 										{
 											"translate": "block.minecraft.melon"
 										},
-										"，\n包括回血和特殊魔法。\n但還是可以當食物吃。\n發動成功後，此書消失。\n\n\n      ",
+										"的回血和特殊魔法。\n但還是可以吃。\n發動成功後，此書消失。\n\n      ",
 										{
 											"text": "[發動",
 											"extra":
@@ -584,7 +593,19 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:elytra",
-					"weight": 1
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_damage",
+							"damage":
+							{
+								"type": "minecraft:uniform",
+								"max": 0.9,
+								"min": 0.3
+							}
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
@@ -706,7 +727,7 @@
 							"function": "minecraft:enchant_randomly",
 							"options":
 							[
-								"frost_walker"
+								"minecraft:frost_walker"
 							]
 						},
 						{
