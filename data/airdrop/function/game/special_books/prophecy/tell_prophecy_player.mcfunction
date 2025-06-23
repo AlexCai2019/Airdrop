@@ -1,3 +1,1 @@
-$tellraw @a[tag=air_prophecy] [{text: "", click_event: {action: "run_command", command: "/trigger air_prophecy set $(uuid)"}, hover_event: {action: "show_text", value: ["選擇 ", {selector: "@s"}]}}, {text: " >>> ", color: "gray"}, {score: {name: "#prophecy_serial", objective: "air_special_book"}, color: "gold", extra: [". "]}, {selector: "@s"}]
-#流水號+ 1
-scoreboard players add #prophecy_serial air_special_book 1
+$tellraw @a[tag=air_prophecy] [{text: ">>> ", color: "gray", click_event: {action: "run_command", command: "/trigger air_prophecy set $(uuid)"}, hover_event: {action: "show_text", value: ["選擇 ", {nbt: "text", entity: "@e[type=text_display, tag=air_name, distance=..0.1]", interpret: true}]}}, {nbt: "text", entity: "@e[type=text_display, tag=air_name, distance=..0.1]", interpret: true}]

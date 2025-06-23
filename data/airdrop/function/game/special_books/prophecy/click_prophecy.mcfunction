@@ -1,3 +1,5 @@
+scoreboard players reset @s air_prophecy
+
 #檢查身上有這本書 但不清除 可能會有死亡訊息
 execute store success score #has_book air_special_book run clear @s written_book[custom_data~{prophecy: true}] 0
 execute if score #has_book air_special_book matches 0 run return run tellraw @s ["<", {text: "預言書", color: "aqua"}, "> 預言失敗…身上沒有書本。"]
@@ -17,4 +19,3 @@ execute if score #prophecy_success air_special_book matches 0 run tellraw @s ["<
 
 #清除一本書
 clear @s written_book[custom_data~{prophecy: true}] 1
-scoreboard players reset @s air_prophecy
