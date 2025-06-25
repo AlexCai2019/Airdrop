@@ -422,8 +422,7 @@
 									],
 									"title": "附魔提取書",
 									"author": "Alex Cai"
-								},
-								"minecraft:max_stack_size": 1
+								}
 							}
 						},
 						{
