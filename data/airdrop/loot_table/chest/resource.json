@@ -137,6 +137,11 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:copper_ingot",
+					"weight": 6
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:armor_stand",
 					"weight": 5,
 					"functions":

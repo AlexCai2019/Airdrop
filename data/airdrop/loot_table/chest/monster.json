@@ -126,6 +126,11 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:copper_ingot",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:breeze_rod",
 					"weight": 2
 				},
