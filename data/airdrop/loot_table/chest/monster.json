@@ -73,7 +73,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{gadget: \"throw_cobweb\"}"
+							"tag": "{projectile: \"throw_cobweb\"}"
 						},
 						{
 							"function": "minecraft:set_components",
@@ -102,7 +102,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{gadget: \"build_bridge\"}"
+							"tag": "{projectile: \"build_bridge\"}"
 						},
 						{
 							"function": "minecraft:set_components",

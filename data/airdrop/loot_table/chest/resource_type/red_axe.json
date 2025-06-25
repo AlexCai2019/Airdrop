@@ -62,7 +62,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{gadget: \"red_axe\"}"
+							"tag": "{weapon: \"red_axe\"}"
 						}
 					]
 				}

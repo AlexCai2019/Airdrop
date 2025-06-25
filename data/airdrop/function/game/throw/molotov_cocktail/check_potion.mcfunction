@@ -1,7 +1,7 @@
 tag @s add air_check_potion
 
 #不是燃燒瓶就算了
-execute unless data entity @s Item.components."minecraft:custom_data".molotov_cocktail run return fail
+execute unless data entity @s {Item: {components: {"minecraft:custom_data": {projectile: "molotov_cocktail"}}}} run return fail
 
 #讓標記騎著藥水
 tag @s add air_temp

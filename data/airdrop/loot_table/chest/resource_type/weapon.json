@@ -192,7 +192,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{gadget: \"molotov_cocktail\"}"
+							"tag": "{projectile: \"molotov_cocktail\"}"
 						}
 					]
 				}

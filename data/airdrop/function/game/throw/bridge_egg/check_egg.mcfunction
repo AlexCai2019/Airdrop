@@ -2,7 +2,7 @@ tag @s add air_check_egg
 
 #不是造橋蛋就算了
 #不能用execute if items
-execute unless data entity @s {Item: {components: {"minecraft:custom_data": {gadget: "build_bridge"}}}} run return fail
+execute unless data entity @s {Item: {components: {"minecraft:custom_data": {projectile: "build_bridge"}}}} run return fail
 
 tag @s add air_bridge_egg
 

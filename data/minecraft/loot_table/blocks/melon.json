@@ -22,7 +22,7 @@
 									{
 										"components":
 										{
-											"minecraft:custom_data": "{gadget: \"melon_knife\"}"
+											"minecraft:custom_data": "{weapon: \"melon_knife\"}"
 										} 
 									}
 								}
