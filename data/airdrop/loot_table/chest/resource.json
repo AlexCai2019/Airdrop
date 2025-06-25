@@ -428,7 +428,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{extract_enchantments: true}"
+							"tag": "{book: \"extract_enchantments\"}"
 						}
 					]
 				},
@@ -500,7 +500,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{resurrection: true}"
+							"tag": "{book: \"resurrection\"}"
 						}
 					]
 				},
@@ -581,7 +581,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ban_melon: true}"
+							"tag": "{book: \"ban_melon\"}"
 						}
 					]
 				},

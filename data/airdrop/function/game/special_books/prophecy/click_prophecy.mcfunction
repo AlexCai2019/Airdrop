@@ -1,7 +1,7 @@
 scoreboard players reset @s air_prophecy
 
 #檢查身上有這本書 但不清除 可能會有死亡訊息
-execute store success score #has_book air_special_book run clear @s written_book[custom_data~{prophecy: true}] 0
+execute store success score #has_book air_special_book run clear @s written_book[custom_data~{book: "prophecy"}] 0
 execute if score #has_book air_special_book matches 0 run return run tellraw @s ["<", {text: "預言書", color: "aqua"}, "> 預言失敗…身上沒有書本。"]
 
 #檢查用的分數 以及成不成功
@@ -18,4 +18,4 @@ execute if score #prophecy_success air_special_book matches 1 run tellraw @s ["<
 execute if score #prophecy_success air_special_book matches 0 run tellraw @s ["<", {text: "預言書", color: "aqua"}, "> 預言", {text: "失敗", color: "red"}, "…該玩家沒有", {translate: "effect.minecraft.invisibility"}, "。"]
 
 #清除一本書
-clear @s written_book[custom_data~{prophecy: true}] 1
+clear @s written_book[custom_data~{book: "prophecy"}] 1

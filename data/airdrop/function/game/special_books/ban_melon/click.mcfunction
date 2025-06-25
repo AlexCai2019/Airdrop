@@ -1,5 +1,5 @@
 #檢查身上有這本書 同時清除一本書
-execute store success score #has_book air_special_book run clear @s written_book[custom_data~{ban_melon: true}] 1
+execute store success score #has_book air_special_book run clear @s written_book[custom_data~{book: "ban_melon"}] 1
 execute if score #has_book air_special_book matches 0 run return run tellraw @s ["<", {translate: "block.minecraft.melon", color: "#34791E"}, {text: "封鎖", color: "red"}, "> ", {translate: "block.minecraft.melon"}, "封鎖發動失敗…身上沒有書本。"]
 
 #封鎖一分鐘
