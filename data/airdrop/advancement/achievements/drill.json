@@ -29,7 +29,7 @@
 							"items": "minecraft:blaze_spawn_egg",
 							"components":
 							{
-								"minecraft:custom_data": "{air_drill_egg: true}"
+								"minecraft:custom_data": "{gadget: \"air_drill_egg\"}"
 							}
 						}
 					}

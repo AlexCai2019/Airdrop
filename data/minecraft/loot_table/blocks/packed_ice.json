@@ -45,7 +45,7 @@
 								{
 									"minecraft:custom_data":
 									{
-										"red_axe": true
+										"gadget": "red_axe"
 									}
 								}
 							}

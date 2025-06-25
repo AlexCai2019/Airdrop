@@ -33,7 +33,7 @@
 						"items": "minecraft:iron_axe",
 						"components":
 						{
-							"minecraft:custom_data": "{red_axe: true}"
+							"minecraft:custom_data": "{gadget: \"red_axe\"}"
 						}
 					}
 				]

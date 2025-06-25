@@ -17,7 +17,7 @@
 							{
 								"minecraft:custom_data":
 								{
-									"air_drill_egg": true
+									"gadget": "air_drill_egg"
 								}
 							}
 						}

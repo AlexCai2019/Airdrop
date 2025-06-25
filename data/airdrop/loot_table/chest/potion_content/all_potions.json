@@ -121,7 +121,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{ghost: true}"
+							"tag": "{gadget: \"ghost\"}"
 						}
 					]
 				},

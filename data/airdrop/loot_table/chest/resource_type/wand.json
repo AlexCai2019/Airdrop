@@ -147,7 +147,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{special_block_wand: true}"
+							"tag": "{gadget: \"special_block_wand\"}"
 						},
 						{
 							"function": "minecraft:set_components",

@@ -34,7 +34,7 @@
 						"items": "minecraft:potion",
 						"components":
 						{
-							"minecraft:custom_data": "{ghost: true}"
+							"minecraft:custom_data": "{gadget: \"ghost\"}"
 						}
 					}
 				]

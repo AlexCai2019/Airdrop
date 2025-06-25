@@ -56,7 +56,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{melon_knife: true}"
+							"tag": "{gadget: \"melon_knife\"}"
 						}
 					]
 				}
