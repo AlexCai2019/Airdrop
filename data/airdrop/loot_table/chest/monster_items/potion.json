@@ -12,15 +12,6 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name":
-							{
-								"translate": "item.minecraft.splash_potion.effect.poison",
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_components",
 							"components":
 							{
@@ -34,7 +25,8 @@
 											"amplifier": 0
 										}
 									],
-									"custom_color": 5215794
+									"custom_color": 5215794,
+									"custom_name": "poison"
 								}
 							}
 						}

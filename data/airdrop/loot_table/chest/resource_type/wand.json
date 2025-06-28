@@ -8,7 +8,6 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:warped_fungus_on_a_stick",
-					"weight": 1,
 					"functions":
 					[
 						{
