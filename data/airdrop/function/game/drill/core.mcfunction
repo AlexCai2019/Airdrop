@@ -2,4 +2,4 @@
 execute at @s unless block ~ ~-1 ~ #airdrop:drill_immune run function airdrop:game/drill/dig
 
 #每秒
-execute if predicate airdrop:time/every_second run function airdrop:game/drill/second
+execute if predicate airdrop:every_second run function airdrop:game/drill/second

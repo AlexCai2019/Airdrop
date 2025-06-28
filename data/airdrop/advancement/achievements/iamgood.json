@@ -32,9 +32,12 @@
 				[
 					{
 						"items": "minecraft:potion",
-						"components":
+						"predicates":
 						{
-							"minecraft:custom_data": "{potion: \"ghost\"}"
+							"minecraft:custom_data":
+							{
+								"potion": "ghost"
+							}
 						}
 					}
 				]

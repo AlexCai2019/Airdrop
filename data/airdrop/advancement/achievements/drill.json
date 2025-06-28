@@ -27,9 +27,12 @@
 						"predicate":
 						{
 							"items": "minecraft:blaze_spawn_egg",
-							"components":
+							"predicates": 
 							{
-								"minecraft:custom_data": "{gadget: \"air_drill_egg\"}"
+								"minecraft:custom_data":
+								{
+									"gadget": "air_drill_egg"
+								}
 							}
 						}
 					}

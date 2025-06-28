@@ -20,10 +20,13 @@
 									"condition": "minecraft:match_tool",
 									"predicate":
 									{
-										"components":
+										"predicates":
 										{
-											"minecraft:custom_data": "{weapon: \"melon_knife\"}"
-										} 
+											"minecraft:custom_data":
+											{
+												"weapon": "melon_knife"
+											}
+										}
 									}
 								}
 							]

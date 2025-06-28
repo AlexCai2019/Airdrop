@@ -31,9 +31,12 @@
 				[
 					{
 						"items": "minecraft:iron_axe",
-						"components":
+						"predicates":
 						{
-							"minecraft:custom_data": "{weapon: \"red_axe\"}"
+							"minecraft:custom_data":
+							{
+								"weapon": "red_axe"
+							}
 						}
 					}
 				]
