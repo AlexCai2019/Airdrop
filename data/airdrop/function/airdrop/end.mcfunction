@@ -13,7 +13,7 @@ setblock ~ ~ ~ barrel[facing=up]{Items:\
 	{Slot: 10, id: "chorus_fruit"},\
 	{Slot: 11, id: "chorus_fruit"},\
 	{Slot: 12, id: "glass"},\
-	{Slot: 13, id: "ender_eye", components:{custom_name:[{text: "呼叫空投", color: "#FFFF00", italic: false}, {text: "(", color: "#BFBFBF", extra: [{keybind: "key.use"}, ")"]}]}},\
+	{Slot: 13, id: "ender_eye", components:{item_name:[{text: "呼叫空投", color: "#FFFF00"}, {text: "(", color: "#BFBFBF", extra: [{keybind: "key.use"}, ")"]}]}},\
 	{Slot: 14, id: "glass"},\
 	{Slot: 15, id: "chorus_fruit"},\
 	{Slot: 16, id: "chorus_fruit"},\

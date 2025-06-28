@@ -133,12 +133,10 @@
 							}
 						},
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name":
+							"function": "minecraft:set_components",
+							"components":
 							{
-								"text": "擊退棒",
-								"italic": false
+								"minecraft:item_name": "擊退棒"
 							}
 						}
 					]

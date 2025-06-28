@@ -1,5 +1,5 @@
 tag @s add air_hypoxia
-execute on attacker run tellraw @a {translate: "death.attack.indirectMagic.item", with: [{selector: "@a[tag=air_hypoxia]"}, {selector: "@s"}, {translate: "chat.square_brackets", color: "aqua", with: [{text: "特殊方塊魔杖", bold: true, hover_event: {action: "show_item", id: "warped_fungus_on_a_stick", count: 1, components: {custom_name: {text: "特殊方塊魔杖", bold: true, italic: false}, lore:\
+execute on attacker run tellraw @a {translate: "death.attack.indirectMagic.item", with: [{selector: "@a[tag=air_hypoxia]"}, {selector: "@s"}, {translate: "chat.square_brackets", color: "aqua", with: [{text: "特殊方塊魔杖", bold: true, hover_event: {action: "show_item", id: "warped_fungus_on_a_stick", count: 1, components: {item_name: {text: "特殊方塊魔杖", bold: true}, lore:\
 [\
 	{text: "只能在主手使用", color: "red", bold: true},\
 	[\

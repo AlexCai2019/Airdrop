@@ -143,26 +143,21 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name":
-							[
-								{
-									"text": "播放 ",
-									"color": "#009295",
-									"italic": false
-								},
-								{
-									"translate": "subtitles.entity.warden.emerge",
-									"color": "#41DFEB"
-								},
-								" 音效"
-							]
-						},
-						{
 							"function": "minecraft:set_components",
 							"components":
 							{
+								"minecraft:item_name":
+								[
+									{
+										"text": "播放 ",
+										"color": "#009295"
+									},
+									{
+										"translate": "subtitles.entity.warden.emerge",
+										"color": "#41DFEB"
+									},
+									" 音效"
+								],
 								"minecraft:entity_data":
 								{
 									"id": "minecraft:marker",

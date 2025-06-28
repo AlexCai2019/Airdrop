@@ -147,23 +147,6 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name":
-							[
-								{
-									"text": "隱形",
-									"color": "#808080",
-									"bold": true,
-									"italic": false
-								},
-								{
-									"text": "追蹤者",
-									"color": "gold"
-								}
-							]
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"mode": "append",
@@ -197,6 +180,18 @@
 							"function": "minecraft:set_components",
 							"components":
 							{
+								"minecraft:item_name":
+								[
+									{
+										"text": "隱形",
+										"color": "#808080",
+										"bold": true
+									},
+									{
+										"text": "追蹤者",
+										"color": "gold"
+									}
+								],
 								"minecraft:entity_data":
 								{
 									"id": "minecraft:armor_stand",
@@ -228,27 +223,28 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name":
-							[
-								{
-									"text": "呼叫空投",
-									"color": "#FFFF00",
-									"italic": false
-								},
-								{
-									"text": "(",
-									"color": "#BFBFBF",
-									"extra":
-									[
-										{
-											"keybind": "key.use"
-										},
-										")"
-									]
-								}
-							]
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:item_name":
+								[
+									{
+										"text": "呼叫空投",
+										"color": "#FFFF00"
+									},
+									{
+										"text": "(",
+										"color": "#BFBFBF",
+										"extra":
+										[
+											{
+												"keybind": "key.use"
+											},
+											")"
+										]
+									}
+								]
+							}
 						}
 					]
 				},

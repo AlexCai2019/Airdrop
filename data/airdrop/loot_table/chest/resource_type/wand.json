@@ -11,16 +11,6 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:set_name",
-							"entity": "this",
-							"name":
-							{
-								"text": "特殊方塊魔杖",
-								"bold": true,
-								"italic": false
-							}
-						},
-						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"mode": "append",
@@ -152,6 +142,11 @@
 							"function": "minecraft:set_components",
 							"components":
 							{
+								"minecraft:item_name":
+								{
+									"text": "特殊方塊魔杖",
+									"bold": true
+								},
 								"minecraft:enchantment_glint_override": true,
 								"minecraft:rarity": "rare"
 							}
