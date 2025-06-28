@@ -121,7 +121,7 @@
 						},
 						{
 							"function": "minecraft:set_custom_data",
-							"tag": "{gadget: \"ghost\"}"
+							"tag": "{potion: \"ghost\"}"
 						}
 					]
 				},
