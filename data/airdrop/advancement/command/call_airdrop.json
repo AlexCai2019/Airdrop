@@ -1,0 +1,24 @@
+{
+	"criteria":
+	{
+		"call_airdrop":
+		{
+			"trigger": "minecraft:using_item",
+			"conditions":
+			{
+				"item":
+				{
+					"items": "minecraft:poisonous_potato",
+					"components":
+					{
+						"item_model": "minecraft:heart_of_the_sea"
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "airdrop:game/drop/call"
+	}
+}

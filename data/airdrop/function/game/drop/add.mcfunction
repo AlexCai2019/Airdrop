@@ -4,5 +4,5 @@ execute unless score #airdrop air_time = timeair timesmallu run return fail
 
 #時間到了 給空投
 tellraw @a ["<", {text: "空投事件", color: "aqua"}, "> 所有玩家獲得一個", {text: "空投道具", color: "#88C35A", bold: true}]
-give @a[gamemode=!spectator] ender_eye[item_name=[{text: "呼叫空投", color: "#FFFF00"}, {text: "(", color: "#BFBFBF", extra: [{keybind: "key.use"}, ")"]}]]
+give @a[gamemode=!spectator] poisonous_potato[item_name=[{text: "呼叫空投", color: "#FFFF00"}, {text: " (", color: "#BFBFBF", extra: [{keybind: "key.use"}, ")"]}], item_model="heart_of_the_sea", enchantment_glint_override=true, !food, consumable={consume_seconds: 86400.0F}]
 scoreboard players set #airdrop air_time 0

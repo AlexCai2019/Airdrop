@@ -218,7 +218,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:ender_eye",
+					"name": "minecraft:poisonous_potato",
 					"weight": 5,
 					"functions":
 					[
@@ -233,7 +233,7 @@
 										"color": "#FFFF00"
 									},
 									{
-										"text": "(",
+										"text": " (",
 										"color": "#BFBFBF",
 										"extra":
 										[
@@ -243,7 +243,14 @@
 											")"
 										]
 									}
-								]
+								],
+								"minecraft:item_model": "minecraft:heart_of_the_sea",
+								"minecraft:enchantment_glint_override": true,
+								"!minecraft:food": {},
+								"minecraft:consumable":
+								{
+									"consume_seconds": 86400.0
+								}
 							}
 						}
 					]
