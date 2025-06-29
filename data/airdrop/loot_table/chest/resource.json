@@ -249,7 +249,10 @@
 								"!minecraft:food": {},
 								"minecraft:consumable":
 								{
-									"consume_seconds": 86400.0
+									"animation": "none",
+									"has_consume_particles": false,
+									"consume_seconds": 0.0,
+									"sound": "minecraft:entity.ender_eye.launch"
 								}
 							}
 						}
