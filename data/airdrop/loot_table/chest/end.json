@@ -1,0 +1,120 @@
+{
+	"type": "minecraft:chest",
+	"pools":
+	[
+		{
+			"rolls":
+			{
+				"type": "minecraft:uniform",
+				"min": 15,
+				"max": 20
+			},
+			"entries":
+			[
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:end_stone",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:purpur_block",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_fruit",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_pearl",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:obsidian",
+					"weight": 6
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:enderman_spawn_egg",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shulker_spawn_egg",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_eye",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"weight": 4,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:base_color": "magenta",
+								"minecraft:banner_patterns":
+								[
+									{
+										"color": "black",
+										"pattern": "minecraft:triangle_top"
+									},
+									{
+										"color": "black",
+										"pattern": "minecraft:triangle_bottom"
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shulker_box",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:end_crystal",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:elytra",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_damage",
+							"damage":
+							{
+								"type": "minecraft:uniform",
+								"max": 0.5,
+								"min": 0.1
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dragon_egg",
+					"weight": 1
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dragon_head",
+					"weight": 1
+				}
+			]
+		}
+	]
+}
