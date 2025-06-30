@@ -1,0 +1,2 @@
+execute if items entity @s weapon warped_fungus_on_a_stick[custom_data~{gadget: "special_block_wand"}] run return run function airdrop:game/effects/end_stone/bullet/death_message with entity @s SelectedItem
+execute if items entity @s weapon.offhand warped_fungus_on_a_stick[custom_data~{gadget: "special_block_wand"}] run function airdrop:game/effects/end_stone/bullet/death_message with entity @s equipment.offhand

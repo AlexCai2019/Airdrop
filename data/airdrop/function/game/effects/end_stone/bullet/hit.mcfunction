@@ -6,7 +6,7 @@ execute if entity @s[gamemode=spectator] run return fail
 
 #找到當初射子彈的玩家
 execute as @a if score @s air_uuid = #end_stone_bullet air_uuid_match run tag @s add air_shoot_bullet
-damage @s 2.5 in_wall by @a[tag=air_shoot_bullet, limit=1]
+damage @s 5 in_wall by @a[tag=air_shoot_bullet, limit=1]
 tag @a[tag=air_shoot_bullet] remove air_shoot_bullet
 
 #清除子彈

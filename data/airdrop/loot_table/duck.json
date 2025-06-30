@@ -21,6 +21,17 @@
 								"minecraft:item_name": "鴨肉"
 							}
 						}
+					],
+					"conditions":
+					[
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "attacker",
+							"predicate":
+							{
+								"type": "minecraft:player"
+							}
+						}
 					]
 				}
 			]
