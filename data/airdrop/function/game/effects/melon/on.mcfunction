@@ -1,3 +1,5 @@
+execute if score #ban_melon air_time matches 1.. run return fail
+
 #回血
 scoreboard players add @s air_regeneration 1
 execute if score @s air_regeneration matches 20 run function airdrop:game/effects/melon/regeneration

@@ -147,7 +147,6 @@
 									"text": "特殊方塊魔杖",
 									"bold": true
 								},
-								"minecraft:enchantment_glint_override": true,
 								"minecraft:rarity": "rare"
 							}
 						}
