@@ -1,2 +1,2 @@
-execute if items entity @s weapon warped_fungus_on_a_stick[custom_data~{gadget: "special_block_wand"}] at @s[scores={air_wand=1..}] anchored eyes run function airdrop:game/effects/wand/release
+execute if items entity @s weapon *[custom_data~{gadget: "special_block_wand"}] at @s[scores={air_wand=1..}] anchored eyes run function airdrop:game/effects/wand/release
 scoreboard players reset @s air_use_wand
