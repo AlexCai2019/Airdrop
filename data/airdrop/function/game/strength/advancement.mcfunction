@@ -1,2 +1,2 @@
-execute if predicate airdrop:effects/strength run function airdrop:game/strength/get
+execute if score @e[type=marker, tag=yes, limit=1] air_start matches 1 if predicate airdrop:effects/strength run function airdrop:game/strength/get
 advancement revoke @s only airdrop:command/strength_effect
