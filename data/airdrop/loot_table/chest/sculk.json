@@ -191,7 +191,7 @@
 									}
 								],
 								{
-									"text": "只有10❤(20血量)",
+									"text": "只有15❤(30血量)",
 									"color": "gray",
 									"italic": false
 								}
@@ -224,10 +224,10 @@
 									[
 										{
 											"id": "minecraft:max_health",
-											"base": 20.0
+											"base": 30.0
 										}
 									],
-									"Health": 20.0,
+									"Health": 30.0,
 									"Tags": ["air_play", "air_warden"]
 								},
 								"minecraft:enchantment_glint_override": true
