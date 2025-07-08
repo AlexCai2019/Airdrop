@@ -677,7 +677,7 @@
 							"damage":
 							{
 								"type": "minecraft:uniform",
-								"max": 0.9,
+								"max": 0.7,
 								"min": 0.3
 							}
 						}

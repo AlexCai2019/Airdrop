@@ -28,8 +28,18 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:end_rod",
+					"weight": 9
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:ender_pearl",
 					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:purple_stained_glass",
+					"weight": 7
 				},
 				{
 					"type": "minecraft:item",
@@ -85,7 +95,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:end_crystal",
-					"weight": 2
+					"weight": 1
 				},
 				{
 					"type": "minecraft:item",
