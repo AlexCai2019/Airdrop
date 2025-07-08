@@ -11,7 +11,7 @@
 					"items": "minecraft:poisonous_potato",
 					"components":
 					{
-						"item_model": "minecraft:heart_of_the_sea"
+						"minecraft:item_model": "minecraft:heart_of_the_sea"
 					}
 				}
 			}

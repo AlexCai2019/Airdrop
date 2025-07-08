@@ -1,1 +1,1 @@
-$summon block_display ~ ~ ~ {block_state: {Name: "$(id)"}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.0f, 0.0f, 0.0f]}, Tags:["air_bridge_display"]}
+$summon block_display ~ ~ ~ {block_state: {Name: "$(id)"}, transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [0.0f, 0.0f, 0.0f]}, Tags: ["air_bridge_display"]}

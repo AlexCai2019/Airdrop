@@ -99,7 +99,7 @@
 					[
 						{
 							"function": "minecraft:enchant_randomly",
-							"options":"#airdrop:vanilla"
+							"options": "#airdrop:vanilla"
 						}
 					]
 				},
@@ -195,7 +195,7 @@
 					[
 						{
 							"function": "minecraft:enchant_randomly",
-							"options":"#airdrop:vanilla"
+							"options": "#airdrop:vanilla"
 						},
 						{
 							"function": "minecraft:set_lore",

@@ -370,7 +370,7 @@
 					[
 						{
 							"function": "minecraft:enchant_randomly",
-							"options":"#airdrop:vanilla"
+							"options": "#airdrop:vanilla"
 						}
 					]
 				},
@@ -655,7 +655,7 @@
 												},
 												{
 													"id": "minecraft:regeneration",
-													"duration": 100,
+													"duration": 30,
 													"amplifier": 3
 												}
 											]

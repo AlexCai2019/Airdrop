@@ -1,2 +1,2 @@
-tellraw @a ["<[金曲歌王] ",{nbt: "root.event.song.singer", storage: "airdrop:data", interpret: true}, "> Who's the best？ I'm the best！ Oh yeah"]
+tellraw @a ["<[金曲歌王] ", {nbt: "root.event.song.singer", storage: "airdrop:data", interpret: true}, "> Who's the best？ I'm the best！ Oh yeah"]
 schedule function airdrop:event/song/bling_bang_bang_born/2 67
