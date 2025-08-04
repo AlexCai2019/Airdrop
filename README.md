@@ -4,13 +4,9 @@
 
 ## <span id="contents">目錄</span>
 
-1. <a href="#installation">安裝</a>
-2. <a href="#book">書本</a>
-3. <a href="#introduction">內容</a>
-4. <a href="#legacy">舊版</a>
-5. <a href="#links">連結</a>
+[TOC]
 
-## <span id="installation">安裝</span>
+## 安裝
 
 要安裝本資料包，可遵循以下步驟：
 
@@ -39,7 +35,7 @@
 
 <a href="#contents">回目錄</a>
 
-## <span id="book">書本</span>
+## 書本
 
 輸入指令 `/function airdrop:book` 就可以獲得設定書本(需要OP)：<br>
 ![書本](images/book/book.png)<br>
@@ -69,7 +65,7 @@
 
 <a href="#contents">回目錄</a>
 
-## <span id="introduction">內容</span>
+## 內容
 
 本資料包分為兩大內容：空投與事件。<br>
 每過一段時間，全體玩家會拿到一個空投道具(海洋之心)，<u title="預設右鍵">使用</u>這個空投道具就可以召喚空投。<br>
@@ -99,7 +95,7 @@
 
 <a href="#contents">回目錄</a>
 
-## <span id="legacy">舊版</span>
+## 舊版
 
 透過 [GitHub](https://github.com/AlexCai2019/Airdrop) 可下載舊版的空投：<br>
 1. 選擇<br>
@@ -110,7 +106,7 @@
 
 <a href="#contents">回目錄</a>
 
-## <span id="links">連結</span>
+## 連結
 
 - [巴哈姆特](https://forum.gamer.com.tw/C.php?bsn=18673&snA=200820)
 - [GitHub](https://github.com/AlexCai2019/Airdrop)
