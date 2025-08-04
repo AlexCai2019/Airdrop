@@ -1,10 +1,14 @@
 # 空投資料包
 
-空投資料包是由啊U發起、現由AC製作和維護的生存/PVP向專案。本資料包常與UHC Evolve搭配，作為UHC的擴充包。
+空投資料包是由啊U發起、現由AC製作和維護的生存/PVP向專案。本資料包常與 [UHC: Evolve](https://forum.gamer.com.tw/C.php?bsn=18673&snA=168664) 搭配，作為UHC的擴充包。
 
-## <span id="contents">目錄</span>
+## 目錄
 
-[TOC]
+1. [安裝](#安裝)
+2. [書本](#書本)
+3. [內容](#內容)
+4. [舊版](#舊版)
+5. [連結](#連結)
 
 ## 安裝
 
@@ -33,7 +37,7 @@
 	如果要解除安裝，請輸入 `/function airdrop:uninstall`<br>
 	![輸入/funtion airdrop:uninstall指令](images/installation/uninstall.png)
 
-<a href="#contents">回目錄</a>
+[回目錄](#目錄)
 
 ## 書本
 
@@ -63,7 +67,7 @@
 自訂空投使用展示：<br>
 ![儲存與檢視](images/book/custom_showcase.gif)
 
-<a href="#contents">回目錄</a>
+[回目錄](#目錄)
 
 ## 內容
 
@@ -93,7 +97,7 @@
 
 魔杖的使用方式有兩種，一種是站在特殊方塊上<u title="預設右鍵">使用</u>魔杖，另一種是<u title="預設右手">慣用手</u>拿著魔杖，<u title="預設左手">非慣用手</u>拿著特殊方塊並<u title="預設右鍵">使用</u>。兩種方式都需要<u title="預設右手">慣用手</u>拿著魔杖。
 
-<a href="#contents">回目錄</a>
+[回目錄](#目錄)
 
 ## 舊版
 
@@ -102,9 +106,9 @@
 	點擊 "main ▼"按鈕，選擇版本。<br>
 	![Branches](images/legacy/branches.png)
 2. 下載<br>
-	進行 <a href="#installation">安裝</a> 章節內的步驟。
+	進行 [安裝](#安裝) 章節內的步驟。
 
-<a href="#contents">回目錄</a>
+[回目錄](#目錄)
 
 ## 連結
 
@@ -112,4 +116,4 @@
 - [GitHub](https://github.com/AlexCai2019/Airdrop)
 - [MediaFire](https://www.mediafire.com/file/07vzo8a2t57luey)
 
-<a href="#contents">回目錄</a>
+[回目錄](#目錄)
