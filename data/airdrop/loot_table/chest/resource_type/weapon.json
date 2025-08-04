@@ -126,17 +126,16 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": "擊退棒"
+						},
+						{
 							"function": "minecraft:set_enchantments",
 							"enchantments":
 							{
 								"minecraft:knockback": 3
-							}
-						},
-						{
-							"function": "minecraft:set_components",
-							"components":
-							{
-								"minecraft:item_name": "擊退棒"
 							}
 						}
 					]

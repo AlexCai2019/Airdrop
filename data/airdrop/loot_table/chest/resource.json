@@ -147,6 +147,23 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name":
+							[
+								{
+									"text": "隱形",
+									"color": "#808080",
+									"bold": true
+								},
+								{
+									"text": "追蹤者",
+									"color": "gold"
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"mode": "append",
@@ -180,18 +197,6 @@
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:item_name":
-								[
-									{
-										"text": "隱形",
-										"color": "#808080",
-										"bold": true
-									},
-									{
-										"text": "追蹤者",
-										"color": "gold"
-									}
-								],
 								"minecraft:entity_data":
 								{
 									"id": "minecraft:armor_stand",
@@ -223,27 +228,32 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name":
+							[
+								{
+									"text": "呼叫空投",
+									"color": "#FFFF00"
+								},
+								{
+									"text": " (",
+									"color": "#BFBFBF",
+									"extra":
+									[
+										{
+											"keybind": "key.use"
+										},
+										")"
+									]
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:item_name":
-								[
-									{
-										"text": "呼叫空投",
-										"color": "#FFFF00"
-									},
-									{
-										"text": " (",
-										"color": "#BFBFBF",
-										"extra":
-										[
-											{
-												"keybind": "key.use"
-											},
-											")"
-										]
-									}
-								],
 								"minecraft:item_model": "minecraft:heart_of_the_sea",
 								"minecraft:enchantment_glint_override": true,
 								"!minecraft:food": {},
@@ -613,14 +623,19 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "金頭顱",
+								"color": "gold"
+							}
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:item_name":
-								{
-									"text": "金頭顱",
-									"color": "gold"
-								},
 								"minecraft:item_model": "minecraft:player_head",
 								"minecraft:profile":
 								{

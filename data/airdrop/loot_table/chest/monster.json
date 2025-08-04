@@ -63,6 +63,12 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": "發射蜘蛛網"
+						},
+						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{projectile: \"throw_cobweb\"}"
 						},
@@ -70,7 +76,6 @@
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:item_name": "發射蜘蛛網",
 								"minecraft:enchantment_glint_override": true,
 								"minecraft:rarity": "uncommon"
 							}
