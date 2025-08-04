@@ -68,21 +68,25 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_banner_pattern",
+							"append": true,
+							"patterns":
+							[
+								{
+									"color": "black",
+									"pattern": "minecraft:triangle_top"
+								},
+								{
+									"color": "black",
+									"pattern": "minecraft:triangle_bottom"
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:base_color": "magenta",
-								"minecraft:banner_patterns":
-								[
-									{
-										"color": "black",
-										"pattern": "minecraft:triangle_top"
-									},
-									{
-										"color": "black",
-										"pattern": "minecraft:triangle_bottom"
-									}
-								]
+								"minecraft:base_color": "magenta"
 							}
 						}
 					]

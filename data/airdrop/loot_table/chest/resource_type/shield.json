@@ -12,33 +12,37 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_banner_pattern",
+							"append": true,
+							"patterns":
+							[
+								{
+									"color": "brown",
+									"pattern": "minecraft:bricks"
+								},
+								{
+									"color": "yellow",
+									"pattern": "minecraft:stripe_middle"
+								},
+								{
+									"color": "green",
+									"pattern": "minecraft:flower"
+								},
+								{
+									"color": "red",
+									"pattern": "minecraft:half_horizontal_bottom"
+								},
+								{
+									"color": "yellow",
+									"pattern": "minecraft:circle"
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:base_color": "black",
-								"minecraft:banner_patterns":
-								[
-									{
-										"color": "brown",
-										"pattern": "minecraft:bricks"
-									},
-									{
-										"color": "yellow",
-										"pattern": "minecraft:stripe_middle"
-									},
-									{
-										"color": "green",
-										"pattern": "minecraft:flower"
-									},
-									{
-										"color": "red",
-										"pattern": "minecraft:half_horizontal_bottom"
-									},
-									{
-										"color": "yellow",
-										"pattern": "minecraft:circle"
-									}
-								]
+								"minecraft:base_color": "black"
 							}
 						}
 					]
@@ -49,25 +53,29 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_banner_pattern",
+							"append": true,
+							"patterns":
+							[
+								{
+									"color": "purple",
+									"pattern": "minecraft:rhombus"
+								},
+								{
+									"color": "magenta",
+									"pattern": "minecraft:circle"
+								},
+								{
+									"color": "black",
+									"pattern": "minecraft:flower"
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:base_color": "black",
-								"minecraft:banner_patterns":
-								[
-									{
-										"color": "purple",
-										"pattern": "minecraft:rhombus"
-									},
-									{
-										"color": "magenta",
-										"pattern": "minecraft:circle"
-									},
-									{
-										"color": "black",
-										"pattern": "minecraft:flower"
-									}
-								]
+								"minecraft:base_color": "black"
 							}
 						}
 					]
@@ -78,29 +86,33 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_banner_pattern",
+							"append": true,
+							"patterns":
+							[
+								{
+									"color": "brown",
+									"pattern": "minecraft:stripe_left"
+								},
+								{
+									"color": "red",
+									"pattern": "minecraft:stripe_top"
+								},
+								{
+									"color": "white",
+									"pattern": "minecraft:square_top_right"
+								},
+								{
+									"color": "black",
+									"pattern": "minecraft:border"
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:base_color": "black",
-								"minecraft:banner_patterns":
-								[
-									{
-										"color": "brown",
-										"pattern": "minecraft:stripe_left"
-									},
-									{
-										"color": "red",
-										"pattern": "minecraft:stripe_top"
-									},
-									{
-										"color": "white",
-										"pattern": "minecraft:square_top_right"
-									},
-									{
-										"color": "black",
-										"pattern": "minecraft:border"
-									}
-								]
+								"minecraft:base_color": "black"
 							}
 						}
 					]
@@ -111,37 +123,41 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_banner_pattern",
+							"append": true,
+							"patterns":
+							[
+								{
+									"color": "pink",
+									"pattern": "minecraft:rhombus"
+								},
+								{
+									"color": "white",
+									"pattern": "minecraft:flower"
+								},
+								{
+									"color": "light_blue",
+									"pattern": "minecraft:triangle_top"
+								},
+								{
+									"color": "white",
+									"pattern": "minecraft:cross"
+								},
+								{
+									"color": "light_blue",
+									"pattern": "minecraft:curly_border"
+								},
+								{
+									"color": "white",
+									"pattern": "minecraft:triangles_bottom"
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:base_color": "white",
-								"minecraft:banner_patterns":
-								[
-									{
-										"color": "pink",
-										"pattern": "minecraft:rhombus"
-									},
-									{
-										"color": "white",
-										"pattern": "minecraft:flower"
-									},
-									{
-										"color": "light_blue",
-										"pattern": "minecraft:triangle_top"
-									},
-									{
-										"color": "white",
-										"pattern": "minecraft:cross"
-									},
-									{
-										"color": "light_blue",
-										"pattern": "minecraft:curly_border"
-									},
-									{
-										"color": "white",
-										"pattern": "minecraft:triangles_bottom"
-									}
-								]
+								"minecraft:base_color": "white"
 							}
 						}
 					]
@@ -152,33 +168,37 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_banner_pattern",
+							"append": true,
+							"patterns":
+							[
+								{
+									"color": "black",
+									"pattern": "minecraft:straight_cross"
+								},
+								{
+									"color": "light_gray",
+									"pattern": "minecraft:stripe_center"
+								},
+								{
+									"color": "orange",
+									"pattern": "minecraft:stripe_top"
+								},
+								{
+									"color": "orange",
+									"pattern": "minecraft:stripe_bottom"
+								},
+								{
+									"color": "black",
+									"pattern": "minecraft:border"
+								}
+							]
+						},
+						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:base_color": "orange",
-								"minecraft:banner_patterns":
-								[
-									{
-										"color": "black",
-										"pattern": "minecraft:straight_cross"
-									},
-									{
-										"color": "light_gray",
-										"pattern": "minecraft:stripe_center"
-									},
-									{
-										"color": "orange",
-										"pattern": "minecraft:stripe_top"
-									},
-									{
-										"color": "orange",
-										"pattern": "minecraft:stripe_bottom"
-									},
-									{
-										"color": "black",
-										"pattern": "minecraft:border"
-									}
-								]
+								"minecraft:base_color": "orange"
 							}
 						}
 					]
