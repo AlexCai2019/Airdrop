@@ -1,1 +1,6 @@
 /.vscode/
+.Ds_Store
+*.zip
+*.rar
+*.tar
+*.tar.gz
