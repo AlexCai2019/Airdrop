@@ -55,6 +55,20 @@
 					"functions":
 					[
 						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": "武士刀"
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"strings":
+							{
+								"mode": "append",
+								"values": ["samurai_sword"]
+							}
+						},
+						{
 							"function": "minecraft:enchant_randomly",
 							"options": "#airdrop:vanilla"
 						}
@@ -190,6 +204,14 @@
 						{
 							"function": "minecraft:set_custom_data",
 							"tag": "{projectile: \"molotov_cocktail\"}"
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"strings":
+							{
+								"mode": "append",
+								"values": ["molotov_cocktail"]
+							}
 						}
 					]
 				}

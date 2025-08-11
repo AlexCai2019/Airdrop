@@ -596,6 +596,196 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:paper",
+					"weight": 2,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 2
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "繃帶",
+							"target": "item_name"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:consumable":
+								{
+									"consume_seconds": 0,
+									"sound": "entity.silverfish.ambient",
+									"has_consume_particles":false,
+									"on_consume_effects":
+									[
+										{
+											"type":"minecraft:apply_effects",
+											"effects":
+											[
+												{
+													"id":"instant_health",
+													"amplifier": 0,
+													"duration": 1
+												}
+											]
+										}
+									]
+								},
+								"minecraft:use_cooldown":
+								{
+									"seconds": 0.5,
+									"cooldown_group": "jk2:bandage"
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"mode": "append",
+							"entity": "this",
+							"lore":
+							[
+								[
+									{
+										"text": "點擊",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"keybind": "key.use"
+									},
+									"使用"
+								],
+								[
+									{
+										"translate": "effect.minecraft.instant_health",
+										"color": "blue",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"strings":
+							{
+								"mode": "append",
+								"values": ["bandage"]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:paper",
+					"weight": 2,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_count",
+							"count":
+							{
+								"min": 1,
+								"max": 2
+							}
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": "止痛藥",
+							"target": "item_name"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:consumable":
+								{
+									"consume_seconds": 0,
+									"sound": "block.scaffolding.break",
+									"has_consume_particles":false,
+									"on_consume_effects":
+									[
+										{
+											"type":"minecraft:apply_effects",
+											"effects":
+											[
+												{
+													"id": "minecraft:resistance",
+													"amplifier": 4,
+													"duration": 100
+												}
+											]
+										}
+									]
+								},
+								"minecraft:use_cooldown":
+								{
+									"seconds": 0.5,
+									"cooldown_group": "jk2:painkiller"
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"mode": "append",
+							"entity": "this",
+							"lore":
+							[
+								[
+									{
+										"text": "點擊",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"keybind": "key.use"
+									},
+									"使用"
+								],
+								[
+									{
+										"translate": "potion.withDuration",
+										"color": "blue",
+										"italic": false,
+										"with":
+										[
+											{
+												"translate": "potion.withAmplifier",
+												"with":
+												[
+													{
+														"translate": "effect.minecraft.resistance"
+													},
+													{
+														"translate": "potion.potency.4"
+													}
+												]
+											},
+											"00:05"
+										]
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_custom_model_data",
+							"strings":
+							{
+								"mode": "append",
+								"values": ["painkiller"]
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:netherite_upgrade_smithing_template",
 					"weight": 2
 				},
