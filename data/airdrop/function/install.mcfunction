@@ -36,7 +36,7 @@ scoreboard players set timeis timesmallu 2
 
 data merge storage airdrop:data {root: \
 {\
-	system: {message: {translate: "options.off", color: "red", bold: true}},\
+	game: {message: {translate: "options.off", color: "red", bold: true}},\
 	event: {message: {translate: "options.on", color: "green", bold: true}},\
 	airdrop: {message: {translate: "options.on", color: "green", bold: true}}\
 }}

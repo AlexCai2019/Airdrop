@@ -1,2 +1,2 @@
-$data modify storage airdrop:data root.custom.items_$(index) set from block $(position) Items
+$data modify storage airdrop:data root.airdrop.custom.items_$(index) set from block $(position) Items
 tellraw @s ["<", {text: "書本調整-", color: "dark_gray"}, {text: "空投", color: "aqua"}, "> ", {text: "已儲存自訂空投", color: "gray"}, {score: {name: "#custom", objective: "air_drop"}, color: "red", bold: true, extra: ["號"]}]

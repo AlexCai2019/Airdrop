@@ -22,6 +22,6 @@ give @s written_book[written_book_content={pages: [\
 	{text: "[清除]", hover_event: {action: "show_text", value: "點我清除目前編號的自訂空投"}, click_event: {action: "run_command", command: "/function airdrop:set/custom/clear/root"}}, "  ",\
 	{text: "[檢視]", hover_event: {action: "show_text", value: "點我檢視目前編號的自訂空投"}, click_event: {action: "run_command", command: "/function airdrop:set/custom/view/root"}}, "\n\n",\
 	{text: "開始遊戲：", hover_event: {action: "show_text", value: "若設定為開啟\n則事件和空投會開始計時"}}, " ",\
-	{nbt: "root.system.message", storage: "airdrop:data", interpret: true, click_event: {action: "run_command", command: "/function airdrop:set/on_off"}}, "\n\n",\
+	{nbt: "root.game.message", storage: "airdrop:data", interpret: true, click_event: {action: "run_command", command: "/function airdrop:set/on_off"}}, "\n\n",\
 	{text: "[清除這本書]", hover_event: {action: "show_text", value: "點我清除這本書"}, click_event: {action: "run_command", command: "/function airdrop:set/clear_book"}}\
 ]], title: "事件與空投調整", author: "啊U"}, custom_data={book: "air_book"}]
