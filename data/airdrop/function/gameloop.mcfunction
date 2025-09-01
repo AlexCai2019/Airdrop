@@ -1,1 +1,1 @@
-execute if score @e[type=marker, tag=yes, limit=1] air_start matches 1 run function airdrop:game/game
+execute if score #is_on air_start matches 1 run function airdrop:game/game
