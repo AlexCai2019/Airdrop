@@ -15,12 +15,12 @@ give @s written_book[written_book_content={pages: [\
 	{score: {name: "timeair", objective: "timesmallu"}, color: "gold"}, " ",\
 	{text: "+", click_event: {action: "run_command", command: "/function airdrop:set/airdrop/time/add"}}, " 分鐘\n\n",\
 	{text: "自訂空投：", hover_event: {action: "show_text", value: "可以在空投裡使用自訂的空投\n有1~4的編號"}}, " ",\
-	{text: "-", click_event: {action: "run_command", command: "/function airdrop:set/custom/subtract"}}, " ",\
+	{text: "-", click_event: {action: "run_command", command: "/function airdrop:set/airdrop/custom/subtract"}}, " ",\
 	{score: {name: "#custom", objective: "air_drop"}, color: "gold"}, " ",\
-	{text: "+", click_event: {action: "run_command", command: "/function airdrop:set/custom/add"}}, "\n  ",\
-	{text: "[儲存]", hover_event: {action: "show_text", value: "站在容器上\n點我儲存目前編號的\n自訂空投"}, click_event: {action: "run_command", command: "/function airdrop:set/custom/store/root"}}, "  ",\
-	{text: "[清除]", hover_event: {action: "show_text", value: "點我清除目前編號的自訂空投"}, click_event: {action: "run_command", command: "/function airdrop:set/custom/clear/root"}}, "  ",\
-	{text: "[檢視]", hover_event: {action: "show_text", value: "點我檢視目前編號的自訂空投"}, click_event: {action: "run_command", command: "/function airdrop:set/custom/view/root"}}, "\n\n",\
+	{text: "+", click_event: {action: "run_command", command: "/function airdrop:set/airdrop/custom/add"}}, "\n  ",\
+	{text: "[儲存]", hover_event: {action: "show_text", value: "站在容器上\n點我儲存目前編號的\n自訂空投"}, click_event: {action: "run_command", command: "/function airdrop:set/airdrop/custom/store/root"}}, "  ",\
+	{text: "[清除]", hover_event: {action: "show_text", value: "點我清除目前編號的自訂空投"}, click_event: {action: "run_command", command: "/function airdrop:set/airdrop/custom/clear/root"}}, "  ",\
+	{text: "[檢視]", hover_event: {action: "show_text", value: "點我檢視目前編號的自訂空投"}, click_event: {action: "run_command", command: "/function airdrop:set/airdrop/custom/view/root"}}, "\n\n",\
 	{text: "開始遊戲：", hover_event: {action: "show_text", value: "若設定為開啟\n則事件和空投會開始計時"}}, " ",\
 	{nbt: "root.game.message", storage: "airdrop:data", interpret: true, click_event: {action: "run_command", command: "/function airdrop:set/on_off"}}, "\n\n",\
 	{text: "[清除這本書]", hover_event: {action: "show_text", value: "點我清除這本書"}, click_event: {action: "run_command", command: "/function airdrop:set/clear_book"}}\
