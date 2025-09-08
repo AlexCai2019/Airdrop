@@ -652,14 +652,14 @@
 											"effects":
 											[
 												{
-													"id": "minecraft:absorption",
-													"duration": 2400,
+													"id": "minecraft:regeneration",
+													"duration": 200,
 													"amplifier": 1
 												},
 												{
-													"id": "minecraft:regeneration",
-													"duration": 30,
-													"amplifier": 3
+													"id": "minecraft:absorption",
+													"duration": 2400,
+													"amplifier": 0
 												}
 											]
 										}

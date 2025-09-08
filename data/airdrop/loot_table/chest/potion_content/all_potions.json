@@ -78,17 +78,6 @@
 					"functions":
 					[
 						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:turtle_master"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions":
-					[
-						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name":
@@ -237,17 +226,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:splash_potion",
-					"functions":
-					[
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:turtle_master"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:lingering_potion",
 					"functions":
 					[
@@ -353,17 +331,6 @@
 						{
 							"function": "minecraft:set_potion",
 							"id": "minecraft:long_slow_falling"
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:lingering_potion",
-					"functions":
-					[
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:long_turtle_master"
 						}
 					]
 				}
