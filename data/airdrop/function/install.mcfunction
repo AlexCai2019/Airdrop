@@ -26,6 +26,7 @@ scoreboard objectives add air_team_code_match dummy
 scoreboard objectives add air_special_book trigger
 scoreboard objectives add air_prophecy trigger
 scoreboard objectives add air_show_number dummy
+scoreboard objectives add air_y dummy
 scoreboard players set #is_on air_start 0
 scoreboard players set #is_on air_drop 1
 scoreboard players set #is_on air_event 1

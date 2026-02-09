@@ -8,8 +8,8 @@ execute unless entity @e[type=tnt_minecart, tag=air_target_minecart] run return 
 
 #如果有的話就計算距離
 execute as @e[type=tnt_minecart, tag=air_target_minecart] run function airdrop:game/tnt_time/store_coordinate
-execute store result score @s air_show_number run data get entity @s Pos[1]
-scoreboard players operation #minecart_distance air_show_number -= @s air_show_number
+execute store result score @s air_y run data get entity @s Pos[1]
+scoreboard players operation #minecart_distance air_show_number -= @s air_y
 
 #<= 0的話就可以結束了
 execute if score #minecart_distance air_show_number matches ..0 run return run kill
