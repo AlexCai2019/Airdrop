@@ -793,11 +793,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:turtle_helmet",
-					"weight": 2
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:iron_boots",
 					"weight": 1,
 					"functions":
@@ -815,6 +810,11 @@
 							"name": "專武"
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:turtle_helmet",
+					"weight": 2
 				}
 			]
 		}
