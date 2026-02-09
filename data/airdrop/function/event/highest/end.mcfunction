@@ -1,3 +1,5 @@
+function airdrop:event/time_loop/end {event_name: highest}
+
 #找誰最高
 scoreboard players reset * air_y
 execute as @a[gamemode=!spectator] store result score @s air_y run data get entity @s Pos[1]
