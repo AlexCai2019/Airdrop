@@ -27,7 +27,7 @@ summon wandering_trader ~ ~ ~ \
 		]\
 	},\
 	equipment: {chest: {id: "iron_chestplate", components: {enchantments: {thorns: 2}}}},\
-	drop_chances: {chest: 1.0F},\
+	drop_chances: {chest: 0.5F},\
 	CustomNameVisible: true,\
 	Tags: ["air_trader"]\
 }
