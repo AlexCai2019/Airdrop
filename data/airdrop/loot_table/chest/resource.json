@@ -358,6 +358,27 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:campfire",
+					"weight": 4,
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name": "窩要煙牌"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:item_model": "minecraft:oak_sign"
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:golden_apple",
 					"weight": 3
 				},
@@ -670,21 +691,9 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:elytra",
-					"weight": 1,
-					"functions":
-					[
-						{
-							"function": "minecraft:set_damage",
-							"damage":
-							{
-								"type": "minecraft:uniform",
-								"max": 0.7,
-								"min": 0.3
-							}
-						}
-					]
+					"type": "minecraft:loot_table",
+					"value": "airdrop:chest/resource_type/elytra",
+					"weight": 1
 				},
 				{
 					"type": "minecraft:item",
