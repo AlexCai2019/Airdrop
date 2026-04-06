@@ -3,7 +3,8 @@ execute if score #event air_chance matches 1 run return run function airdrop:eve
 execute if score #event air_chance matches 2 run return run function airdrop:event/one_more
 execute if score #event air_chance matches 3 run return run function airdrop:event/wood
 execute if score #event air_chance matches 4 run return run function airdrop:event/gold
-execute if score #event air_chance matches 5 run return run function airdrop:event/snap
-execute if score #event air_chance matches 6 run return run function airdrop:event/powered_creeper
-execute if score #event air_chance matches 7 run return run function airdrop:event/weather
+execute if score #event air_chance matches 5 run return run function airdrop:event/fox
+execute if score #event air_chance matches 6 run return run function airdrop:event/snap
+execute if score #event air_chance matches 7 run return run function airdrop:event/powered_creeper
+execute if score #event air_chance matches 8 run return run function airdrop:event/weather
 function airdrop:event/song
