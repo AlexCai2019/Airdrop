@@ -1,4 +1,3 @@
-title @a title ""
 title @a subtitle {text: "風雲變色", color: "gold", bold: true}
 function airdrop:event/weather/from
 

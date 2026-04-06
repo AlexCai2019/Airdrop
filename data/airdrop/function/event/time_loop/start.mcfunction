@@ -1,5 +1,3 @@
-title @a title ""
-
 $scoreboard players set #$(event_name) air_event 1
 $scoreboard players set #bossbar_time air_event $(duration)
 
