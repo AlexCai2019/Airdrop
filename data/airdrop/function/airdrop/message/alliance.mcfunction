@@ -1,2 +1,2 @@
-tellraw @s ["<", {text: "空投訊息", color: "aqua"}, "> ", {text: "召喚了 ", color: "gray"}, {selector: "@e[type=stray, tag=air_new_alliance, limit=1]", bold: true}]
-tag @e[type=stray, tag=air_new_alliance, limit=1] remove air_new_alliance
+tellraw @s ["<", {text: "空投訊息", color: "aqua"}, "> ", {text: "召喚了 ", color: "gray"}, {selector: "@e[tag=air_new_alliance, type=stray, limit=1]", bold: true}]
+tag @e[tag=air_new_alliance, type=stray, limit=1] remove air_new_alliance

@@ -1,4 +1,4 @@
 rotate @s ~.6 ~
-tp @e[type=armor_stand, tag=groom, distance=...5] ^ ^ ^-.09
-tp @e[type=armor_stand, tag=bride, distance=...5] ^ ^ ^.09
-execute as @e[type=armor_stand, tag=couple, distance=...5] at @s anchored eyes facing entity @n[type=marker, tag=air_cake, distance=...5] eyes run rotate @s ~ ~
+tp @e[tag=groom, type=armor_stand, distance=...5] ^ ^ ^-.09
+tp @e[tag=bride, type=armor_stand, distance=...5] ^ ^ ^.09
+execute as @e[tag=couple, type=armor_stand, distance=...5] at @s anchored eyes facing entity @n[tag=air_cake, type=marker, distance=...5] eyes run rotate @s ~ ~

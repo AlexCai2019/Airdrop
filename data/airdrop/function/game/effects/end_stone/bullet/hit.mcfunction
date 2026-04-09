@@ -10,4 +10,4 @@ damage @s 5 in_wall by @a[tag=air_shoot_bullet, limit=1]
 tag @a[tag=air_shoot_bullet] remove air_shoot_bullet
 
 #清除子彈
-execute as @e[type=marker, tag=air_end_stone_bullet, dx=1, dy=1, dz=1] if score @s air_uuid_match = #end_stone_bullet air_uuid_match run kill
+execute as @e[tag=air_end_stone_bullet, type=marker, dx=1, dy=1, dz=1] if score @s air_uuid_match = #end_stone_bullet air_uuid_match run kill
