@@ -19,6 +19,7 @@ scoreboard objectives remove air_special_book
 scoreboard objectives remove air_prophecy
 scoreboard objectives remove air_show_number
 scoreboard objectives remove air_y
+scoreboard objectives remove air_setting
 team remove air_drill
 team remove air_chicken
 advancement revoke @a from airdrop:achievements/root

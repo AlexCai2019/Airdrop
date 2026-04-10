@@ -1,0 +1,2 @@
+tellraw @s ["<", {text: "書本調整-", color: "dark_gray"}, {text: "空投", color: "aqua"}, "> ", {text: "請站在容器(", color: "red", bold: true, extra: [{translate: "block.minecraft.chest"}, "、", {translate: "block.minecraft.barrel"}, "、", {translate: "block.minecraft.shulker_box"}, "等)上！"]}]
+function airdrop:set/leaf
