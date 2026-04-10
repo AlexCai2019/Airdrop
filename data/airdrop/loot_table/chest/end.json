@@ -114,7 +114,7 @@
 							{
 								"type": "minecraft:uniform",
 								"min": 0.1,
-								"max": 0.5
+								"max": 0.4
 							}
 						}
 					]

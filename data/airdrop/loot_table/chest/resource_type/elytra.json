@@ -9,27 +9,87 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:elytra",
-					"weight": 4
+					"weight": 4,
+					"functions":
+					[				
+						{
+							"function": "minecraft:set_damage",
+							"damage":
+							{
+								"type": "minecraft:uniform",
+								"min": 0.1,
+								"max": 0.4
+							}
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:leather_chestplate",
-					"weight": 1
+					"weight": 1,
+					"functions":
+					[				
+						{
+							"function": "minecraft:set_damage",
+							"damage":
+							{
+								"type": "minecraft:uniform",
+								"min": 0.5,
+								"max": 0.9
+							}
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:chainmail_chestplate",
-					"weight": 1
+					"weight": 1,
+					"functions":
+					[				
+						{
+							"function": "minecraft:set_damage",
+							"damage":
+							{
+								"type": "minecraft:uniform",
+								"min": 0.1,
+								"max": 0.6
+							}
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:golden_chestplate",
-					"weight": 1
+					"weight": 1,
+					"functions":
+					[				
+						{
+							"function": "minecraft:set_damage",
+							"damage":
+							{
+								"type": "minecraft:uniform",
+								"min": 0.3,
+								"max": 0.7
+							}
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:iron_chestplate",
-					"weight": 1
+					"weight": 1,
+					"functions":
+					[				
+						{
+							"function": "minecraft:set_damage",
+							"damage":
+							{
+								"type": "minecraft:uniform",
+								"min": 0.1,
+								"max": 0.6
+							}
+						}
+					]
 				}
 			]
 		}
@@ -46,13 +106,18 @@
 			}
 		},
 		{
-			"function": "minecraft:set_damage",
-			"damage":
+			"function": "minecraft:set_enchantments",
+			"enchantments":
 			{
-				"type": "minecraft:uniform",
-				"min": 0.1,
-				"max": 0.5
-			}
+				"minecraft:unbreaking": 1
+			},
+			"conditions":
+			[
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.3
+				}
+			]
 		},
 		{
 			"function": "minecraft:set_components",
