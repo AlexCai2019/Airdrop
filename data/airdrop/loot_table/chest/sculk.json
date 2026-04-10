@@ -53,10 +53,16 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name":
-							{
-								"text": "飛濺 黑暗藥水",
-								"italic": false
-							}
+							[
+								{
+									"text": "飛濺",
+									"italic": false
+								},
+								{
+									"translate": "effect.minecraft.darkness"
+								},
+								"藥水"
+							]
 						},
 						{
 							"function": "minecraft:set_components",
@@ -72,7 +78,8 @@
 										}
 									],
 									"custom_color": 2696993
-								}
+								},
+								"minecraft:max_stack_size": 64
 							}
 						}
 					]
@@ -87,10 +94,16 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name":
-							{
-								"text": "滯留 黑暗藥水",
-								"italic": false
-							}
+							[
+								{
+									"text": "滯留",
+									"italic": false
+								},
+								{
+									"translate": "effect.minecraft.darkness"
+								},
+								"藥水"
+							]
 						},
 						{
 							"function": "minecraft:set_components",
@@ -106,7 +119,8 @@
 										}
 									],
 									"custom_color": 2696993
-								}
+								},
+								"minecraft:max_stack_size": 64
 							}
 						}
 					]

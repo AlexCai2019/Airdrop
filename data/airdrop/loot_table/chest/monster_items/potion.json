@@ -41,10 +41,16 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name":
-							{
-								"text": "飛濺 凋零藥水",
-								"italic": false
-							}
+							[
+								{
+									"text": "飛濺",
+									"italic": false
+								},
+								{
+									"translate": "effect.minecraft.wither"
+								},
+								"藥水"
+							]
 						},
 						{
 							"function": "minecraft:set_components",
