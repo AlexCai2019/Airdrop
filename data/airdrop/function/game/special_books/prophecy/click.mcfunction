@@ -8,7 +8,7 @@ summon text_display ~ ~ ~ {Tags: ["air_name"]}
 tellraw @s ["<", {text: "預言書", color: "aqua"}, "> 請選擇玩家↓↓↓"]
 execute as @a[gamemode=!spectator] run function airdrop:game/special_books/prophecy/get_player_uuid
 tellraw @s ["<", {text: "預言書", color: "aqua"}, "> 請選擇玩家↑↑↑"]
-kill @e[tag=air_name, type=text_display, distance=..0.01]
+kill @e[tag=air_name, type=text_display, distance=..0.01, limit=1]
 tag @s remove air_prophecy
 
 #可以點

@@ -1,5 +1,5 @@
 tag @s add air_show_name
-execute as @e[tag=air_name, type=text_display, distance=..0.01] run function airdrop:game/special_books/prophecy/analyze
+execute as @e[tag=air_name, type=text_display, distance=..0.01, limit=1] run function airdrop:game/special_books/prophecy/analyze
 tag @s remove air_show_name
 
 #UUID[0]就是trigger

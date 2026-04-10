@@ -1,2 +1,2 @@
-execute as @e[tag=air_new_alliance, type=stray, team=, distance=..0.01] run function airdrop:airdrop/extra/no_team_stray/vanilla
-execute as @e[tag=air_new_alliance, type=stray, team=, distance=..0.01] run function airdrop:airdrop/extra/no_team_stray/chrbof
+execute as @e[tag=air_new_alliance, type=stray, team=, distance=..0.01, limit=1] run function airdrop:airdrop/extra/no_team_stray/vanilla
+execute as @e[tag=air_new_alliance, type=stray, team=, distance=..0.01, limit=1] run function airdrop:airdrop/extra/no_team_stray/chrbof
