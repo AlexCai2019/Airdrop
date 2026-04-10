@@ -75,8 +75,9 @@
 					"weight": 1
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:bundle",
+					"type": "minecraft:tag",
+					"name": "minecraft:bundles",
+					"expand": true,
 					"weight": 1
 				}
 			]

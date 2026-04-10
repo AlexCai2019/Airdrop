@@ -92,8 +92,9 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:shulker_box",
+					"type": "minecraft:tag",
+					"name": "minecraft:shulker_boxes",
+					"expand": true,
 					"weight": 3
 				},
 				{
