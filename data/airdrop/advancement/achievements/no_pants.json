@@ -27,53 +27,67 @@
 				"player":
 				[
 					{
+						"condition": "minecraft:inverted",
+						"term":
+						{
+							"condition": "minecraft:any_of",
+							"terms":
+							[
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate":
+									{
+										"equipment":
+										{
+											"head":
+											{
+												"items": "minecraft:air"
+											}
+										}
+									}
+								},
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate":
+									{
+										"equipment":
+										{
+											"chest":
+											{
+												"items": "minecraft:air"
+											}
+										}
+									}
+								},
+								{
+									"condition": "minecraft:entity_properties",
+									"entity": "this",
+									"predicate":
+									{
+										"equipment":
+										{
+											"feet":
+											{
+												"items": "minecraft:air"
+											}
+										}
+									}
+								}
+							]
+						}
+					},
+					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
 						"predicate":
 						{
 							"equipment":
 							{
-								"head":
-								{
-									"items":
-									[
-										"minecraft:leather_helmet",
-										"minecraft:chainmail_helmet",
-										"minecraft:golden_helmet",
-										"minecraft:iron_helmet",
-										"minecraft:diamond_helmet",
-										"minecraft:netherite_helmet",
-										"minecraft:turtle_helmet",
-										"minecraft:carved_pumpkin",
-										"minecraft:creeper_head",
-										"minecraft:dragon_head",
-										"minecraft:piglin_head",
-										"minecraft:player_head",
-										"minecraft:skeleton_skull",
-										"minecraft:wither_skeleton_skull",
-										"minecraft:zombie_head"
-									]
-								},
-								"chest":
-								{
-									"items":
-									[
-										"minecraft:leather_chestplate",
-										"minecraft:chainmail_chestplate",
-										"minecraft:golden_chestplate",
-										"minecraft:iron_chestplate",
-										"minecraft:diamond_chestplate",
-										"minecraft:netherite_chestplate",
-										"minecraft:elytra"
-									]
-								},
 								"legs":
 								{
 									"items": "minecraft:air"
-								},
-								"feet":
-								{
-									"items": "#minecraft:foot_armor"
 								}
 							}
 						}
