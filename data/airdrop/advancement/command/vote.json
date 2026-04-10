@@ -1,0 +1,41 @@
+{
+	"criteria":
+	{
+		"vote":
+		{
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions":
+			{
+				"damage":
+				{
+					"source_entity":
+					{
+						"type": "minecraft:player",
+						"equipment":
+						{
+							"mainhand":
+							{
+								"items": "minecraft:wooden_sword",
+								"predicates":
+								{
+									"minecraft:custom_data":
+									{
+										"weapon": "vote"
+									}
+								}
+							}
+						}
+					},
+					"type":
+					{
+						"is_direct": true
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "airdrop:game/vote/root"
+	}
+}

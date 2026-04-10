@@ -10,6 +10,7 @@ scoreboard objectives remove air_use_wand
 scoreboard objectives remove air_mine_melon
 scoreboard objectives remove air_regeneration
 scoreboard objectives remove air_hunger
+scoreboard objectives remove air_vote
 scoreboard objectives remove air_uuid
 scoreboard objectives remove air_uuid_match
 scoreboard objectives remove air_team_code

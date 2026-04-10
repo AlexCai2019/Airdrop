@@ -1,3 +1,7 @@
+execute unless score @s air_uuid = @s air_uuid store result score @s air_uuid run data get entity @s UUID[0]
+
+execute if entity @s[gamemode=spectator] run return fail
+
 #特殊方塊
 function airdrop:game/effects/root
 
