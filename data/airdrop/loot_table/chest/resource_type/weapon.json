@@ -47,6 +47,11 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:copper_sword",
+					"weight": 3
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:iron_sword",
 					"weight": 4,
 					"functions":

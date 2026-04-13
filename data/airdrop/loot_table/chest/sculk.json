@@ -264,6 +264,11 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:leather_leggings",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:copper_leggings",
 					"weight": 3
 				},
 				{

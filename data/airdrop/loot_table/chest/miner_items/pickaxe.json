@@ -9,7 +9,12 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:stone_pickaxe",
-					"weight": 3
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:copper_pickaxe",
+					"weight": 2
 				},
 				{
 					"type": "minecraft:item",
