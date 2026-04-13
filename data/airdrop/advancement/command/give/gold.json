@@ -1,0 +1,12 @@
+{
+	"parent": "airdrop:command/give/root",
+	"criteria":
+	{
+		"gold": {"trigger": "minecraft:impossible"}
+	},
+	"rewards":
+	{
+		"loot": ["airdrop:gold"],
+		"function": "airdrop:event/give/leaf"
+	}
+}

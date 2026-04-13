@@ -1,0 +1,1 @@
+advancement revoke @s from airdrop:command/give/root
