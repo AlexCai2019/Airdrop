@@ -1,6 +1,6 @@
-gamerule commandBlockOutput false
-gamerule logAdminCommands false
-gamerule sendCommandFeedback false
+gamerule command_block_output false
+gamerule log_admin_commands false
+gamerule send_command_feedback false
 
 team add air_drill
 team modify air_drill collisionRule never

@@ -19,6 +19,6 @@ tag @s remove air_sacrifice
 clear
 execute as @a at @s run playsound entity.wither.spawn master @s ~ ~ ~
 
-gamerule showDeathMessages false
+gamerule show_death_messages false
 kill
-gamerule showDeathMessages true
+gamerule show_death_messages true

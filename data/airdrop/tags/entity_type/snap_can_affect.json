@@ -11,6 +11,7 @@
 		"minecraft:bogged",
 		"minecraft:breeze",
 		"minecraft:camel",
+		"minecraft:camel_husk",
 		"minecraft:cat",
 		"minecraft:cave_spider",
 		"minecraft:chicken",
@@ -44,8 +45,10 @@
 		"minecraft:magma_cube",
 		"minecraft:mooshroom",
 		"minecraft:mule",
+		"minecraft:nautilus",
 		"minecraft:ocelot",
 		"minecraft:panda",
+		"minecraft:parched",
 		"minecraft:parrot",
 		"minecraft:phantom",
 		"minecraft:pig",
@@ -85,6 +88,7 @@
 		"minecraft:zoglin",
 		"minecraft:zombie",
 		"minecraft:zombie_horse",
+		"minecraft:zombie_nautilus",
 		"minecraft:zombie_villager",
 		"minecraft:zombified_piglin"
 	]

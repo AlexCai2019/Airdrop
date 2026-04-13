@@ -1,3 +1,3 @@
-gamerule showDeathMessages false
+gamerule show_death_messages false
 $tellraw @a {translate: "death.attack.indirectMagic.item", with: [{selector: "@a[tag=air_hypoxia, distance=..0.01]"}, {selector: "@s"}, {translate: "chat.square_brackets", color: "aqua", with: [{text: "特殊方塊魔杖", bold: true, hover_event: {action: "show_item", id: "warped_fungus_on_a_stick", components: $(components)}}]}]}
-gamerule showDeathMessages true
+gamerule show_death_messages true
