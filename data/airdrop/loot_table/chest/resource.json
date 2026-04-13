@@ -824,6 +824,12 @@
 					"type": "minecraft:item",
 					"name": "minecraft:turtle_helmet",
 					"weight": 2
+				},
+				{
+					"type": "minecraft:tag",
+					"name": "airdrop:animal_armor",
+					"expand": true,
+					"weight": 1
 				}
 			]
 		}

@@ -3,9 +3,9 @@ setblock ~ ~ ~ barrel[facing=up]{Items:\
 	{Slot: 0, id: "torch"},\
 	{Slot: 1, id: "torch"},\
 	{Slot: 2, id: "torch"},\
-	{Slot: 3, id: "potion", components: {custom_name: [{translate: "effect.minecraft.haste", italic: false}, "藥水"], potion_contents: {custom_effects: [{id: "haste", duration: 1200, amplifier: 1}], custom_color: 14270531}}},\
+	{Slot: 3, id: "potion", components: {custom_name: [{translate: "effect.minecraft.haste", italic: false}, "藥水"], potion_contents: {custom_effects: [{id: "haste", duration: 1200, amplifier: 2}], custom_color: 14270531}}},\
 	{Slot: 4, id: "tnt", count: 3},\
-	{Slot: 5, id: "potion", components: {custom_name: [{translate: "effect.minecraft.haste", italic: false}, "藥水"], potion_contents: {custom_effects: [{id: "haste", duration: 1200, amplifier: 1}], custom_color: 14270531}}},\
+	{Slot: 5, id: "potion", components: {custom_name: [{translate: "effect.minecraft.haste", italic: false}, "藥水"], potion_contents: {custom_effects: [{id: "haste", duration: 1200, amplifier: 2}], custom_color: 14270531}}},\
 	{Slot: 6, id: "torch"},\
 	{Slot: 7, id: "torch"},\
 	{Slot: 8, id: "torch"},\
