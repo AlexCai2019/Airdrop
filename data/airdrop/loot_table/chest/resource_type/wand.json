@@ -51,9 +51,14 @@
 								"",
 								[
 									{
-										"translate": "block.minecraft.melon",
-										"color": "#34791E",
+										"object": "atlas",
+										"sprite": "block/melon_side",
+										"color": "white",
 										"italic": false
+									},
+									{
+										"translate": "block.minecraft.melon",
+										"color": "#34791E"
 									},
 									{
 										"text": " 5格",
@@ -75,9 +80,14 @@
 								],
 								[
 									{
-										"translate": "block.minecraft.packed_ice",
-										"color": "#7CA5F4",
+										"object": "atlas",
+										"sprite": "block/packed_ice",
+										"color": "white",
 										"italic": false
+									},
+									{
+										"translate": "block.minecraft.packed_ice",
+										"color": "#7CA5F4"
 									},
 									{
 										"text": " 釋放消暑的魔法",
@@ -86,9 +96,14 @@
 								],
 								[
 									{
-										"translate": "block.minecraft.end_stone",
-										"color": "#EEF6B4",
+										"object": "atlas",
+										"sprite": "block/end_stone",
+										"color": "white",
 										"italic": false
+									},
+									{
+										"translate": "block.minecraft.end_stone",
+										"color": "#EEF6B4"
 									},
 									{
 										"text": " 發射缺氧攻擊",
@@ -97,9 +112,14 @@
 								],
 								[
 									{
-										"translate": "block.minecraft.magenta_glazed_terracotta",
-										"color": "#DD68DA",
+										"object": "atlas",
+										"sprite": "block/magenta_glazed_terracotta",
+										"color": "white",
 										"italic": false
+									},
+									{
+										"translate": "block.minecraft.magenta_glazed_terracotta",
+										"color": "#DD68DA"
 									},
 									{
 										"text": " 白狼王自爆，帶走自己和",
@@ -123,11 +143,8 @@
 										"text": "可以",
 										"color": "green"
 									},
-									"用",
-									{"translate": "item.minecraft.shield"},
-									"擋、用",
-									{"translate": "item.minecraft.totem_of_undying"},
-									"續命)"
+									"用", {"translate": "item.minecraft.shield"},
+									"擋、用", {"translate": "item.minecraft.totem_of_undying"}, "續命)"
 								]
 							]
 						},
