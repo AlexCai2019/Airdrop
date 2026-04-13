@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/dark_oak_planks",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:end_stone"
-		},
+		"icon": {"id": "minecraft:end_stone"},
 		"title": "哈囉各位學弟妹大家好",
 		"description": "大家好",
 		"frame": "task",
@@ -15,9 +12,6 @@
 	},
 	"criteria":
 	{
-		"on_end_stone":
-		{
-			"trigger": "minecraft:impossible"
-		}
+		"on_end_stone": {"trigger": "minecraft:impossible"}
 	}
 }

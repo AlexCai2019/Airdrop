@@ -19,10 +19,7 @@
 								{
 									"predicates":
 									{
-										"minecraft:custom_data":
-										{
-											"special_arrow": "mermaid"
-										}
+										"minecraft:custom_data": {"special_arrow": "mermaid"}
 									}
 								}
 							}

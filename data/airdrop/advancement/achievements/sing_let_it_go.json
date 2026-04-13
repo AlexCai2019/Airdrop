@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/mahou_shoujo",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:note_block"
-		},
+		"icon": {"id": "minecraft:note_block"},
 		"title": "妳馬麻可能聽他的蕾D勾長大的",
 		"description": "我跟你媽很熟喔",
 		"frame": "task",
@@ -15,9 +12,6 @@
 	},
 	"criteria":
 	{
-		"sing_let_it_go":
-		{
-			"trigger": "minecraft:impossible"
-		}
+		"sing_let_it_go": {"trigger": "minecraft:impossible"}
 	}
 }

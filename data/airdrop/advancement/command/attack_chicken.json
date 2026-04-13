@@ -27,10 +27,7 @@
 						{
 							"stepping_on":
 							{
-								"block":
-								{
-									"blocks": "minecraft:magenta_glazed_terracotta"
-								}
+								"block": {"blocks": "minecraft:magenta_glazed_terracotta"}
 							}
 						}
 					}

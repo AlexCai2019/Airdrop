@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/beautiful",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:blue_ice"
-		},
+		"icon": {"id": "minecraft:blue_ice"},
 		"title": "為什麼，為什麼我要變成這樣",
 		"description": "(摀臉)",
 		"frame": "task",

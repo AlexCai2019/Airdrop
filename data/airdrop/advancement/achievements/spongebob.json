@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/revival_of_the_death",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:sponge"
-		},
+		"icon": {"id": "minecraft:sponge"},
 		"title": "是誰住在深海的大鳳梨裡？",
 		"description": "方方黃黃，伸縮自如",
 		"frame": "task",

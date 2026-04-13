@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/64_buttons",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:sand"
-		},
+		"icon": {"id": "minecraft:sand"},
 		"title": "西瓜比基尼打沙灘排球",
 		"description": "大小姐，it's time to go to bed",
 		"frame": "task",
@@ -15,9 +12,6 @@
 	},
 	"criteria":
 	{
-		"melon_bikini":
-		{
-			"trigger": "minecraft:impossible"
-		}
+		"melon_bikini": {"trigger": "minecraft:impossible"}
 	}
 }

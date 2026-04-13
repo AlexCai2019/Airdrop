@@ -46,9 +46,7 @@
 										"color": "gray",
 										"italic": false
 									},
-									{
-										"translate": "enchantment.minecraft.silk_touch"
-									}
+									{"translate": "enchantment.minecraft.silk_touch"}
 								]
 							]
 						},

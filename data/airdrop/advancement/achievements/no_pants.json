@@ -5,10 +5,7 @@
 		"icon":
 		{
 			"id": "minecraft:leather_leggings",
-			"components":
-			{
-				"minecraft:dyed_color": 16776960
-			}
+			"components": {"minecraft:dyed_color": 16776960}
 		},
 		"title": "不穿褲子的才是真勇者",
 		"description": "為了當勇者才不穿褲子，雖然到頭來都會被警察抓去，不過我還是不會穿褲子的",
@@ -40,10 +37,7 @@
 									{
 										"equipment":
 										{
-											"head":
-											{
-												"items": "minecraft:air"
-											}
+											"head":{"items": "minecraft:air"}
 										}
 									}
 								},
@@ -54,10 +48,7 @@
 									{
 										"equipment":
 										{
-											"chest":
-											{
-												"items": "minecraft:air"
-											}
+											"chest": {"items": "minecraft:air"}
 										}
 									}
 								},
@@ -68,10 +59,7 @@
 									{
 										"equipment":
 										{
-											"feet":
-											{
-												"items": "minecraft:air"
-											}
+											"feet": {"items": "minecraft:air"}
 										}
 									}
 								}
@@ -85,10 +73,7 @@
 						{
 							"equipment":
 							{
-								"legs":
-								{
-									"items": "minecraft:air"
-								}
+								"legs": {"items": "minecraft:air"}
 							}
 						}
 					}

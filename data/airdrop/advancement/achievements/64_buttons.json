@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/rsp",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:oak_button"
-		},
+		"icon": {"id": "minecraft:oak_button"},
 		"title": "有人需要按鈕嗎？(燦)",
 		"description": "你做了一堆按鈕是不是",
 		"frame": "task",
@@ -24,10 +21,7 @@
 				[
 					{
 						"items": "#minecraft:buttons",
-						"count":
-						{
-							"min": 64
-						}
+						"count": {"min": 64}
 					}
 				]
 			}

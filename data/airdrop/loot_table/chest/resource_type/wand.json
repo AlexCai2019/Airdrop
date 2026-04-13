@@ -124,13 +124,9 @@
 										"color": "green"
 									},
 									"用",
-									{
-										"translate": "item.minecraft.shield"
-									},
+									{"translate": "item.minecraft.shield"},
 									"擋、用",
-									{
-										"translate": "item.minecraft.totem_of_undying"
-									},
+									{"translate": "item.minecraft.totem_of_undying"},
 									"續命)"
 								]
 							]

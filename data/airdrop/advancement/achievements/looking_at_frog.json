@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/sing_let_it_go",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:frog_spawn_egg"
-		},
+		"icon": {"id": "minecraft:frog_spawn_egg"},
 		"title": "啊！等一下！有青蛙！",
 		"description": "我以前被帶回去的時候真的有吃過",
 		"frame": "task",
@@ -30,10 +27,7 @@
 							"type_specific":
 							{
 								"type": "minecraft:player",
-								"looking_at":
-								{
-									"type": "minecraft:frog"
-								}
+								"looking_at": {"type": "minecraft:frog"}
 							}
 						}
 					}

@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/tnt_minecart",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:blaze_spawn_egg"
-		},
+		"icon": {"id": "minecraft:blaze_spawn_egg"},
 		"title": "滑鼠狂點研究會",
 		"description": "破壞神的鑽頭",
 		"frame": "task",
@@ -29,10 +26,7 @@
 							"items": "minecraft:blaze_spawn_egg",
 							"predicates": 
 							{
-								"minecraft:custom_data":
-								{
-									"gadget": "air_drill_egg"
-								}
+								"minecraft:custom_data": {"gadget": "air_drill_egg"}
 							}
 						}
 					}

@@ -198,10 +198,7 @@
 									"ShowArms": true,
 									"equipment":
 									{
-										"head":
-										{
-											"id": "minecraft:skeleton_skull"
-										}
+										"head": {"id": "minecraft:skeleton_skull"}
 									},
 									"DisabledSlots": 4144959,
 									"Tags": ["air_detect_invisible"]
@@ -236,9 +233,7 @@
 									"color": "#BFBFBF",
 									"extra":
 									[
-										{
-											"keybind": "key.use"
-										},
+										{"keybind": "key.use"},
 										")"
 									]
 								}
@@ -440,7 +435,7 @@
 											"action": "show_text",
 											"value": "點擊直接發動"
 										}
-										}
+									}
 								]
 							]
 						},
@@ -451,10 +446,7 @@
 						},
 						{
 							"function": "minecraft:toggle_tooltips",
-							"toggles":
-							{
-								"minecraft:written_book_content": false
-							}
+							"toggles": {"minecraft:written_book_content": false}
 						},
 						{
 							"function": "minecraft:set_custom_data",
@@ -496,9 +488,7 @@
 										"color": "red"
 									},
 									"用",
-									{
-										"translate": "item.minecraft.totem_of_undying"
-									},
+									{"translate": "item.minecraft.totem_of_undying"},
 									"續命。\n復活的隊友會繼承你的裝備。\n若沒有死亡的隊友則發動失敗，不會犧牲。\n發動成功後，此書消失。\n\n       ",
 									{
 										"text": "[發動轉生之術]",
@@ -523,10 +513,7 @@
 						},
 						{
 							"function": "minecraft:toggle_tooltips",
-							"toggles":
-							{
-								"minecraft:written_book_content": false
-							}
+							"toggles": {"minecraft:written_book_content": false}
 						},
 						{
 							"function": "minecraft:set_custom_data",
@@ -570,17 +557,13 @@
 										"text": "所有玩家無法使用",
 										"font": "minecraft:uniform"
 									},
-									{
-										"translate": "block.minecraft.melon"
-									},
+									{"translate": "block.minecraft.melon"},
 									"的回血和特殊魔法。\n但還是可以吃。\n發動成功後，此書消失。\n\n      ",
 									{
 										"text": "[發動",
 										"extra":
 										[
-											{
-												"translate": "block.minecraft.melon"
-											},
+											{"translate": "block.minecraft.melon"},
 											"封鎖]"
 										],
 										"click_event":
@@ -650,10 +633,7 @@
 								{
 									"properties":
 									{
-										"textures":
-										[
-											"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY2YTg3NDYwMTczYWRmMDY3Y2IzNTZhZTIwMGQwMzA1MDQzNzhjNTUyZTM0MjhiNDc3NGM0YzExYTU5OWMyNCJ9fX0="
-										]
+										"textures": ["eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY2YTg3NDYwMTczYWRmMDY3Y2IzNTZhZTIwMGQwMzA1MDQzNzhjNTUyZTM0MjhiNDc3NGM0YzExYTU5OWMyNCJ9fX0="]
 									}
 								},
 								"minecraft:food":
@@ -808,10 +788,7 @@
 					[
 						{
 							"function": "minecraft:enchant_randomly",
-							"options":
-							[
-								"minecraft:frost_walker"
-							]
+							"options": ["minecraft:frost_walker"]
 						},
 						{
 							"function": "minecraft:set_name",

@@ -10,10 +10,7 @@
 				[
 					{
 						"condition": "minecraft:match_tool",
-						"predicate":
-						{
-							"items": "minecraft:warden_spawn_egg"
-						}
+						"predicate": {"items": "minecraft:warden_spawn_egg"}
 					}
 				]
 			}

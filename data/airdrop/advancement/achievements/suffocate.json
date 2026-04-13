@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/on_packed_ice",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:oak_boat"
-		},
+		"icon": {"id": "minecraft:oak_boat"},
 		"title": "我不要再當雷王了！",
 		"description": "我不要再當第三次了！",
 		"frame": "task",
@@ -27,10 +24,7 @@
 						"entity": "this",
 						"predicate":
 						{
-							"vehicle":
-							{
-								"type": "#minecraft:boat"
-							}
+							"vehicle": {"type": "#minecraft:boat"}
 						}
 					}
 				],

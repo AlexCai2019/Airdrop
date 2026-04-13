@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/chocolate_rc",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:powder_snow_bucket"
-		},
+		"icon": {"id": "minecraft:powder_snow_bucket"},
 		"title": "Let it go~ Let it go~",
 		"description": "Let it go 的意思是讓它去",
 		"frame": "task",
@@ -18,10 +15,7 @@
 		"let_it_go":
 		{
 			"trigger": "minecraft:enter_block",
-			"conditions":
-			{
-				"block": "minecraft:powder_snow"
-			}
+			"conditions": {"block": "minecraft:powder_snow"}
 		}
 	}
 }

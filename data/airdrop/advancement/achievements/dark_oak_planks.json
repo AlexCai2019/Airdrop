@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/on_melon",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:dark_oak_planks"
-		},
+		"icon": {"id": "minecraft:dark_oak_planks"},
 		"title": "漏斗會無性生殖橡木材",
 		"description": "我不知道為什麼",
 		"frame": "task",
@@ -26,10 +23,7 @@
 						"condition": "minecraft:location_check",
 						"predicate":
 						{
-							"block":
-							{
-								"blocks": "minecraft:dark_oak_planks"
-							}
+							"block": {"blocks": "minecraft:dark_oak_planks"}
 						}
 					}
 				]

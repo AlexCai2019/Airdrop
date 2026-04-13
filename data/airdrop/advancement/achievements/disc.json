@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/root",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:music_disc_cat"
-		},
+		"icon": {"id": "minecraft:music_disc_cat"},
 		"title": "光碟超人",
 		"description": "我的真實身分是光碟超人",
 		"frame": "task",

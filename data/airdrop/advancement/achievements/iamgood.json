@@ -7,10 +7,7 @@
 			"id": "minecraft:potion",
 			"components":
 			{
-				"minecraft:potion_contents":
-				{
-					"custom_color": 16777215
-				},
+				"minecraft:potion_contents": {"custom_color": 16777215},
 				"minecraft:enchantment_glint_override": true
 			}
 		},
@@ -34,10 +31,7 @@
 						"items": "minecraft:potion",
 						"predicates":
 						{
-							"minecraft:custom_data":
-							{
-								"potion": "ghost"
-							}
+							"minecraft:custom_data": {"potion": "ghost"}
 						}
 					}
 				]

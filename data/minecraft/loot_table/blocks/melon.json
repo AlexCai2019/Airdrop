@@ -22,10 +22,7 @@
 									{
 										"predicates":
 										{
-											"minecraft:custom_data":
-											{
-												"weapon": "melon_knife"
-											}
+											"minecraft:custom_data": {"weapon": "melon_knife"}
 										}
 									}
 								}
@@ -50,21 +47,13 @@
 									"function": "minecraft:apply_bonus",
 									"enchantment": "minecraft:fortune",
 									"formula": "minecraft:uniform_bonus_count",
-									"parameters":
-									{
-										"bonusMultiplier": 1
-									}
+									"parameters": {"bonusMultiplier": 1}
 								},
 								{
 									"function": "minecraft:limit_count",
-									"limit":
-									{
-										"max": 9.0
-									}
+									"limit": {"max": 9.0}
 								},
-								{
-									"function": "minecraft:explosion_decay"
-								}
+								{"function": "minecraft:explosion_decay"}
 							]
 						}
 					]

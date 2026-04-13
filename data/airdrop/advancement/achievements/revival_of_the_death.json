@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/iamgood",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:totem_of_undying"
-		},
+		"icon": {"id": "minecraft:totem_of_undying"},
 		"title": "死者蘇生",
 		"description": "發動魔法卡",
 		"frame": "task",
@@ -15,9 +12,6 @@
 	},
 	"criteria":
 	{
-		"revival_of_the_death":
-		{
-			"trigger": "minecraft:used_totem"
-		}
+		"revival_of_the_death": {"trigger": "minecraft:used_totem"}
 	}
 }

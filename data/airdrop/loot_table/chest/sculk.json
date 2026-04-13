@@ -58,9 +58,7 @@
 									"text": "飛濺",
 									"italic": false
 								},
-								{
-									"translate": "effect.minecraft.darkness"
-								},
+								{"translate": "effect.minecraft.darkness"},
 								"藥水"
 							]
 						},
@@ -99,9 +97,7 @@
 									"text": "滯留",
 									"italic": false
 								},
-								{
-									"translate": "effect.minecraft.darkness"
-								},
+								{"translate": "effect.minecraft.darkness"},
 								"藥水"
 							]
 						},
@@ -290,10 +286,7 @@
 			[
 				{
 					"function": "minecraft:enchant_randomly",
-					"options":
-					[
-						"minecraft:swift_sneak"
-					]
+					"options": ["minecraft:swift_sneak"]
 				}
 			],
 			"conditions":

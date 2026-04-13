@@ -7,10 +7,7 @@
 			"id": "minecraft:diamond_boots",
 			"components":
 			{
-				"minecraft:enchantments":
-				{
-					"minecraft:frost_walker": 100
-				}
+				"minecraft:enchantments": {"minecraft:frost_walker": 100}
 			}
 		},
 		"title": "哇、哇、魔法少女來啦",
@@ -32,12 +29,7 @@
 					{
 						"predicates":
 						{
-							"minecraft:enchantments":
-							[
-								{
-									"enchantments": "minecraft:frost_walker"
-								}
-							]
+							"minecraft:enchantments": [{"enchantments": "minecraft:frost_walker"}]
 						}
 					}
 				]

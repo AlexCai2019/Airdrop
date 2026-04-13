@@ -46,9 +46,7 @@
 									"text": "飛濺",
 									"italic": false
 								},
-								{
-									"translate": "effect.minecraft.wither"
-								},
+								{"translate": "effect.minecraft.wither"},
 								"藥水"
 							]
 						},

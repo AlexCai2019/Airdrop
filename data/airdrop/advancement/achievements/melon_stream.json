@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/handsome",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:melon_slice"
-		},
+		"icon": {"id": "minecraft:melon_slice"},
 		"title": "人家西瓜是長在田裡，不會出來開實況",
 		"description": "不會出來玩創世神，也不會像現在這樣跟你們講話",
 		"frame": "task",

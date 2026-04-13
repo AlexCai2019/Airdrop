@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/melon_stream",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:melon"
-		},
+		"icon": {"id": "minecraft:melon"},
 		"title": "我有長得像西瓜嗎？",
 		"description": "你才西瓜你全家都西瓜！",
 		"frame": "task",
@@ -15,9 +12,6 @@
 	},
 	"criteria":
 	{
-		"on_melon":
-		{
-			"trigger": "minecraft:impossible"
-		}
+		"on_melon": {"trigger": "minecraft:impossible"}
 	}
 }

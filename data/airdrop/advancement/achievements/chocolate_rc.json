@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/fall",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:cocoa_beans"
-		},
+		"icon": {"id": "minecraft:cocoa_beans"},
 		"title": "RC房號27476019",
 		"description": "現在是DC了",
 		"frame": "task",

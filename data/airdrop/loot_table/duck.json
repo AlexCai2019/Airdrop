@@ -11,9 +11,7 @@
 					"name": "minecraft:chicken",
 					"functions":
 					[
-						{
-							"function": "minecraft:furnace_smelt"
-						},
+						{"function": "minecraft:furnace_smelt"},
 						{
 							"function": "minecraft:set_name",
 							"target": "item_name",
@@ -26,10 +24,7 @@
 						{
 							"condition": "minecraft:entity_properties",
 							"entity": "attacker",
-							"predicate":
-							{
-								"type": "minecraft:player"
-							}
+							"predicate": {"type": "minecraft:player"}
 						}
 					]
 				}

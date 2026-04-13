@@ -15,10 +15,7 @@
 							"items": "minecraft:blaze_spawn_egg",
 							"predicates":
 							{
-								"minecraft:custom_data":
-								{
-									"gadget": "air_drill_egg"
-								}
+								"minecraft:custom_data": {"gadget": "air_drill_egg"}
 							}
 						}
 					}

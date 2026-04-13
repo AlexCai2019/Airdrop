@@ -11,10 +11,7 @@
 					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
-						"predicate":
-						{
-							"type": "#airdrop:monster"
-						}
+						"predicate": {"type": "#airdrop:monster"}
 					}
 				]
 			}

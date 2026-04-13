@@ -11,10 +11,7 @@
 					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
-						"predicate":
-						{
-							"type": "minecraft:player"
-						}
+						"predicate": {"type": "minecraft:player"}
 					}
 				],
 				"killing_blow":

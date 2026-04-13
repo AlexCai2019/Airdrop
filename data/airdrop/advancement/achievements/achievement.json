@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/spongebob",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:nether_star"
-		},
+		"icon": {"id": "minecraft:nether_star"},
 		"title": "遊戲相關成就",
 		"description": "UHC歡樂賽 正式開打",
 		"frame": "task",
@@ -15,9 +12,6 @@
 	},
 	"criteria":
 	{
-		"achievement":
-		{
-			"trigger": "minecraft:tick"
-		}
+		"achievement": {"trigger": "minecraft:tick"}
 	}
 }

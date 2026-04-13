@@ -20,9 +20,7 @@
 								"max": 3
 							}
 						},
-						{
-							"function": "minecraft:furnace_smelt"
-						},
+						{"function": "minecraft:furnace_smelt"},
 						{
 							"function": "minecraft:set_lore",
 							"mode": "append",

@@ -14,10 +14,7 @@
 					[
 						{
 							"function": "minecraft:set_enchantments",
-							"enchantments":
-							{
-								"minecraft:knockback": 1
-							}
+							"enchantments": {"minecraft:knockback": 1}
 						},
 						{
 							"function": "minecraft:set_name",
@@ -133,10 +130,7 @@
 						},
 						{
 							"function": "minecraft:set_enchantments",
-							"enchantments":
-							{
-								"minecraft:knockback": 3
-							}
+							"enchantments": {"minecraft:knockback": 3}
 						},
 						{
 							"function": "minecraft:set_attributes",
@@ -184,19 +178,13 @@
 						},
 						{
 							"function": "minecraft:toggle_tooltips",
-							"toggles":
-							{
-								"minecraft:potion_contents": false
-							}
+							"toggles": {"minecraft:potion_contents": false}
 						},
 						{
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:potion_contents":
-								{
-									"custom_color": 4144959
-								},
+								"minecraft:potion_contents": {"custom_color": 4144959},
 								"minecraft:max_stack_size": 64
 							}
 						},

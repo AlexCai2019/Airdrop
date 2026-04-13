@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/no_pants",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:water_bucket"
-		},
+		"icon": {"id": "minecraft:water_bucket"},
 		"title": "亞特蘭提斯 留住最後一口氣",
 		"description": "再留住一口氣生存",
 		"frame": "task",

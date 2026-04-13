@@ -18,18 +18,12 @@
 								"items": "minecraft:wooden_sword",
 								"predicates":
 								{
-									"minecraft:custom_data":
-									{
-										"weapon": "vote"
-									}
+									"minecraft:custom_data": {"weapon": "vote" }
 								}
 							}
 						}
 					},
-					"type":
-					{
-						"is_direct": true
-					}
+					"type": {"is_direct": true}
 				}
 			}
 		}

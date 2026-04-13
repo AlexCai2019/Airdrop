@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/melon_bikini",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:glistering_melon_slice"
-		},
+		"icon": {"id": "minecraft:glistering_melon_slice"},
 		"title": "天下武功出西瓜",
 		"description": "西瓜蓋世神功",
 		"frame": "task",
@@ -39,10 +36,7 @@
 						{
 							"distance":
 							{
-								"absolute":
-								{
-									"min": 0.01
-								}
+								"absolute": {"min": 0.01}
 							}
 						}
 					}

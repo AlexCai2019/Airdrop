@@ -7,10 +7,7 @@
 			"id": "minecraft:iron_axe",
 			"components":
 			{
-				"minecraft:custom_model_data":
-				{
-					"colors": [16711680]
-				}
+				"minecraft:custom_model_data": {"colors": [16711680]}
 			}
 		},
 		"title": "那是他的聖誕帽帽！聖誕帽！聖誕帽！",
@@ -33,10 +30,7 @@
 						"items": "minecraft:iron_axe",
 						"predicates":
 						{
-							"minecraft:custom_data":
-							{
-								"weapon": "red_axe"
-							}
+							"minecraft:custom_data": {"weapon": "red_axe"}
 						}
 					}
 				]

@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/on_end_stone",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:magenta_glazed_terracotta"
-		},
+		"icon": {"id": "minecraft:magenta_glazed_terracotta"},
 		"title": "雞肉被老鷹叼走啦",
 		"description": "你是在說你是老鷹的意思嗎",
 		"frame": "task",
@@ -15,9 +12,6 @@
 	},
 	"criteria":
 	{
-		"on_magenta_glazed_terracotta":
-		{
-			"trigger": "minecraft:impossible"
-		}
+		"on_magenta_glazed_terracotta": {"trigger": "minecraft:impossible"}
 	}
 }

@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/why",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:packed_ice"
-		},
+		"icon": {"id": "minecraft:packed_ice"},
 		"title": "不要拍我這種東西，事後一概不認帳",
 		"description": "這是霸凌！",
 		"frame": "task",
@@ -15,9 +12,6 @@
 	},
 	"criteria":
 	{
-		"on_packed_ice":
-		{
-			"trigger": "minecraft:impossible"
-		}
+		"on_packed_ice": {"trigger": "minecraft:impossible"}
 	}
 }

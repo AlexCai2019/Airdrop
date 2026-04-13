@@ -100,17 +100,11 @@
 			"function": "minecraft:set_name",
 			"target": "item_name",
 			"entity": "this",
-			"name":
-			{
-				"translate": "item.minecraft.elytra"
-			}
+			"name": {"translate": "item.minecraft.elytra"}
 		},
 		{
 			"function": "minecraft:set_enchantments",
-			"enchantments":
-			{
-				"minecraft:unbreaking": 1
-			},
+			"enchantments": {"minecraft:unbreaking": 1},
 			"conditions":
 			[
 				{

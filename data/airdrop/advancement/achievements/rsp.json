@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/suffocate",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:redstone_torch"
-		},
+		"icon": {"id": "minecraft:redstone_torch"},
 		"title": "RC房號8008",
 		"description": "不是狼盒子",
 		"frame": "task",

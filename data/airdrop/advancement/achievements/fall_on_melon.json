@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/on_magenta_glazed_terracotta",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:water_bucket"
-		},
+		"icon": {"id": "minecraft:water_bucket"},
 		"title": "欸那個西…",
 		"description": "有人摔死了！活動剛開場就出事！",
 		"frame": "task",
@@ -40,10 +37,7 @@
 						"offsetY": -1,
 						"predicate":
 						{
-							"block":
-							{
-								"blocks": "minecraft:melon"
-							}
+							"block": {"blocks": "minecraft:melon"}
 						}
 					}
 				]

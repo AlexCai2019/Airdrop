@@ -2,16 +2,11 @@
 	"parent": "airdrop:achievements/fall_on_melon",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:creeper_head"
-		},
+		"icon": {"id": "minecraft:creeper_head"},
 		"title": "蠢死的方法，好多蠢死的方法",
 		"description":
 		[
-			{
-				"translate": "entity.minecraft.creeper"
-			},
+			{"translate": "entity.minecraft.creeper"},
 			"666"
 		],
 		"frame": "task",
@@ -31,10 +26,7 @@
 					{
 						"condition": "minecraft:entity_properties",
 						"entity": "this",
-						"predicate":
-						{
-							"type": "minecraft:creeper"
-						}
+						"predicate": {"type": "minecraft:creeper"}
 					}
 				]
 			}

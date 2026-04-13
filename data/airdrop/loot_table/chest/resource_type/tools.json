@@ -46,10 +46,7 @@
 							"function": "minecraft:set_components",
 							"components":
 							{
-								"minecraft:can_break":
-								{
-									"blocks": "minecraft:bedrock"
-								}
+								"minecraft:can_break": {"blocks": "minecraft:bedrock"}
 							}
 						}
 					]

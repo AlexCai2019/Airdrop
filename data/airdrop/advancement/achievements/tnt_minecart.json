@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/red_axe",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:tnt_minecart"
-		},
+		"icon": {"id": "minecraft:tnt_minecart"},
 		"title": "一發炸三人的究極攻擊魔法",
 		"description": "管家，把對面炸了",
 		"frame": "task",
@@ -15,9 +12,6 @@
 	},
 	"criteria":
 	{
-		"tnt_minecart":
-		{
-			"trigger": "minecraft:impossible"
-		}
+		"tnt_minecart": {"trigger": "minecraft:impossible"}
 	}
 }

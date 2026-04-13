@@ -2,10 +2,7 @@
 	"parent": "airdrop:achievements/let_it_go",
 	"display":
 	{
-		"icon":
-		{
-			"id": "minecraft:ice"
-		},
+		"icon": {"id": "minecraft:ice"},
 		"title": "多麼美麗的風景，多麼好的環境",
 		"description": "(拍窗)",
 		"frame": "task",
