@@ -13,5 +13,8 @@ tag @s add air_prophecy_clicked
 execute at @s as @a if score @s air_uuid = #prophecy_target air_uuid_match run function airdrop:game/special_books/prophecy/clear_effect
 tag @s remove air_prophecy_clicked
 
-#最終結果
+#失敗
 execute if score #prophecy_success air_special_book matches 0 run tellraw @s ["<", {text: "預言書", color: "aqua"}, "> 預言", {text: "失敗", color: "red"}, "…該玩家沒有", {translate: "effect.minecraft.invisibility"}, "。"]
+
+#查自己
+execute if score @s air_uuid = #prophecy_target air_uuid_match run tellraw @a ["<", {text: "預言書", color: "aqua"}, "> ", {selector: "@s"}, " 不知為何，用預言書查了自己。"]

@@ -137,6 +137,19 @@
 							{
 								"minecraft:knockback": 3
 							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers":
+							[
+								{
+									"attribute": "minecraft:attack_speed",
+									"id": "minecraft:base_attack_speed",
+									"amount": 1024,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							]
 						}
 					]
 				},

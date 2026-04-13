@@ -29,6 +29,22 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:silverfish_spawn_egg"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:wolf_spawn_egg"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:happy_ghast_spawn_egg"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_golem_spawn_egg"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snow_golem_spawn_egg"
 				}
 			]
 		}
