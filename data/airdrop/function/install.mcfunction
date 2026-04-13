@@ -37,7 +37,7 @@ scoreboard players set #custom air_drop 1
 scoreboard players set timeair timesmallu 2
 scoreboard players set timeis timesmallu 2
 
-data merge storage airdrop:data {root: \
+data merge storage airdrop:data {root:\
 {\
 	game: {message: {translate: "options.off", color: "red", bold: true}},\
 	event: {message: {translate: "options.on", color: "green", bold: true}},\
