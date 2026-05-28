@@ -2,4 +2,5 @@ execute if score @s air_special_book matches 1 run function airdrop:game/special
 execute if score @s air_special_book matches 2 run function airdrop:game/special_books/resurrection/click
 execute if score @s air_special_book matches 3 run function airdrop:game/special_books/prophecy/click
 execute if score @s air_special_book matches 4 run function airdrop:game/special_books/ban_melon/click
+execute if score @s air_special_book matches 5 run function airdrop:game/special_books/coating/click
 scoreboard players set @s air_special_book 0

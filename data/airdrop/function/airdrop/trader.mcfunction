@@ -40,10 +40,25 @@ summon wandering_trader ~ ~ ~ \
 						"效果，\n則解除他的所有效果，並扣除 ", {text: "5❤", color: "red"},\
 						"。\n無論有沒有查到", {translate: "effect.minecraft.invisibility"},\
 						"，查驗後此書消失。\n\n       ",\
-						{text: "[發動預言書]", click_event: {action: "run_command", command: "/trigger air_special_book set 3"}, hover_event: {action: "show_text", value: "點擊開始發動"}}\
+						{text: "[發動預言]", click_event: {action: "run_command", command: "/trigger air_special_book set 3"}, hover_event: {action: "show_text", value: "點擊開始發動"}}\
 					]], title: "預言書", author: "Alex Cai"},\
 					tooltip_display: {hidden_components: ["written_book_content"]},\
 					custom_data: {book: "prophecy"}\
+				}}, maxUses: 1},\
+			{buy: {id: "copper_ingot", count: 13}, sell: {id: "written_book", components:\
+				{\
+					lore:\
+					[\
+						{text: "為物品鍍上隱形塗層", color: "white", italic: false},\
+						{text: "神秘商人限定", color: "dark_aqua", italic: false}\
+					],\
+					written_book_content: {pages:\
+					[[\
+						{text: "主手拿著此書，副手拿著要鍍膜的物品\n就可以為物品鍍上隱形塗層。\n發動後此書消失。\n\n       ", font: "uniform"},\
+						{text: "[發動鍍膜]", click_event: {action: "run_command", command: "/trigger air_special_book set 5"}, hover_event: {action: "show_text", value: "點擊直接發動"}}\
+					]], title: "隱形塗層", author: "Alex Cai"},\
+					tooltip_display: {hidden_components: ["written_book_content"]},\
+					custom_data: {book: "coating"}\
 				}}, maxUses: 1},\
 			{buy: {id: "copper_ingot", count: 15}, sell: {id: "written_book", components:\
 				{\

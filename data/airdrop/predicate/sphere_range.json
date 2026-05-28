@@ -5,18 +5,12 @@
 		{
 			"condition": "minecraft:entity_scores",
 			"entity": "this",
-			"scores":
-			{
-				"air_wand": 1
-			}
+			"scores": {"air_wand": 1}
 		},
 		{
 			"condition": "minecraft:entity_scores",
 			"entity": "this",
-			"scores":
-			{
-				"air_wand": 4
-			}
+			"scores": {"air_wand": 4}
 		}
 	]
 }
