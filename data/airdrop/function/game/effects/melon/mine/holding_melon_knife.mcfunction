@@ -6,4 +6,4 @@ execute store result storage airdrop:data root.effects.melon.mine.damage int 1 r
 execute if score @s air_mine_melon matches ..249 run return run function airdrop:game/effects/melon/mine/item_damage with storage airdrop:data root.effects.melon.mine
 #達到250
 item replace entity @s weapon with air
-playsound entity.item.break player @s
+playsound entity.item.break player

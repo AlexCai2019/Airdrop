@@ -17,7 +17,7 @@ tag @s add air_sacrifice
 execute at @s as @r[gamemode=spectator, predicate=airdrop:resurrection] run function airdrop:game/special_books/resurrection/target
 tag @s remove air_sacrifice
 clear
-execute as @a at @s run playsound entity.wither.spawn master @s ~ ~ ~
+execute as @a at @s run playsound entity.wither.spawn
 
 gamerule show_death_messages false
 kill
