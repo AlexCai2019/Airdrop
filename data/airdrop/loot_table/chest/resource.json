@@ -665,6 +665,11 @@
 											]
 										}
 									]
+								},
+								"minecraft:use_cooldown":
+								{
+									"cooldown_group": "airdrop:golden_head",
+									"seconds": 0.1
 								}
 							}
 						}

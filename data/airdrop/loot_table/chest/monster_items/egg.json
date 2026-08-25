@@ -36,6 +36,10 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:horse_spawn_egg"
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:happy_ghast_spawn_egg"
 				},
 				{
@@ -45,6 +49,10 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:snow_golem_spawn_egg"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:nautilus_spawn_egg"
 				}
 			]
 		}

@@ -14,7 +14,8 @@ summon wandering_trader ~ ~ ~ \
 					item_model: "player_head",\
 					profile: {properties: {textures: ["eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY2YTg3NDYwMTczYWRmMDY3Y2IzNTZhZTIwMGQwMzA1MDQzNzhjNTUyZTM0MjhiNDc3NGM0YzExYTU5OWMyNCJ9fX0="]}},\
 					food: {can_always_eat: true, nutrition: 8, saturation: 19.2F},\
-					consumable: {consume_seconds: 0.0F, has_consume_particles: false, on_consume_effects: [{type: "apply_effects", effects: [{id: "regeneration", duration: 200, amplifier: 1}, {id: "absorption", duration: 2400, amplifier: 0}]}]}\
+					consumable: {consume_seconds: 0.0F, has_consume_particles: false, on_consume_effects: [{type: "apply_effects", effects: [{id: "regeneration", duration: 200, amplifier: 1}, {id: "absorption", duration: 2400, amplifier: 0}]}]},\
+					use_cooldown: {cooldown_group: "airdrop:golden_head", seconds: 0.1},\
 				}}, maxUses: 1, rewardExp: false},\
 			{buy: {id: "copper_ingot", count: 7}, sell: {id: "written_book", components:\
 				{\
@@ -102,7 +103,8 @@ summon wandering_trader ~ ~ ~ \
 					item_model: "player_head",\
 					profile: {properties: {textures: ["eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY2YTg3NDYwMTczYWRmMDY3Y2IzNTZhZTIwMGQwMzA1MDQzNzhjNTUyZTM0MjhiNDc3NGM0YzExYTU5OWMyNCJ9fX0="]}},\
 					food: {can_always_eat: true, nutrition: 8, saturation: 19.2F},\
-					consumable: {consume_seconds: 0.0F, has_consume_particles: false, on_consume_effects: [{type: "apply_effects", effects: [{id: "regeneration", duration: 200, amplifier: 1}, {id: "absorption", duration: 2400, amplifier: 0}]}]}\
+					consumable: {consume_seconds: 0.0F, has_consume_particles: false, on_consume_effects: [{type: "apply_effects", effects: [{id: "regeneration", duration: 200, amplifier: 1}, {id: "absorption", duration: 2400, amplifier: 0}]}]},\
+					use_cooldown: {cooldown_group: "airdrop:golden_head", seconds: 0.1},\
 				}}, maxUses: 1},\
 			{buy: {id: "iron_ingot", count: 8}, sell: {id: "snowball", components:\
 				{\
