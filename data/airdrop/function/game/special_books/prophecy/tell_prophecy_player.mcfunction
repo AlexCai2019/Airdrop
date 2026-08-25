@@ -1,1 +1,1 @@
-$dialog show @a[tag=air_prophecy, limit=1] {type: "notice", title: "預言書", pause: false, body: $(body), action: {label: {translate: "gui.cancel"}}}
+$dialog show @s {type: "notice", title: "預言書", pause: false, body: $(body), action: {label: {translate: "gui.cancel"}}}

@@ -1,2 +1,2 @@
-playsound entity.warden.emerge hostile @a ~ ~ ~
+playsound entity.warden.emerge hostile @a
 kill
