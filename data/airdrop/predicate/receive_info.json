@@ -1,0 +1,19 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate":
+	{
+		"equipment":
+		{
+			"head":
+			{
+				"items": "minecraft:music_disc_otherside",
+				"components":
+				{
+					"minecraft:item_model": "minecraft:lightning_rod"
+				}
+			}
+		},
+		"periodic_tick": 100
+	}
+}

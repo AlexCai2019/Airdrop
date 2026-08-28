@@ -58,6 +58,11 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:endermite_spawn_egg",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:ender_eye",
 					"weight": 4
 				},
@@ -92,9 +97,8 @@
 					]
 				},
 				{
-					"type": "minecraft:tag",
-					"name": "minecraft:shulker_boxes",
-					"expand": true,
+					"type": "minecraft:item",
+					"name": "minecraft:shulker_box",
 					"weight": 3
 				},
 				{

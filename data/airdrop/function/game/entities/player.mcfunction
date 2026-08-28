@@ -10,3 +10,6 @@ execute if score @s air_use_wand matches 1.. run function airdrop:game/effects/w
 
 #書
 function airdrop:game/special_books/root
+
+#情報天線
+execute if predicate airdrop:receive_info run function airdrop:game/receiver/root

@@ -209,6 +209,76 @@
 				},
 				{
 					"type": "minecraft:item",
+					"name": "minecraft:music_disc_otherside",
+					"functions":
+					[
+						{
+							"function": "minecraft:set_name",
+							"target": "item_name",
+							"entity": "this",
+							"name":
+							{
+								"text": "情報天線",
+								"color": "#D87F33"
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"mode": "append",
+							"lore":
+							[
+								[
+									{
+										"text": "當附近",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "50格",
+										"color": "gold"
+									},
+									"內有敵方時"
+								],
+								{
+									"text": "會通報最近敵人的名稱和距離",
+									"color": "white",
+									"italic": false
+								},
+								[
+									{
+										"text": "可配戴",
+										"color": "white",
+										"italic": false
+									},
+									{
+										"text": "10分鐘",
+										"color": "gold"
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_components",
+							"components":
+							{
+								"minecraft:item_model": "minecraft:lightning_rod",
+								"!minecraft:jukebox_playable": {},
+								"minecraft:rarity": "common",
+								"minecraft:max_damage": 120,
+								"minecraft:damage": 0,
+								"minecraft:equippable":
+								{
+									"slot": "head",
+									"damage_on_hurt": false,
+									"equip_sound": "minecraft:intentionally_empty"
+								}
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
 					"name": "minecraft:melon_slice",
 					"weight": 5
 				},
