@@ -1,0 +1,69 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key":
+	{
+		"#": "minecraft:ender_eye",
+		"X": "minecraft:copper_ingot"
+	},
+	"pattern":
+	[
+		" # ",
+		" X ",
+		" X "
+	],
+	"result":
+	{
+		"id": "minecraft:music_disc_otherside",
+		"components":
+		{
+			"minecraft:item_name":
+			{
+				"text": "情報天線",
+				"color": "#D87F33"
+			},
+			"minecraft:lore":
+			[
+				[
+					{
+						"text": "當附近",
+						"color": "white",
+						"italic": false
+					},
+					{
+						"text": "50格",
+						"color": "gold"
+					},
+					"內有敵方時"
+				],
+				{
+					"text": "會通報最近敵人的名稱和距離",
+					"color": "white",
+					"italic": false
+				},
+				[
+					{
+						"text": "可配戴",
+						"color": "white",
+						"italic": false
+					},
+					{
+						"text": "10分鐘",
+						"color": "gold"
+					}
+				]
+			],
+			"minecraft:item_model": "minecraft:lightning_rod",
+			"!minecraft:jukebox_playable": {},
+			"minecraft:rarity": "common",
+			"minecraft:max_damage": 600,
+			"minecraft:damage": 0,
+			"minecraft:equippable":
+			{
+				"slot": "head",
+				"damage_on_hurt": false,
+				"equip_sound": "minecraft:intentionally_empty"
+			}
+		}
+	}
+}

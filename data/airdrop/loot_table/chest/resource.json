@@ -210,6 +210,7 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:music_disc_otherside",
+					"weight": 5,
 					"functions":
 					[
 						{
@@ -265,7 +266,7 @@
 								"minecraft:item_model": "minecraft:lightning_rod",
 								"!minecraft:jukebox_playable": {},
 								"minecraft:rarity": "common",
-								"minecraft:max_damage": 120,
+								"minecraft:max_damage": 600,
 								"minecraft:damage": 0,
 								"minecraft:equippable":
 								{

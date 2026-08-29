@@ -24,6 +24,7 @@ scoreboard objectives add air_uuid dummy
 scoreboard objectives add air_uuid_match dummy
 scoreboard objectives add air_team_code dummy
 scoreboard objectives add air_team_code_match dummy
+scoreboard objectives add air_receiver dummy
 scoreboard objectives add air_special_book trigger
 scoreboard objectives add air_prophecy trigger
 scoreboard objectives add air_show_number dummy

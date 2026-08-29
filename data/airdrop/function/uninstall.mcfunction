@@ -15,6 +15,7 @@ scoreboard objectives remove air_uuid
 scoreboard objectives remove air_uuid_match
 scoreboard objectives remove air_team_code
 scoreboard objectives remove air_team_code_match
+scoreboard objectives remove air_receiver
 scoreboard objectives remove air_special_book
 scoreboard objectives remove air_prophecy
 scoreboard objectives remove air_show_number
