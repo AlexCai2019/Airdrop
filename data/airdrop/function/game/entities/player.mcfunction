@@ -1,7 +1,7 @@
 execute unless score @s air_uuid = @s air_uuid store result score @s air_uuid run data get entity @s UUID[0]
 
 #情報天線
-execute if predicate airdrop:every_second run function airdrop:game/receiver/root
+execute if predicate {condition: "entity_properties", entity: "this", predicate: {periodic_tick: 4}} run function airdrop:game/receiver/root
 
 execute if entity @s[gamemode=spectator] run return fail
 
